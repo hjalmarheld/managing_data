@@ -9,15 +9,16 @@ from torch.optim import Adam
 from tqdm import tqdm
 import os
 import ipdb
+import sys
 
 class Dataset(torch.utils.data.Dataset):
 
     def __init__(self, df,tokenizer,labels):
 
-        self.labels = [labels[label] for label in df["naf2_label"]]
+        self.labels = [labels[label] for label in df["naf2_label"].values]
         self.texts = [tokenizer(text, 
                                padding='max_length', max_length = 512, truncation=True,
-                                return_tensors="pt") for text in df['text']]
+                                return_tensors="pt") for text in df['ACTIVITE']]
 
     def classes(self):
         return self.labels
@@ -50,7 +51,7 @@ class CamemBertClassifier(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.linear = nn.Linear(768, number_labels)
         self.relu = nn.ReLU()
-        self.softmax_final_layer = nn.Softmax(dim=1)
+        # self.softmax_final_layer = nn.Softmax(dim=1)
 
     def forward(self, input_id, mask):
 
@@ -58,7 +59,7 @@ class CamemBertClassifier(nn.Module):
         dropout_output = self.dropout(pooled_output)
         linear_output = self.linear(dropout_output)
         final_layer = self.relu(linear_output)
-        final_layer = self.softmax_final_layer(final_layer)
+        # final_layer = self.softmax_final_layer(final_layer)
 
         return final_layer
 
@@ -66,8 +67,8 @@ def train(model, train_data, val_data, learning_rate, epochs,tokenizer,labels):
 
     train, val = Dataset(train_data,tokenizer,labels), Dataset(val_data,tokenizer,labels)
 
-    train_dataloader = torch.utils.data.DataLoader(train, batch_size=2, shuffle=True)
-    val_dataloader = torch.utils.data.DataLoader(val, batch_size=2)
+    train_dataloader = torch.utils.data.DataLoader(train, batch_size=4, shuffle=True)
+    val_dataloader = torch.utils.data.DataLoader(val, batch_size=8)
 
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
@@ -86,13 +87,12 @@ def train(model, train_data, val_data, learning_rate, epochs,tokenizer,labels):
             total_loss_train = 0
             try:
                 for train_input, train_label in tqdm(train_dataloader):
-
                     train_label = train_label.to(device)
                     mask = train_input['attention_mask'].to(device)
                     input_id = train_input['input_ids'].squeeze(1).to(device)
                     # ipdb.set_trace()
                     output = model(input_id, mask)
-                    print(output)
+                    # print(output)
                     batch_loss = criterion(output, train_label.long())
                     total_loss_train += batch_loss.item()
                     
@@ -103,7 +103,9 @@ def train(model, train_data, val_data, learning_rate, epochs,tokenizer,labels):
                     batch_loss.backward()
                     optimizer.step()
             except:
-                print(train_dataloader)
+                print("error")
+                # ipdb.set_trace()
+                sys.exit()
             
             total_acc_val = 0
             total_loss_val = 0
@@ -152,6 +154,7 @@ def evaluate(model, test_data):
               output = model(input_id, mask)
 
               acc = (output.argmax(dim=1) == test_label).sum().item()
+              
               total_acc_test += acc
     
     print(f'Test Accuracy: {total_acc_test / len(test_data): .3f}')   
