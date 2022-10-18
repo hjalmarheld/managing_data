@@ -133,8 +133,8 @@ def train(
         val_data, tokenizer, labels
     )
 
-    train_dataloader = torch.utils.data.DataLoader(train, batch_size=4, shuffle=True)
-    val_dataloader = torch.utils.data.DataLoader(val, batch_size=8)
+    train_dataloader = torch.utils.data.DataLoader(train, batch_size=32, shuffle=True)
+    val_dataloader = torch.utils.data.DataLoader(val, batch_size=32)
 
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
