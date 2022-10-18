@@ -1,11 +1,14 @@
 import pandas as pd
+from sklearn.utils import shuffle
 import torch
 import numpy as np
+from traitlets import Bool
 from transformers import BertTokenizer, BertModel, CamembertModel
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from transformers import Trainer, TrainingArguments
 from torch import nn
 from torch.optim import Adam
+from torch.utils.data.sampler import WeightedRandomSampler
 from tqdm import tqdm
 import os
 import ipdb
@@ -23,6 +26,7 @@ class Dataset(torch.utils.data.Dataset):
         """
 
         self.labels = [labels[label] for label in df["naf2_label"].values]
+        self.labels_dict = labels
         self.texts = [
             tokenizer(
                 text,
@@ -65,6 +69,25 @@ class Dataset(torch.utils.data.Dataset):
         batch_y = self.get_batch_labels(idx)
 
         return batch_texts, batch_y
+    
+    def classes_imbalance_sampler(self):
+        targets = self.labels
+        class_sample_count = np.array(
+        [len(np.where(targets == t)[0]) for t in np.arange(0,max(targets)+1)])
+        weight = 1. / (class_sample_count + 0.1)
+        # ipdb.set_trace()
+        weights = list()
+        for t in targets:
+            try : 
+                weights.append(weight[t])
+            except:
+                ipdb.set_trace()
+        ipdb.set_trace()
+        samples_weight = np.array(weights)
+        samples_weight = torch.from_numpy(samples_weight)
+        samples_weight = samples_weight.double()
+        sampler = WeightedRandomSampler(samples_weight, len(samples_weight))
+        return sampler
 
 
 class CamemBertClassifier(nn.Module):
@@ -85,8 +108,11 @@ class CamemBertClassifier(nn.Module):
 
         self.bert = CamembertModel.from_pretrained(model)
         self.dropout = nn.Dropout(dropout)
-        self.linear = nn.Linear(768, number_labels)
+        self.linear = nn.Linear(768, 250)
         self.relu = nn.ReLU()
+        self.second_linear = nn.Linear(250, number_labels)
+        self.relu_2 = nn.ReLU()
+
         # self.softmax_final_layer = nn.Softmax(dim=1)
 
     def forward(self, input_id: torch.tensor, mask: torch.tensor):
@@ -104,7 +130,9 @@ class CamemBertClassifier(nn.Module):
         )
         dropout_output = self.dropout(pooled_output)
         linear_output = self.linear(dropout_output)
-        final_layer = self.relu(linear_output)
+        relu_layer = self.relu(linear_output)
+        second_linear_output = self.linear(relu_layer)
+        final_layer = self.relu_2(second_linear_output)
         # final_layer = self.softmax_final_layer(final_layer)
 
         return final_layer
@@ -118,6 +146,7 @@ def train(
     epochs: int,
     tokenizer,
     labels: dict,
+    use_samplers:Bool = False
 ):
     """
     Training of model defined with CamemBertClassifier class.
@@ -132,10 +161,14 @@ def train(
     train, val = Dataset(train_data, tokenizer, labels), Dataset(
         val_data, tokenizer, labels
     )
-
-    train_dataloader = torch.utils.data.DataLoader(train, batch_size=32, shuffle=True)
-    val_dataloader = torch.utils.data.DataLoader(val, batch_size=32)
-
+    train_sampler = train.classes_imbalance_sampler()
+    val_sampler = val.classes_imbalance_sampler()
+    if use_samplers:
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=4,sampler=train_sampler)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=8, sampler=val_sampler)
+    else:
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=4,shuffle=True)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=8, shuffle=True)
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
 
