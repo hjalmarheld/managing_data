@@ -1,0 +1,17 @@
+numpy
+pandas
+tqdm
+scikit-learn
+torch
+mlflow
+datasets
+matplotlib
+seaborn
+transformers
+boto3
+nltk
+selenium
+
+# NER requirements
+keras==2.4.3
+tensorflow==2.4.1
