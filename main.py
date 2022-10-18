@@ -13,16 +13,21 @@ import ipdb
 
 
 general_path = os.path.dirname(os.getcwd())
-path_data = os.path.join(os.getcwd(),"data","raw", "naf_activite.csv")
+name_file = "labelled articles cleaned.csv"
+path_data = os.path.join(os.getcwd(),"data","external", name_file)
 path_mapping = os.path.join(os.getcwd(),"data","raw", "naf_mapping.csv")
-EPOCHS = 5
+EPOCHS = 10
 LR = 1e-5
 
 if __name__ == "__main__":
-    df = pd.read_csv(path_data, delimiter="|").dropna().drop(columns=["Unnamed: 0"])
-    df_mapping = pd.read_csv(path_mapping, delimiter=";", encoding="latin-1")
-    df_mapping.rename(columns={"naf5": "NAF_CODE"}, inplace=True)
-    df_merged = df.merge(df_mapping, on="NAF_CODE", how="inner")
+    df = pd.read_csv(path_data, delimiter=",").dropna().drop(columns=["Unnamed: 0"])
+    if name_file == "naf_activite.csv":
+        df_mapping = pd.read_csv(path_mapping, delimiter=";", encoding="latin-1")
+        df_mapping.rename(columns={"naf5": "NAF_CODE"}, inplace=True)
+        df_merged = df.merge(df_mapping, on="NAF_CODE", how="inner")
+    
+    else:
+        df_merged = df.copy()
     idxes = np.random.choice(np.arange(len(df_merged)), 50_000)
     df_merged = df_merged.iloc[idxes, :]
     model = "camembert-base"
@@ -30,7 +35,7 @@ if __name__ == "__main__":
 
     labels = {
         label: i
-        for i, label in enumerate(df_merged["naf2_label"].sort_values().unique())
+        for i, label in enumerate(df_merged["naf"].sort_values().unique())
     }
     labels_list = [key for key in labels.keys()]
 
@@ -42,4 +47,7 @@ if __name__ == "__main__":
     del df_merged
     model = CamemBertClassifier(number_labels=len(labels_list))
     train_data = Dataset(df_train, tokenizer, labels=labels)
+    
     train(model, df_train, df_val, LR, EPOCHS, tokenizer, labels)
+    acc_test, predictions = evaluate(model, df_test)
+    ipdb.set_trace()
