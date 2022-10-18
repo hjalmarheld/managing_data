@@ -23,7 +23,8 @@ if __name__ == "__main__":
     df_mapping = pd.read_csv(path_mapping, delimiter=";", encoding="latin-1")
     df_mapping.rename(columns={"naf5": "NAF_CODE"}, inplace=True)
     df_merged = df.merge(df_mapping, on="NAF_CODE", how="inner")
-    idxes = np.random.choice(np.arange(len(df_merged)), 30_000)
+    ipdb.set_trace()
+    idxes = np.random.choice(np.arange(len(df_merged)), 1_000)
     df_merged = df_merged.iloc[idxes, :]
     model = "camembert-base"
     tokenizer = AutoTokenizer.from_pretrained(model)
