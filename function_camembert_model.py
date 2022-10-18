@@ -1,6 +1,8 @@
 import pandas as pd
+from sklearn.utils import shuffle
 import torch
 import numpy as np
+from traitlets import Bool
 from transformers import BertTokenizer, BertModel, CamembertModel
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from transformers import Trainer, TrainingArguments
@@ -72,7 +74,7 @@ class Dataset(torch.utils.data.Dataset):
         targets = self.labels
         class_sample_count = np.array(
         [len(np.where(targets == t)[0]) for t in np.arange(0,max(targets)+1)])
-        weight = 1. / class_sample_count
+        weight = 1. / (class_sample_count + 0.1)
         # ipdb.set_trace()
         weights = list()
         for t in targets:
@@ -80,6 +82,7 @@ class Dataset(torch.utils.data.Dataset):
                 weights.append(weight[t])
             except:
                 ipdb.set_trace()
+        ipdb.set_trace()
         samples_weight = np.array(weights)
         samples_weight = torch.from_numpy(samples_weight)
         samples_weight = samples_weight.double()
@@ -143,6 +146,7 @@ def train(
     epochs: int,
     tokenizer,
     labels: dict,
+    use_samplers:Bool = False
 ):
     """
     Training of model defined with CamemBertClassifier class.
@@ -159,9 +163,12 @@ def train(
     )
     train_sampler = train.classes_imbalance_sampler()
     val_sampler = val.classes_imbalance_sampler()
-    train_dataloader = torch.utils.data.DataLoader(train, batch_size=4, shuffle=True,sampler=train_sampler)
-    val_dataloader = torch.utils.data.DataLoader(val, batch_size=8, sampler=val_sampler)
-
+    if use_samplers:
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=4,sampler=train_sampler)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=8, sampler=val_sampler)
+    else:
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=4,shuffle=True)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=8, shuffle=True)
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
 
