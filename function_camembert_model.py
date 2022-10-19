@@ -247,7 +247,7 @@ def train(
         )
 
 
-def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame):
+def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, labels):
     """
     Evaluates performance of CamembertClassifier trained with train function
 
@@ -259,7 +259,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame):
         - total_acc_test : float, accuracy of the model on the test set
 
     """
-    test = Dataset(test_data)
+    test = Dataset(test_data,tokenizer, labels)
 
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
@@ -289,7 +289,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame):
     print(f"Test Accuracy: {total_acc_test / len(test_data): .3f}")
     return total_acc_test, predictions
 
-def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame):
+def predict(model: CamemBertClassifier, test_data: pd.DataFrame):
     """
     Evaluates performance of CamembertClassifier trained with train function
 
