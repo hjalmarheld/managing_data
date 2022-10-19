@@ -88,6 +88,52 @@ class Dataset(torch.utils.data.Dataset):
         samples_weight = samples_weight.double()
         sampler = WeightedRandomSampler(samples_weight, len(samples_weight))
         return sampler
+    
+class CamemBertClassifierShort(nn.Module):
+    def __init__(
+        self,
+        number_labels: int,
+        dropout: float = 0.5,
+        model: str = "camembert-base",
+    ):
+        """
+        Class generating a DL model upon the CamembertModel class from hugging face
+        args:
+            - int : number of categories to predict
+            - dropout : float in [0,1), dropout rate between layers to avoid over-fitting
+            - model : str, name of HuggingFace model to use
+        """
+        super(CamemBertClassifierShort, self).__init__()
+
+        self.bert = CamembertModel.from_pretrained(model)
+        self.dropout = nn.Dropout(dropout)
+        self.linear_short == nn.Linear(768, number_labels)
+        self.relu = nn.ReLU()
+        self.dropout_second = nn.Dropout(dropout)
+        
+
+        # self.softmax_final_layer = nn.Softmax(dim=1)
+
+    def forward(self, input_id: torch.tensor, mask: torch.tensor):
+        """
+        compute the output of forward run from model given input_id and mask
+        args:
+            - input_id : numerical embedding of words in sentenced, output of tokenizer
+            - mask : whether ids are mask or not.
+
+        returns:
+            - final_layer : final_layer of the model
+        """
+        _, pooled_output = self.bert(
+            input_ids=input_id, attention_mask=mask, return_dict=False
+        )
+        dropout_output = self.dropout(pooled_output)
+        linear_output = self.linear_short(dropout_output)
+        final_layer = self.relu(linear_output)
+
+        # final_layer = self.softmax_final_layer(final_layer)
+
+        return final_layer
 
 
 class CamemBertClassifier(nn.Module):
@@ -114,6 +160,7 @@ class CamemBertClassifier(nn.Module):
         self.second_linear = nn.Linear(250, number_labels)
         self.relu_2 = nn.ReLU()
         self.softmax_layer = nn.Softmax(dim=1)
+        self.linear_short == nn.Linear(768, number_labels)
 
         # self.softmax_final_layer = nn.Softmax(dim=1)
 
