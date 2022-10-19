@@ -16,10 +16,11 @@ general_path = os.path.dirname(os.getcwd())
 name_file = "labelled articles cleaned.csv"
 path_data = os.path.join(os.getcwd(),"data","external", name_file)
 path_mapping = os.path.join(os.getcwd(),"data","raw", "naf_mapping.csv")
-path_predictions = os.path.join(os.getcwd(),"data","raw","test.csv")
-EPOCHS = 3
+path_predictions = os.path.join(os.getcwd(),"data","test.csv")
+EPOCHS = 6
 LR = 1e-5
-save = False
+save = True
+increase_data = False
 
 if __name__ == "__main__":
     df = pd.read_csv(path_data, delimiter=",").dropna().drop(columns=["Unnamed: 0"])
@@ -30,7 +31,12 @@ if __name__ == "__main__":
     
     else:
         df_merged = df.copy()
-    idxes = np.random.choice(np.arange(len(df_merged)), 10_000)
+    if increase_data:
+        df_merged_bis = df_merged.copy()
+        df_merged_bis.columns = ["company","text","title","naf"]
+        df_merged = pd.concat([df_merged, df_merged_bis[df_merged.columns]])
+        
+    idxes = np.random.choice(np.arange(len(df_merged)), 50_000)
     df_merged = df_merged.iloc[idxes, :]
     model = "camembert-base"
     tokenizer = AutoTokenizer.from_pretrained(model)
@@ -47,7 +53,7 @@ if __name__ == "__main__":
         [int(0.8 * len(df_merged)), int(0.9 * len(df_merged))],
     )
     del df_merged
-    model = CamemBertClassifier(number_labels=len(labels_list))
+    model = CamemBertClassifierShort(number_labels=len(labels_list))
     train_data = Dataset(df_train, tokenizer, labels=labels)
     
     train(model, df_train, df_val, LR, EPOCHS, tokenizer, labels,use_samplers=True)
