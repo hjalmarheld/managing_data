@@ -1,0 +1,1001 @@
+Rang	Entreprise	Activité	Ville	Chiffre d'affaires
+1	TOTALENERGIES SE	Activités des sièges sociaux (70.10Z)	COURBEVOIE 92400	200 316 000 000 €
+2	AXA	Activités des sociétés holding (64.20Z)	PARIS 8 75008	103 532 000 000 €
+3	PEUGEOT SA	Activités des sièges sociaux (70.10Z)	VELIZY-VILLACOUBLAY 78140	74 731 000 000 €
+4	CARREFOUR	Activités des sociétés holding (64.20Z)	MASSY 91300	71 651 000 000 €
+5	EDF ELECTRICITE DE FRANCE	Production d'électricité (35.11Z)	PARIS 8 75008	71 317 000 000 €
+6	PSA AUTOMOBILES SA	Construction de véhicules automobiles (29.10Z)	POISSY 78300	65 017 505 000 €
+7	AIRBUS	Construction aéronautique et spatiale (30.30Z)	BLAGNAC 31700	61 404 650 000 €
+8	ENGIE	Commerce de combustibles gazeux par conduites (35.23Z)	COURBEVOIE 92400	56 967 000 000 €
+9	FINANCIERE AGACHE	Activités des sociétés holding (64.20Z)	PARIS 8 75008	53 671 000 000 €
+10	LVMH MOET HENNESSY LOUIS VUITTON	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	53 670 000 000 €
+11	VINCI	Activités des sièges sociaux (70.10Z)	RUEIL-MALMAISON 92500	48 053 000 000 €
+12	RENAULT SAS	Construction de véhicules automobiles (29.10Z)	BOULOGNE-BILLANCOURT 92100	47 949 000 000 €
+13	CHRISTIAN DIOR	Activités des sociétés holding (64.20Z)	PARIS 8 75008	44 651 000 000 €
+14	RENAULT	Activités des sociétés holding (64.20Z)	BOULOGNE-BILLANCOURT 92100	43 474 000 000 €
+15	COMPAGNIE DE SAINT-GOBAIN	Activités des sièges sociaux (70.10Z)	COURBEVOIE 92400	42 573 000 000 €
+16	ORANGE	Télécommunications filaires (61.10Z)	ISSY-LES-MOULINEAUX 92130	42 270 000 000 €
+17	SANOFI	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	38 126 000 000 €
+18	BOUYGUES	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	37 929 000 000 €
+19	CASINO, GUICHARD-PERRACHON	Activités des sièges sociaux (70.10Z)	SAINT-ETIENNE 42000	35 310 000 000 €
+20	EURIS	Fonds de placement et entités financières similaires (64.30Z)	PARIS 8 75008	34 663 000 000 €
+21	FONCIERE EURIS	Activités des sociétés holding (64.20Z)	PARIS 8 75008	34 663 000 000 €
+22	RALLYE	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	34 652 000 000 €
+23	FINATIS	Fonds de placement et entités financières similaires (64.30Z)	PARIS 8 75008	34 463 000 000 €
+24	ELO	Activités des sièges sociaux (70.10Z)	CROIX 59170	32 117 000 000 €
+25	CMA CGM	Transports maritimes et côtiers de fret (50.20Z)	MARSEILLE 2 13002	31 445 100 000 €
+26	LES MOUSQUETAIRES	Activités des sociétés holding (64.20Z)	PARIS 15 75015	30 606 538 000 €
+27	L'OREAL	Commerce de gros (commerce interentreprises) de parfumerie et de produits de beauté (46.45Z)	PARIS 8 75008	27 992 100 000 €
+28	VEOLIA ENVIRONNEMENT	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	PARIS 8 75008	27 188 700 000 €
+29	AIR FRANCE - KLM	Activités des sociétés holding (64.20Z)	PARIS 7 75007	27 188 000 000 €
+30	SCHNEIDER ELECTRIC SE	Activités des sociétés holding (64.20Z)	RUEIL-MALMAISON 92500	27 158 000 000 €
+31	DANONE	Activités des sièges sociaux (70.10Z)	PARIS 9 75009	25 287 000 000 €
+32	SAFRAN	Activités des sièges sociaux (70.10Z)	PARIS 15 75015	25 098 000 000 €
+33	BOLLORE SE	Fabrication de plaques, feuilles, tubes et profilés en matières plastiques (22.21Z)	ERGUE-GABERIC 29500	24 843 400 000 €
+34	COMPAGNIE DE L'ODET	Activités des sociétés holding (64.20Z)	ERGUE-GABERIC 29500	24 842 800 000 €
+35	BOLLORE PARTICIPATIONS SE	Activités des sièges sociaux (70.10Z)	ERGUE-GABERIC 29500	24 842 600 000 €
+36	CGEM COMPAGNIE GENERALE DES ETABLISSEMENTS MICHELIN	Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright (77.40Z)	CLERMONT-FERRAND 63000	24 135 000 000 €
+37	TOTALENERGIES MARKETING FRANCE	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	NANTERRE 92000	23 963 726 000 €
+38	LA POSTE	Activités de poste dans le cadre d'une obligation de service universel (53.10Z)	PARIS 15 75015	23 478 000 000 €
+39	SG SOCIETE GENERALE	Autres intermédiations monétaires (64.19Z)	PARIS 9 75009	22 113 000 000 €
+40	CSF	Commerce de gros (commerce interentreprises) alimentaire non spécialisé (46.39B)	MONDEVILLE 14120	22 018 613 637 €
+41	BELLON	Activités des sièges sociaux (70.10Z)	ISSY-LES-MOULINEAUX 92130	21 954 000 000 €
+42	GROUPE ADEO	Activités des sièges sociaux (70.10Z)	RONCHIN 59790	21 624 602 000 €
+43	CONTANGO TRADING SA	Fonds de placement et entités financières similaires (64.30Z)	PARIS 13 75013	20 114 270 580 €
+44	LIGNA ENR	Activités des sièges sociaux (70.10Z)	PARIS 16 75016	19 493 512 000 €
+45	TOTALENERGIES RAFFINAGE FRANCE	Raffinage du pétrole (19.20Z)	COURBEVOIE 92400	19 484 310 100 €
+46	VALEO	Activités des sociétés holding (64.20Z)	PARIS 17 75017	19 477 000 000 €
+47	SODEXO	Autres services de restauration n.c.a. (56.29B)	ISSY-LES-MOULINEAUX 92130	19 321 000 000 €
+48	FAURECIA	Activités des sièges sociaux (70.10Z)	NANTERRE 92000	17 768 300 000 €
+49	ESSILORLUXOTTICA	Fabrication de lunettes (32.50B)	CHARENTON-LE-PONT 94220	17 390 000 000 €
+50	THALES	Activités des sièges sociaux (70.10Z)	COURBEVOIE 92400	16 988 900 000 €
+51	EIFFAGE	Activités des sièges sociaux (70.10Z)	VELIZY-VILLACOUBLAY 78140	16 659 000 000 €
+52	SOCIETE AIR FRANCE	Transports aériens de passagers (51.10Z)	TREMBLAY-EN-FRANCE 93290	16 588 000 000 €
+53	SCOR SE	Réassurance (65.20Z)	PARIS 16 75116	16 321 000 000 €
+54	SOCIETE NATIONALE SNCF	Transport ferroviaire interurbain de voyageurs (49.10Z)	SAINT-DENIS 93210	16 247 000 000 €
+55	VIVENDI SE	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	16 090 000 000 €
+56	ITM AI ITM ALIMENTAIRE INTERNATIONAL	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	14 927 837 368 €
+57	VINCI CONSTRUCTION	Activités des sociétés holding (64.20Z)	RUEIL-MALMAISON 92500	14 900 410 000 €
+58	ESSO SOCIETE ANONYME FRANCAISE	Raffinage du pétrole (19.20Z)	NANTERRE 92000	14 793 700 000 €
+59	AUTOMOBILES PEUGEOT	Commerce de voitures et de véhicules automobiles légers (45.11Z)	POISSY 78300	14 523 715 000 €
+60	AIRBUS OPERATIONS	Construction aéronautique et spatiale (30.30Z)	TOULOUSE 31300	14 495 000 000 €
+61	ENEDIS	Distribution d'électricité (35.13Z)	COURBEVOIE 92400	14 493 000 000 €
+62	ICADE EMGP ICADE	Activités des marchands de biens immobiliers (68.10Z)	ISSY-LES-MOULINEAUX 92130	14 402 000 000 €
+63	CARREFOUR HYPERMARCHES	Hypermarchés (47.11F)	EVRY-COURCOURONNES 91000	14 322 807 338 €
+64	REXEL	Activités des sociétés holding (64.20Z)	PARIS 17 75017	13 742 300 000 €
+65	AEROPORT DE STRASBOURG-ENTZHEIM	Services auxiliaires des transports aériens (52.23Z)	ENTZHEIM 67960	13 613 061 000 €
+66	BOUYGUES CONSTRUCTION	Construction d'ouvrages d'art (42.13A)	GUYANCOURT 78280	13 355 000 000 €
+67	CAPGEMINI	Activités des sièges sociaux (70.10Z)	PARIS 17 75017	13 197 000 000 €
+68	KERING	Activités des sièges sociaux (70.10Z)	PARIS 7 75007	13 100 200 000 €
+69	SIPLEC SOC D'IMPORTATION LECLERC	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	IVRY-SUR-SEINE 94200	13 066 377 617 €
+70	SNCF VOYAGEURS	Transport ferroviaire interurbain de voyageurs (49.10Z)	SAINT-DENIS 93200	12 566 000 000 €
+71	NATIXIS ASSURANCES	Activités des sociétés holding (64.20Z)	PARIS 13 75013	12 511 743 000 €
+72	AUCHAN HYPERMARCHE	Hypermarchés (47.11F)	VILLENEUVE D'ASCQ 59650	12 351 000 000 €
+73	DECATHLON	Location de terrains et d'autres biens immobiliers (68.20B)	VILLENEUVE D'ASCQ 59650	12 344 113 000 €
+74	COLAS SA	Construction de routes et autoroutes (42.11Z)	PARIS 15 75015	12 297 000 000 €
+75	SANOFI WINTHROP INDUSTRIE	Fabrication de préparations pharmaceutiques (21.20Z)	ANTONY 92160	11 837 000 000 €
+76	ATOS SE	Activités des sièges sociaux (70.10Z)	BEZONS 95870	11 588 000 000 €
+77	COOPERATIVE U ENSEIGNE	Centrales d'achat alimentaires (46.17A)	RUNGIS 94150	11 500 922 000 €
+78	SAFRAN AIRCRAFT ENGINES	Construction aéronautique et spatiale (30.30Z)	PARIS 15 75015	11 432 202 000 €
+79	SOGECAP	Assurance vie (65.11Z)	COURBEVOIE 92400	11 353 083 000 €
+80	PUBLICIS GROUPE S.A.	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	10 788 000 000 €
+81	SINERGY	Centrales d'achat de carburant (46.12A)	IVRY-SUR-SEINE 94200	10 750 916 551 €
+82	BFCM BANQUE FEDERATIVE DU CREDIT MUTUEL	Autres intermédiations monétaires (64.19Z)	STRASBOURG 67000	10 262 000 000 €
+83	ALD	Activités des sièges sociaux (70.10Z)	RUEIL-MALMAISON 92500	9 934 200 000 €
+84	HP FRANCE SAS	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	MEUDON 92190	9 441 949 000 €
+85	AUTOMOBILES CITROEN	Commerce de voitures et de véhicules automobiles légers (45.11Z)	POISSY 78300	9 380 493 000 €
+86	SOCIETE FRANCAISE DU RADIOTELEPHONE - SFR	Télécommunications sans fil (61.20Z)	PARIS 15 75015	8 902 880 804 €
+87	ALSTOM	Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright (77.40Z)	SAINT-OUEN-SUR-SEINE 93400	8 785 000 000 €
+88	ARKEMA	Activités des sièges sociaux (70.10Z)	COLOMBES 92700	8 738 000 000 €
+89	PERNOD RICARD	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	8 722 000 000 €
+90	WENDEL-PARTICIPATIONS SE	Activités des sociétés holding (64.20Z)	PARIS 9 75009	8 562 200 000 €
+91	BURELLE	Gestion de fonds (66.30Z)	LYON 7EME 69007	8 498 898 000 €
+92	COMPAGNIE PLASTIC OMNIUM SE	Activités des sièges sociaux (70.10Z)	LYON 7EME 69007	8 493 550 000 €
+93	DCF DISTRIBUTION CASINO FRANCE	Hypermarchés (47.11F)	SAINT-ETIENNE 42000	8 197 000 000 €
+94	WENDEL	Conseil pour les affaires et autres conseils de gestion (70.22Z)	PARIS 9 75009	8 110 500 000 €
+95	VOLKSWAGEN GROUP FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	VILLERS-COTTERETS 02600	7 504 305 213 €
+96	INETUM MODERNISATION SOLUTIONS	Conseil en systèmes et logiciels informatiques (62.02A)	SAINT-OUEN-SUR-SEINE 93400	7 382 669 000 €
+97	DASSAULT AVIATION	Construction aéronautique et spatiale (30.30Z)	PARIS 8 75008	7 370 616 000 €
+98	SCA PETROLE ET DERIVES	Centrales d'achat de carburant (46.12A)	PARIS 15 75015	7 319 672 218 €
+99	LAGARDERE SA	Activités des sièges sociaux (70.10Z)	PARIS 16 75116	7 211 000 000 €
+100	PEUGEOT CITROEN SOCHAUX SNC	Construction de véhicules automobiles (29.10Z)	SOCHAUX 25600	7 103 711 036 €
+101	HERMES INTERNATIONAL	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	6 883 400 000 €
+102	TRANSDEV GROUP	Services auxiliaires des transports terrestres (52.21Z)	ISSY-LES-MOULINEAUX 92130	6 755 600 000 €
+103	RFF SNCF RESEAU	Services auxiliaires des transports terrestres (52.21Z)	SAINT-DENIS 93200	6 744 000 000 €
+104	NEXANS	Activités des sièges sociaux (70.10Z)	COURBEVOIE 92400	6 735 000 000 €
+105	LEGRAND	Activités des sièges sociaux (70.10Z)	LIMOGES 87000	6 622 300 000 €
+106	GROUPE KEOLIS SAS	Activités des sièges sociaux (70.10Z)	PARIS 9 75009	6 579 300 000 €
+107	XPO LOGISTICS EUROPE	Activités des sièges sociaux (70.10Z)	LYON 6EME 69006	6 414 128 000 €
+108	AVIVA FRANCE	Activités des sociétés holding (64.20Z)	BOIS-COLOMBES 92270	6 288 500 000 €
+109	KEOLIS	Activités des sièges sociaux (70.10Z)	PARIS 9 75009	6 256 700 000 €
+110	LEROY MERLIN FRANCE	Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m² et plus) (47.52B)	LEZENNES 59260	6 244 471 851 €
+111	SOCIETE COOPERATIVE AGRICOLE ET AGRO-ALIMENTAIRE AGRIAL	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	CAEN 14000	6 090 154 000 €
+112	BOUYGUES TELECOM	Télécommunications sans fil (61.20Z)	PARIS 16 75116	6 057 600 000 €
+113	LOUIS VUITTON MALLETIER	Commerce de gros (commerce interentreprises) d'autres biens domestiques (46.49Z)	PARIS 1 75001	6 054 600 000 €
+114	PISSIER SA	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	BEAUCE LA ROMAINE 41240	6 002 581 356 €
+115	ILIAD	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	PARIS 8 75008	5 871 000 000 €
+116	OCP REPARTITION	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	SAINT-OUEN-SUR-SEINE 93400	5 862 848 918 €
+117	AVRIL GESTION	Activités des sociétés holding (64.20Z)	PARIS 8 75008	5 841 300 000 €
+118	TELEPERFORMANCE SE	Activités des agences de publicité (73.11Z)	PARIS 8 75008	5 732 000 000 €
+119	SOC COOPER GROUPEM ACHAT CENTRE LECLERC	Centrales d'achat alimentaires (46.17A)	IVRY-SUR-SEINE 94200	5 623 622 000 €
+120	SUCRES ET DENREES	Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie (46.36Z)	PARIS 8 75008	5 436 939 000 €
+121	RENAULT RETAIL GROUP	Commerce de voitures et de véhicules automobiles légers (45.11Z)	CLAMART 92140	5 347 156 646 €
+122	RUBIS	Activités des sociétés holding (64.20Z)	PARIS 16 75116	5 228 487 000 €
+123	SAVENCIA SA	Activités des sociétés holding (64.20Z)	VIROFLAY 78220	5 160 377 000 €
+124	ASTERA	Activités des sociétés holding (64.20Z)	ROUEN 76000	5 109 256 000 €
+125	BUREAU VERITAS	Activités des sièges sociaux (70.10Z)	NEUILLY-SUR-SEINE 92200	5 099 700 000 €
+126	SODIAAL UNION	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	PARIS 14 75014	5 098 278 000 €
+127	ADECCO FRANCE	Activités des agences de travail temporaire (78.20Z)	VILLEURBANNE 69100	5 025 528 255 €
+128	ASSYSTEM	Activités des sièges sociaux (70.10Z)	COURBEVOIE 92400	4 975 000 000 €
+129	CARFUEL	Centrales d'achat de carburant (46.12A)	EVRY-COURCOURONNES 91000	4 953 693 042 €
+130	ELIOR GROUP	Fonds de placement et entités financières similaires (64.30Z)	COURBEVOIE 92400	4 923 000 000 €
+131	ETABLISSEMENTS J. SOUFFLET	Activités des sièges sociaux (70.10Z)	NOGENT-SUR-SEINE 10400	4 909 141 000 €
+132	RT RENAULT TRUCKS	Construction de véhicules automobiles (29.10Z)	SAINT-PRIEST 69800	4 902 000 000 €
+133	TERRENA	Commerce de gros (commerce interentreprises) non spécialisé (46.90Z)	ANCENIS-SAINT-GEREON 44150	4 857 986 000 €
+134	COENTREPRISE DE TRANSPORT D'ELECTRICITE	Activités des sociétés holding (64.20Z)	PARIS 17 75017	4 855 705 000 €
+135	RTE RESEAU DE TRANSPORT D ELECTRICITE	Transport d'électricité (35.12Z)	PUTEAUX 92800	4 855 705 000 €
+136	GLOBAL LNG	Courtage de valeurs mobilières et de marchandises (66.12Z)	COURBEVOIE 92400	4 789 062 343 €
+137	GEFCO SA	Affrètement et organisation des transports (52.29B)	PUTEAUX 92800	4 738 700 000 €
+138	SOPRA-GMT	Activités des sièges sociaux (70.10Z)	ANNECY 74940	4 721 900 000 €
+139	SERGESA EMIL FREY HOLDING FRANCE	Activités des sociétés holding (64.20Z)	SAINT OUEN L'AUMONE 95310	4 700 583 000 €
+140	ADP AEROPORTS DE PARIS	Services auxiliaires des transports aériens (52.23Z)	TREMBLAY-EN-FRANCE 93290	4 700 000 000 €
+141	SERVIER SAS	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	SURESNES 92150	4 688 160 000 €
+142	HAA AGRIAL ENTREPRISE	Activités des sociétés holding (64.20Z)	CAEN 14000	4 566 826 000 €
+143	MANUFACTURE FRANCAISE DES PNEUMATIQUES MICHELIN	Conseil pour les affaires et autres conseils de gestion (70.22Z)	CLERMONT-FERRAND 63000	4 522 654 000 €
+144	TEREOS SCA	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	ORIGNY-SAINTE-BENOITE 02390	4 491 800 000 €
+145	DASSAULT SYSTEMES	Édition de logiciels applicatifs (58.29C)	VELIZY-VILLACOUBLAY 78140	4 452 200 000 €
+146	SOPRA STERIA GROUP	Conseil en systèmes et logiciels informatiques (62.02A)	ANNECY 74940	4 434 000 000 €
+147	SOCIETE L.D.C.	Activités des sièges sociaux (70.10Z)	SABLE-SUR-SARTHE 72300	4 418 842 000 €
+148	METRO FRANCE	Commerce de gros (commerce interentreprises) alimentaire non spécialisé (46.39B)	NANTERRE 92000	4 400 012 525 €
+149	ARCELORMITTAL FRANCE	Sidérurgie (24.10Z)	SAINT-DENIS 93210	4 374 253 000 €
+150	MONOPRIX EXPLOITATION, PAR ABREVIATION MPX	Magasins multi-commerces (47.11E)	CLICHY 92110	4 206 037 000 €
+151	NEXITY	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	4 200 728 000 €
+152	SCAMARK	Fabrication d'autres produits alimentaires n.c.a. (10.89Z)	IVRY-SUR-SEINE 94200	4 189 688 140 €
+153	FNAC DARTY PARTICIPATIONS ET SERVICES	Centrales d'achat non alimentaires (46.19A)	IVRY-SUR-SEINE 94200	4 129 454 647 €
+154	MERCEDES-BENZ FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	MONTIGNY-LE-BRETONNEUX 78180	4 124 706 954 €
+155	POMONA	Commerce de gros (commerce interentreprises) alimentaire non spécialisé (46.39B)	ANTONY 92160	4 103 362 000 €
+156	CORA	Hypermarchés (47.11F)	CROISSY-BEAUBOURG 77183	4 086 526 316 €
+157	ACCOR	Activités des sièges sociaux (70.10Z)	ISSY-LES-MOULINEAUX 92130	4 049 000 000 €
+158	ALSTOM TRANSPORT SA	Construction de locomotives et d'autre matériel ferroviaire roulant (30.20Z)	SAINT-OUEN-SUR-SEINE 93400	4 046 000 000 €
+159	ASF AUTOROUTES DU SUD DE LA FRANCE	Services auxiliaires des transports terrestres (52.21Z)	NANTERRE 92000	4 038 000 000 €
+160	CERP ROUEN COMPAGNIE D'EXPLOITATION ET DE REPARTITION PHARMACEUTIQUES DE ROUEN	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	ROUEN 76000	3 947 079 231 €
+161	DESCOURS ET CABAUD SA	Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright (77.40Z)	LYON 2EME 69002	3 925 808 000 €
+162	MANPOWER FRANCE	Activités des agences de travail temporaire (78.20Z)	NANTERRE 92000	3 909 675 000 €
+163	PATHE	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	3 872 000 000 €
+164	CFM INTERNATIONAL	Commerce de gros (commerce interentreprises) de fournitures et équipements industriels divers (46.69B)	PARIS 15 75015	3 844 862 000 €
+165	TECHNICOLOR	Activités des sièges sociaux (70.10Z)	PARIS 4 75004	3 800 000 000 €
+166	ORANO	Activités des sociétés holding (64.20Z)	CHATILLON 92320	3 787 000 000 €
+167	KORIAN	Conseil pour les affaires et autres conseils de gestion (70.22Z)	PARIS 8 75008	3 772 509 000 €
+168	PSA RETAIL FRANCE SAS	Commerce de voitures et de véhicules automobiles légers (45.11Z)	POISSY 78300	3 769 050 292 €
+169	TOTALENERGIES PETROCHEMICALS FRANCE	Fabrication d'autres produits chimiques organiques de base (20.14Z)	COURBEVOIE 92400	3 767 442 822 €
+170	ORPEA	Hébergement médicalisé pour personnes âgées (87.10A)	PUTEAUX 92800	3 740 215 000 €
+171	COMPAGNIE MERIEUX ALLIANCE	Fonds de placement et entités financières similaires (64.30Z)	LYON 2EME 69002	3 734 600 000 €
+172	PEUGEOT CITROEN MULHOUSE SNC	Construction de véhicules automobiles (29.10Z)	SAUSHEIM 68390	3 734 331 705 €
+173	NAVAL GROUP	Construction de navires et de structures flottantes (30.11Z)	PARIS 15 75015	3 712 100 000 €
+174	ROQUETTE FRERES	Fabrication de produits amylacés (10.62Z)	LESTREM 62136	3 690 806 000 €
+175	SCHNEIDER ELECTRIC INDUSTRIES SAS	Commerce de gros (commerce interentreprises) de matériel électrique (46.69A)	RUEIL-MALMAISON 92500	3 687 868 309 €
+176	ERAMET	Commerce de gros (commerce interentreprises) de minerais et métaux (46.72Z)	PARIS 15 75015	3 671 000 000 €
+177	EURAZEO	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	PARIS 17 75017	3 660 322 000 €
+178	AHR ALLIANCE HEALTHCARE REPARTITION	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	GENNEVILLIERS 92230	3 624 506 934 €
+179	BMW FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	MONTIGNY-LE-BRETONNEUX 78180	3 541 428 777 €
+180	JC DECAUX HOLDING	Activités des sièges sociaux (70.10Z)	NEUILLY-SUR-SEINE 92200	3 493 900 000 €
+181	JCDECAUX SA	Activités des sièges sociaux (70.10Z)	NEUILLY-SUR-SEINE 92200	3 487 600 000 €
+182	GRDF	Distribution de combustibles gazeux par conduites (35.22Z)	PARIS 9 75009	3 485 969 000 €
+183	NGAM NATIXIS INVESTMENT MANAGERS	Activités des sièges sociaux (70.10Z)	PARIS 13 75013	3 456 208 000 €
+184	F.B.S.A BEL	Fabrication de fromage (10.51C)	SURESNES 92150	3 455 800 000 €
+185	UNIBEL	Activités des sociétés holding (64.20Z)	SURESNES 92150	3 455 700 000 €
+186	EXCLUSIVE NETWORKS SA	Activités des sociétés holding (64.20Z)	BOULOGNE-BILLANCOURT 92100	3 444 363 000 €
+187	MEAUXCAS	Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m² et plus) (47.52B)	VILLIERS-SUR-MARNE 94350	3 406 245 000 €
+188	RAMSAY GENERALE DE SANTE	Fonds de placement et entités financières similaires (64.30Z)	PARIS 17 75017	3 401 100 000 €
+189	VIVESCIA	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	REIMS 51100	3 385 748 000 €
+190	ALDI	Activités des sièges sociaux (70.10Z)	DAMMARTIN-EN-GOELE 77230	3 372 260 000 €
+191	INGENICO GROUP	Activités des sièges sociaux (70.10Z)	PARIS 15 75015	3 370 100 000 €
+192	HFP HOLDING AND FINANCIAL PARTICIPATION	Gestion de fonds (66.30Z)	VEAUCHE 42340	3 358 178 000 €
+193	SPCM SA	Activités des sièges sociaux (70.10Z)	ANDREZIEUX-BOUTHEON 42160	3 358 147 000 €
+194	HERMES SELLIER	Fabrication d'articles de voyage, de maroquinerie et de sellerie (15.12Z)	PARIS 8 75008	3 340 277 116 €
+195	GROUPE SPAG	Promotion immobilière de logements (41.10A)	MONTPELLIER 34000	3 311 658 691 €
+196	SOLETANCHE FREYSSINET	Activités des sièges sociaux (70.10Z)	RUEIL-MALMAISON 92500	3 299 555 000 €
+197	AS 24	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	SAINT-HERBLAIN 44800	3 267 499 526 €
+198	ALTRAN TECHNOLOGIES	Ingénierie, études techniques (71.12B)	PARIS 16 75116	3 217 105 000 €
+199	DECATHLON FRANCE	Commerce de détail d'articles de sport en magasin spécialisé (47.64Z)	VILLENEUVE D'ASCQ 59650	3 146 023 357 €
+200	A.I.A ALTRAD INVESTMENT AUTHORITY	Activités des sièges sociaux (70.10Z)	FLORENSAC 34510	3 105 422 000 €
+201	HOLDING SOPREMA	Activités des sièges sociaux (70.10Z)	STRASBOURG 67100	3 084 000 000 €
+202	LA FINANCIERE ATALIAN	Activités des sociétés holding (64.20Z)	PARIS 17 75017	3 058 500 000 €
+203	FRANCE TELEVISIONS	Édition de chaînes généralistes (60.20A)	PARIS 15 75015	3 022 400 000 €
+204	SAPRR APRR	Services auxiliaires des transports terrestres (52.21Z)	SAINT-APOLLINAIRE 21850	3 015 900 000 €
+205	MEUBLES IKEA FRANCE	Commerce de détail de meubles (47.59A)	PLAISIR 78370	3 006 553 751 €
+206	TARKETT	Activités des sièges sociaux (70.10Z)	PUTEAUX 92800	2 991 990 000 €
+207	SOCIETE INVESTISSEMENT DECONINCK	Activités des sièges sociaux (70.10Z)	PUTEAUX 92800	2 991 800 000 €
+208	AUCHAN SUPERMARCHE	Supermarchés (47.11D)	CROIX 59170	2 954 811 022 €
+209	TECH DATA FRANCE	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	BUSSY-SAINT-GEORGES 77600	2 924 121 379 €
+210	FREE	Télécommunications filaires (61.10Z)	PARIS 8 75008	2 907 499 967 €
+211	SMAE SOCIETE MECANIQUE AUTOMOBILE DE L'EST	Construction de véhicules automobiles (29.10Z)	TREMERY 57300	2 880 741 641 €
+212	ALTAREA	Location de terrains et d'autres biens immobiliers (68.20B)	PARIS 2 75002	2 880 200 000 €
+213	TMMF TOYOTA MOTOR MANUFACTURING FRANCE	Construction de véhicules automobiles (29.10Z)	ONNAING 59264	2 879 848 076 €
+214	SANOFI-AVENTIS GROUPE	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	2 864 000 000 €
+215	ALTAREIT	Promotion immobilière de logements (41.10A)	PARIS 2 75002	2 860 200 000 €
+216	ARKEMA FRANCE	Fabrication d'autres produits chimiques organiques de base (20.14Z)	COLOMBES 92700	2 855 000 000 €
+217	BONDUELLE	Activités des sociétés holding (64.20Z)	RENESCURE 59173	2 854 876 000 €
+218	GROUPE LACTALIS	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	LAVAL 53000	2 843 593 034 €
+219	AIRBUS HELICOPTERS	Construction aéronautique et spatiale (30.30Z)	MARIGNANE 13700	2 840 000 000 €
+220	SPS SOCIETE DES PETROLES SHELL	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	PUTEAUX 92800	2 816 145 545 €
+221	ITM ALIMENTAIRE CENTRE EST	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	2 802 713 774 €
+222	MOBIVIA	Conseil pour les affaires et autres conseils de gestion (70.22Z)	SAINGHIN-EN-MELANTOIS 59262	2 781 012 000 €
+223	SEF SAMSUNG ELECTRONICS FRANCE	Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication (46.52Z)	SAINT-OUEN-SUR-SEINE 93400	2 771 232 085 €
+224	ARIANEGROUP SAS	Construction aéronautique et spatiale (30.30Z)	LES MUREAUX 78130	2 760 754 000 €
+225	VICAT	Fabrication de ciment (23.51Z)	L'ISLE-D'ABEAU 38080	2 739 993 000 €
+226	SCHNEIDER ELECTRIC FRANCE	Fabrication de matériel de distribution et de commande électrique (27.12Z)	RUEIL-MALMAISON 92500	2 716 742 415 €
+227	DERICHEBOURG	Récupération de déchets triés (38.32Z)	PARIS 12 75012	2 705 000 000 €
+228	RANDSTAD	Activités des agences de travail temporaire (78.20Z)	SAINT-DENIS 93200	2 689 117 206 €
+229	HEWLETT-PACKARD FRANCE	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	PUTEAUX 92800	2 679 917 299 €
+230	ROBERT BOSCH FRANCE	Fabrication d'autres équipements automobiles (29.32Z)	SAINT-OUEN-SUR-SEINE 93400	2 668 332 017 €
+231	SYNERGIE	Activités des agences de travail temporaire (78.20Z)	PARIS 16 75016	2 642 339 000 €
+232	CAPGEMINI TECHNOLOGY SERVICES	Conseil en systèmes et logiciels informatiques (62.02A)	ISSY-LES-MOULINEAUX 92130	2 627 968 000 €
+233	ALTEN	Conseil en systèmes et logiciels informatiques (62.02A)	BOULOGNE-BILLANCOURT 92100	2 623 990 000 €
+234	SHV GAS SUPPLY & RISK MANAGEMENT	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	COURBEVOIE 92400	2 610 775 600 €
+235	CASTORAMA FRANCE	Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m² et plus) (47.52B)	TEMPLEMARS 59175	2 603 295 673 €
+236	IPSEN	Activités des sièges sociaux (70.10Z)	BOULOGNE-BILLANCOURT 92100	2 591 600 000 €
+237	VERALLIA	Activités des sociétés holding (64.20Z)	COURBEVOIE 92400	2 585 900 000 €
+238	MBDA FRANCE	Fabrication d'armes et de munitions (25.40Z)	LE PLESSIS-ROBINSON 92350	2 576 295 230 €
+239	OREFI ORIENTALE ET FINANCIERE	Conseil pour les affaires et autres conseils de gestion (70.22Z)	SAINT-DENIS 93200	2 574 727 469 €
+240	LBVYR LABORATOIRES DE BIOLOGIE VEGETALE YVES ROCHER	Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé (47.75Z)	LA GACILLY 56200	2 574 481 000 €
+241	ETABLISSEMENTS THEVENIN & DUCROT	Activités des sociétés holding (64.20Z)	PONTARLIER 25300	2 565 462 516 €
+242	BP FRANCE	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	CERGY 95800	2 534 000 000 €
+243	COOPERL ARC ATLANTIQUE	Transformation et conservation de la viande de boucherie (10.11Z)	LAMBALLE-ARMOR 22400	2 511 901 263 €
+244	ITM ALIMENTAIRE SUD OUEST	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	2 511 302 144 €
+245	PEUGEOT CITROEN RENNES SNC	Construction de véhicules automobiles (29.10Z)	CHARTRES-DE-BRETAGNE 35131	2 509 360 392 €
+246	AVIA T.D-DISTRIBUTION THEVENIN-DUCROT-DISTRIBUTION	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	CHEVIGNY-SAINT-SAUVEUR 21800	2 506 150 390 €
+247	ITM ALIMENTAIRE SUD EST	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	2 504 573 375 €
+248	NGE	Travaux de terrassement spécialisés ou de grande masse (43.12B)	SAINT-ETIENNE-DU-GRES 13103	2 497 881 000 €
+249	GROUPE CRIT	Fonds de placement et entités financières similaires (64.30Z)	PARIS 17 75017	2 488 481 000 €
+250	PIERRE FABRE SA	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	2 432 100 000 €
+251	COVEFI SNC APERAM STAINLESS EUROPE	Autres intermédiaires du commerce en combustibles, métaux, minéraux et produits chimiques (46.12B)	SAINT-DENIS 93210	2 425 658 366 €
+252	ORANO DEMANTELEMENT	Enrichissement et retraitement de matières nucléaires (20.13A)	CHATILLON 92320	2 395 209 000 €
+253	ENGIE E.S. ENGIE ENERGIE SERVICES	Production et distribution de vapeur et d'air conditionné (35.30Z)	COURBEVOIE 92400	2 393 669 000 €
+254	SANOFI PASTEUR	Fabrication de préparations pharmaceutiques (21.20Z)	LYON 7EME 69007	2 376 000 000 €
+255	STELIA AEROSPACE	Construction aéronautique et spatiale (30.30Z)	ROCHEFORT 17300	2 346 666 000 €
+256	IDEMIA GROUP	Courtage de valeurs mobilières et de marchandises (66.12Z)	COURBEVOIE 92400	2 339 000 000 €
+257	TFR TOYOTA FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	VAUCRESSON 92420	2 338 069 881 €
+258	TF1 TELEVISION FRANCAISE 1	Édition de chaînes généralistes (60.20A)	BOULOGNE-BILLANCOURT 92100	2 337 300 000 €
+259	ALCATEL-LUCENT INTERNATIONAL	Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication (46.52Z)	NOZAY 91620	2 332 775 000 €
+260	TRIGANO	Activités des sièges sociaux (70.10Z)	PARIS 19 75019	2 328 155 000 €
+261	BRICO DEPOT	Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m² et plus) (47.52B)	LONGPONT-SUR-ORGE 91310	2 323 998 686 €
+262	SAIPOL	Fabrication d'huiles et graisses brutes (10.41A)	PARIS 8 75008	2 305 139 842 €
+263	CARREFOUR STATIONS SERVICE	Commerce de détail de carburants en magasin spécialisé (47.30Z)	MONDEVILLE 14120	2 303 057 900 €
+264	BOUYGUES IMMOBILIER	Promotion immobilière de logements (41.10A)	ISSY-LES-MOULINEAUX 92130	2 301 949 549 €
+265	CDISCOUNT	Vente à distance sur catalogue général (47.91A)	BORDEAUX 33300	2 289 428 446 €
+266	TOTAL OUTRE-MER	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	PUTEAUX 92800	2 287 404 161 €
+267	LES LABORATOIRES SERVIER	Fabrication de préparations pharmaceutiques (21.20Z)	SURESNES 92150	2 283 819 401 €
+268	COCA-COLA EUROPACIFIC PARTNERS FRANCE	Production de boissons rafraîchissantes (11.07B)	ISSY-LES-MOULINEAUX 92130	2 266 672 688 €
+269	SAFRAN LANDING SYSTEMS	Construction aéronautique et spatiale (30.30Z)	VELIZY-VILLACOUBLAY 78140	2 264 206 000 €
+270	NOVARTIS PHARMA SAS	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	RUEIL-MALMAISON 92500	2 212 759 512 €
+271	ITM ALIMENTAIRE REGION PARISIENNE	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	2 207 926 000 €
+272	SICLAE VIVESCIA INDUSTRIES	Activités des sièges sociaux (70.10Z)	REIMS 51100	2 207 403 000 €
+273	DALKIA	Production et distribution de vapeur et d'air conditionné (35.30Z)	SAINT-ANDRE-LEZ-LILLE 59350	2 207 160 000 €
+274	GROUPE DUBREUIL	Activités des sièges sociaux (70.10Z)	BELLEVIGNY 85170	2 203 186 000 €
+275	VSP HOLDING	Fonds de placement et entités financières similaires (64.30Z)	BELLEVIGNY 85170	2 203 184 000 €
+276	UNILEVER FRANCE	Commerce de gros (commerce interentreprises) non spécialisé (46.90Z)	RUEIL-MALMAISON 92500	2 201 159 745 €
+277	SUEZ EAU FRANCE	Captage, traitement et distribution d'eau (36.00Z)	COURBEVOIE 92400	2 199 042 182 €
+278	ATLANTIC SOC FRANCAISE DEVELOP THERMIQUE	Commerce de gros (commerce interentreprises) d'appareils électroménagers (46.43Z)	LA ROCHE-SUR-YON 85000	2 194 097 000 €
+279	CHANEL	Commerce de gros (commerce interentreprises) d'habillement et de chaussures (46.42Z)	NEUILLY-SUR-SEINE 92200	2 191 496 000 €
+280	RHODIA OPERATIONS	Fabrication d'autres produits chimiques organiques de base (20.14Z)	AUBERVILLIERS 93300	2 189 146 357 €
+281	AUCHAN ENERGIES	Centrales d'achat de carburant (46.12A)	VILLENEUVE D'ASCQ 59650	2 186 765 470 €
+282	NISSAN WEST EUROPE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	MONTIGNY-LE-BRETONNEUX 78180	2 182 193 000 €
+283	CONFORAMA FRANCE	Commerce de détail de meubles (47.59A)	LOGNES 77185	2 168 732 000 €
+284	CERP RHIN RHONE MEDI CONFRATERNELLE D'EXPLOITATION ET DE REPARTITION PHARMACEUTIQUE RHIN RHONE MEDITERRANEE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	BELFORT 90000	2 165 543 008 €
+285	MICROSOFT FRANCE	Conseil en systèmes et logiciels informatiques (62.02A)	ISSY-LES-MOULINEAUX 92130	2 164 787 899 €
+286	FRAMATOME	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	COURBEVOIE 92400	2 159 235 000 €
+287	VEOLIA EAU - COMPAGNIE GENERALE DES EAUX	Captage, traitement et distribution d'eau (36.00Z)	PARIS 8 75008	2 142 054 501 €
+288	CERTAS ENERGY FRANCE	Commerce de détail de carburants en magasin spécialisé (47.30Z)	RUEIL-MALMAISON 92500	2 139 849 324 €
+289	CIE IBM FRANCE	Gestion d'installations informatiques (62.03Z)	BOIS-COLOMBES 92270	2 135 900 000 €
+290	FCA FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	TRAPPES 78190	2 133 544 804 €
+291	FMC AUTOMOBILES	Commerce de voitures et de véhicules automobiles légers (45.11Z)	NANTERRE 92000	2 132 349 374 €
+292	GMF VIE	Assurance vie (65.11Z)	ERMONT 95120	2 131 510 000 €
+293	AIRBUS DEFENCE AND SPACE SAS	Construction aéronautique et spatiale (30.30Z)	TOULOUSE 31400	2 120 393 000 €
+294	THALES LAS FRANCE SAS	Fabrication d'équipements d'aide à la navigation (26.51A)	ELANCOURT 78990	2 115 860 000 €
+295	THALES SIX GTS FRANCE SAS	Fabrication d'équipements de communication (26.30Z)	GENNEVILLIERS 92230	2 100 937 000 €
+296	LIONS IMMO	Activités des marchands de biens immobiliers (68.10Z)	LILLE 59000	2 083 425 000 €
+297	MNF NESTLE FRANCE	Transformation du thé et du café (10.83Z)	ISSY-LES-MOULINEAUX 92130	2 083 346 148 €
+298	SOVAB SOCIETE VEHICULES AUTOMOBILES BATILLY	Construction de véhicules automobiles (29.10Z)	BATILLY 54980	2 078 490 250 €
+299	ANTALIS	Activités des sièges sociaux (70.10Z)	BOULOGNE-BILLANCOURT 92100	2 074 100 000 €
+300	PROMAN EXPANSION	Activités des sociétés holding (64.20Z)	MANOSQUE 04100	2 063 501 000 €
+301	SEVELNORD SOCIETE EUROPEENNE DE VEHICULES LEGERS DU NORD - SEVEL NORD	Construction de véhicules automobiles (29.10Z)	LIEU-SAINT-AMAND 59111	2 063 068 828 €
+302	SAGEMCOM GROUP	Activités des sociétés holding (64.20Z)	RUEIL-MALMAISON 92500	2 060 266 000 €
+303	DISTRIDYN	Centrales d'achat de carburant (46.12A)	CHARENTON-LE-PONT 94220	2 040 268 387 €
+304	TOTALENERGIES EP ANGOLA	Activités des sociétés holding (64.20Z)	COURBEVOIE 92400	2 023 128 880 €
+305	ACTION FRANCE	Autres commerces de détail en magasin non spécialisé (47.19B)	PARIS 19 75019	2 020 857 815 €
+306	CRITEO	Conseil en systèmes et logiciels informatiques (62.02A)	PARIS 9 75009	2 020 115 000 €
+307	ARCELORMITTAL MEDITERRANEE	Sidérurgie (24.10Z)	SAINT-DENIS 93210	2 019 028 000 €
+308	AUTOMOTIVE PARTS AND SERVICES GROUP	Activités des sièges sociaux (70.10Z)	AMIENS 80000	2 009 771 000 €
+309	SIIF EDF RENOUVELABLES	Activités des sièges sociaux (70.10Z)	COURBEVOIE 92400	2 007 000 000 €
+310	IPSOS	Activités des sièges sociaux (70.10Z)	PARIS 13 75013	2 003 255 000 €
+311	ADOVA HOLDING	Services administratifs combinés de bureau (82.11Z)	PARIS 5 75005	2 000 774 000 €
+312	M H C S	Fabrication de vins effervescents (11.02A)	EPERNAY 51200	1 999 529 791 €
+313	PURPLE DEVELOPMENT	Conseil pour les affaires et autres conseils de gestion (70.22Z)	PARIS 9 75009	1 999 151 000 €
+314	NOVAFIVES	Courtage de valeurs mobilières et de marchandises (66.12Z)	PARIS 9 75009	1 998 890 000 €
+315	FIVES	Activités des sièges sociaux (70.10Z)	PARIS 9 75009	1 998 890 000 €
+316	FIVES ORSAY	Fonds de placement et entités financières similaires (64.30Z)	PARIS 9 75009	1 998 890 000 €
+317	ITM ALIMENTAIRE OUEST	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	1 992 963 323 €
+318	CA CONSUMER FINANCE	Autres intermédiations monétaires (64.19Z)	MASSY 91300	1 992 590 000 €
+319	HOLDING D'INFRASTRUCTURES DE TRANSPORT	Activités des sociétés holding (64.20Z)	ISSY-LES-MOULINEAUX 92130	1 990 700 000 €
+320	SANEF	Services auxiliaires des transports terrestres (52.21Z)	ISSY-LES-MOULINEAUX 92130	1 990 700 000 €
+321	LOXAM	Location et location-bail de machines et équipements pour la construction (77.32Z)	CAUDAN 56850	1 988 921 000 €
+322	URW SE UNIBAIL-RODAMCO-WESTFIELD SE	Promotion immobilière d'autres bâtiments (41.10C)	PARIS 16 75116	1 985 200 000 €
+323	SPIE BATIGNOLLES	Activités des sièges sociaux (70.10Z)	NEUILLY-SUR-SEINE 92200	1 982 087 000 €
+324	FDJ LA FRANCAISE DES JEUX	Organisation de jeux de hasard et d'argent (92.00Z)	BOULOGNE-BILLANCOURT 92100	1 955 600 000 €
+325	SOCIETE BIC	Commerce de gros (commerce interentreprises) d'autres biens domestiques (46.49Z)	CLICHY 92110	1 949 764 000 €
+326	AVIA PICOTY	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	LA SOUTERRAINE 23300	1 949 099 000 €
+327	EXXONMOBIL CHEMICAL FRANCE	Fabrication de matières plastiques de base (20.16Z)	NANTERRE 92000	1 936 351 342 €
+328	HOLDING REINIER	Activités des sociétés holding (64.20Z)	MARSEILLE 9 13009	1 935 920 000 €
+329	SOCIETE JAS HENNESSY & C°	Production de boissons alcooliques distillées (11.01Z)	COGNAC 16100	1 929 451 892 €
+330	FEDEX EXPRESS FR	Messagerie, fret express (52.29A)	LYON 7EME 69007	1 914 506 413 €
+331	SARTORIUS STEDIM BIOTECH	Administration d'immeubles et autres biens immobiliers (68.32A)	AUBAGNE 13400	1 910 081 000 €
+332	LIMAGRAIN	Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses (01.11Z)	SAINT-BEAUZIRE 63360	1 909 300 000 €
+333	DYNEFF S.A.S.	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	MONTPELLIER 34000	1 906 737 195 €
+334	DLP DISTRIBUTION LEADER PRICE SNC	Centrales d'achat alimentaires (46.17A)	GRETZ-ARMAINVILLIERS 77220	1 900 969 202 €
+335	GEFCO FRANCE	Affrètement et organisation des transports (52.29B)	COLOMBES 92700	1 896 577 460 €
+336	SOUFFLET NEGOCE	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	NOGENT-SUR-SEINE 10400	1 894 098 699 €
+337	GRTGAZ	Transports par conduites (49.50Z)	BOIS-COLOMBES 92270	1 885 898 000 €
+338	BOLLORE ENERGY	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	ERGUE-GABERIC 29500	1 883 078 000 €
+339	CHRISTIAN DIOR COUTURE	Commerce de détail d'habillement en magasin spécialisé (47.71Z)	PARIS 8 75008	1 869 773 000 €
+340	CHANTIERS DE L'ATLANTIQUE	Construction de navires et de structures flottantes (30.11Z)	SAINT-NAZAIRE 44600	1 867 417 152 €
+341	CCR CAISSE CENTRALE DE REASSURANCE	Réassurance (65.20Z)	PARIS 8 75008	1 865 514 000 €
+342	STEDIS	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	SAINT MARTIN D'HERES 38400	1 858 187 389 €
+343	CONNEXIONS INVESTISSEMENT	Activités des sociétés holding (64.20Z)	NEUILLY-SUR-SEINE 92200	1 857 446 000 €
+344	GAS NATURAL EUROPE	Commerce de combustibles gazeux par conduites (35.23Z)	COURBEVOIE 92400	1 857 026 979 €
+345	PARFUMS CHRISTIAN DIOR	Fabrication de parfums et de produits pour la toilette (20.42Z)	PARIS 8 75008	1 850 307 946 €
+346	UBISOFT ENTERTAINMENT	Édition de jeux électroniques (58.21Z)	CARENTOIR 56910	1 845 522 000 €
+347	UDP URBAINE DES PETROLES	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	RUEIL-MALMAISON 92500	1 828 453 228 €
+348	IVECO FRANCE	Commerce d'autres véhicules automobiles (45.19Z)	VENISSIEUX 69200	1 816 626 820 €
+349	TRANSITYRE FRANCE SA	Commerce de gros d'équipements automobiles (45.31Z)	CLERMONT-FERRAND 63000	1 812 154 342 €
+350	UNION INVIVO	Commerce de gros (commerce interentreprises) de produits chimiques (46.75Z)	PARIS 16 75116	1 809 025 000 €
+351	SANOFI-AVENTIS FRANCE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	GENTILLY 94250	1 795 000 000 €
+352	SAFRAN NACELLES	Construction aéronautique et spatiale (30.30Z)	GONFREVILLE L'ORCHER 76700	1 790 863 000 €
+353	ETABLISSEMENTS DARTY ET FILS	Commerce de détail d'appareils électroménagers en magasin spécialisé (47.54Z)	BONDY 93140	1 781 891 998 €
+354	VENTE PRIVEE.COM	Vente à distance sur catalogue général (47.91A)	SAINT-DENIS 93200	1 781 348 943 €
+355	THALES AVS FRANCE SAS	Fabrication d'équipements d'aide à la navigation (26.51A)	MERIGNAC 33700	1 771 000 000 €
+356	BUT INTERNATIONAL	Commerce de détail de meubles (47.59A)	EMERAINVILLE 77184	1 770 894 018 €
+357	EURO DISNEY ASSOCIES SAS	Activités des parcs d'attractions et parcs à thèmes (93.21Z)	CHESSY 77700	1 768 000 000 €
+358	DELL	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	MONTPELLIER 34000	1 767 213 113 €
+359	PO ROTHSCHILD & CO	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	1 766 166 000 €
+360	J.P.J.S. SCA	Activités des sociétés holding (64.20Z)	ROUBAIX 59100	1 761 923 000 €
+361	THALES DMS FRANCE SAS	Fabrication d'équipements d'aide à la navigation (26.51A)	ELANCOURT 78990	1 759 628 000 €
+362	SANOFI-AVENTIS PARTICIPATIONS	Activités des sociétés holding (64.20Z)	PARIS 8 75008	1 743 129 000 €
+363	IMMOBILIERE 3F	Location de logements (68.20A)	PARIS 13 75013	1 742 664 000 €
+364	CID COMPAGNIE INDUSTRIELLE DE DELLE	Activités des sociétés holding (64.20Z)	GRANDVILLARS 90600	1 729 532 000 €
+365	LISI	Activités des sièges sociaux (70.10Z)	GRANDVILLARS 90600	1 729 527 000 €
+366	CARREFOUR SUPPLY CHAIN	Entreposage et stockage non frigorifique (52.10B)	MONDEVILLE 14120	1 715 685 930 €
+367	ASCOM INVEST	Activités des sociétés holding (64.20Z)	MEYLAN 38240	1 710 241 000 €
+368	MONDELEZ FRANCE SAS	Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie (46.36Z)	CLAMART 92140	1 692 870 561 €
+369	SEPHORA	Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé (47.75Z)	NEUILLY-SUR-SEINE 92200	1 690 519 820 €
+370	CARGILL FRANCE	Fabrication d'huiles et graisses brutes (10.41A)	PUTEAUX 92800	1 688 223 699 €
+371	TECHNIP FRANCE	Ingénierie, études techniques (71.12B)	NANTERRE 92000	1 687 000 000 €
+372	LF SAS MONDELEZ FRANCE BISCUITS PRODUCTION SAS	Fabrication de biscuits, biscottes et pâtisseries de conservation (10.72Z)	CLAMART 92140	1 685 103 012 €
+373	GROUPE CANAL+ SA	Télécommunications par satellite (61.30Z)	ISSY-LES-MOULINEAUX 92130	1 665 000 000 €
+374	PHOENIX PHARMA	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	CRETEIL 94000	1 663 643 025 €
+375	ZF BIDCO	Gestion de fonds (66.30Z)	CHAPONNAY 69970	1 657 501 000 €
+376	ZF INVEST	Activités des sièges sociaux (70.10Z)	CHAPONNAY 69970	1 657 370 000 €
+377	DBH4 DEMATHIEU BARD HOLDING 4	Activités des sociétés holding (64.20Z)	MONTIGNY-LES-METZ 57950	1 652 230 882 €
+378	TF1 PUBLICITE	Régie publicitaire de médias (73.12Z)	BOULOGNE-BILLANCOURT 92100	1 643 935 625 €
+379	CHANEL COORDINATION	Commerce de gros (commerce interentreprises) d'habillement et de chaussures (46.42Z)	PARIS 1 75001	1 636 446 082 €
+380	BOLLORE LOGISTICS	Affrètement et organisation des transports (52.29B)	PUTEAUX 92800	1 629 714 271 €
+381	SCA OUEST SOCIETE COOPERATIVE D'APPROVISIONNEMENT DE L'OUEST	Centrales d'achat alimentaires (46.17A)	SAINT-ETIENNE-DE-MONTLUC 44360	1 629 384 032 €
+382	ADEO SERVICES	Intermédiaires du commerce en meubles, articles de ménage et quincaillerie (46.15Z)	RONCHIN 59790	1 625 023 000 €
+383	NEXANS FRANCE	Fabrication d'autres fils et câbles électroniques ou électriques (27.32Z)	COURBEVOIE 92400	1 621 392 772 €
+384	JACQUET METALS	Activités des sièges sociaux (70.10Z)	SAINT-PRIEST 69800	1 614 637 000 €
+385	D.S.C. DISTRIBUTION SANITAIRE CHAUFFAGE	Commerce de gros (commerce interentreprises) de fournitures pour la plomberie et le chauffage (46.74B)	VERNEUIL-EN-HALATTE 60550	1 613 645 380 €
+386	PEUGEOT CITROEN POISSY SNC	Construction de véhicules automobiles (29.10Z)	POISSY 78300	1 613 069 284 €
+387	ACCENTURE	Conseil en systèmes et logiciels informatiques (62.02A)	PARIS 13 75013	1 605 234 829 €
+388	SAEME SA EAUX MINERALES EVIAN	Industrie des eaux de table (11.07A)	EVIAN-LES-BAINS 74500	1 595 973 824 €
+389	ITM ALIMENTAIRE CENTRE OUEST	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	1 595 489 000 €
+390	SOCIETE D'INVESTISSEMENT TOURISTIQUE ET IMMOBILIER - S.I.T.I.	Activités des sociétés holding (64.20Z)	PARIS 19 75019	1 595 011 000 €
+391	PIERRE ET VACANCES	Location de terrains et d'autres biens immobiliers (68.20B)	PARIS 19 75019	1 594 967 000 €
+392	MSD FRANCE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	PUTEAUX 92800	1 585 419 587 €
+393	GE MEDICAL SYSTEMS	Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques (26.60Z)	BUC 78530	1 584 289 273 €
+394	VWT VEOLIA WATER TECHNOLOGIES	Activités des sociétés holding (64.20Z)	SAINT-MAURICE 94410	1 579 168 000 €
+395	SCRAS IPSEN PHARMA	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	BOULOGNE-BILLANCOURT 92100	1 567 000 000 €
+396	SANOFI-AVENTIS RECHERCHE ET DEVELOPPEMENT	Recherche-développement en autres sciences physiques et naturelles (72.19Z)	CHILLY-MAZARIN 91380	1 564 000 000 €
+397	ITM ALIMENTAIRE NORD	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	1 557 463 588 €
+398	CNR COMPAGNIE NATIONALE DU RHONE	Production d'électricité (35.11Z)	LYON 4EME 69004	1 547 940 000 €
+399	SOCIETE D'EDITION DE CANAL PLUS	Édition de chaînes généralistes (60.20A)	ISSY-LES-MOULINEAUX 92130	1 542 000 000 €
+400	ID LOGISTICS GROUP	Conseil pour les affaires et autres conseils de gestion (70.22Z)	ORGON 13660	1 534 239 000 €
+401	THALES ALENIA SPACE FRANCE	Construction aéronautique et spatiale (30.30Z)	TOULOUSE 31100	1 530 776 000 €
+402	MANITOU BF	Fabrication de matériel de levage et de manutention (28.22Z)	ANCENIS-SAINT-GEREON 44150	1 526 988 000 €
+403	SOC DES ATELIERS LOUIS VUITTON	Fabrication d'articles de voyage, de maroquinerie et de sellerie (15.12Z)	PARIS 1 75001	1 525 000 000 €
+404	BOUYGUES BATIMENT ILE DE FRANCE	Construction d'autres bâtiments (41.20B)	GUYANCOURT 78280	1 521 887 597 €
+405	INGRAM MICRO	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	LESQUIN 59810	1 517 728 719 €
+406	DUMONT INVESTISSEMENT	Activités des sièges sociaux (70.10Z)	GRENOBLE 38100	1 512 319 000 €
+407	TOTALENERGIES LUBRIFIANTS	Raffinage du pétrole (19.20Z)	NANTERRE 92000	1 507 632 933 €
+408	PROCTER & GAMBLE FRANCE	Intermédiaires spécialisés dans le commerce d'autres produits spécifiques (46.18Z)	ASNIERES-SUR-SEINE 92600	1 502 125 918 €
+409	PICARD SURGELES	Commerce de détail de produits surgelés (47.11A)	FONTAINEBLEAU 77300	1 502 116 133 €
+410	SAGEMCOM BROADBAND SAS	Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication (46.52Z)	RUEIL-MALMAISON 92500	1 501 940 000 €
+411	SAMSE	Commerce de gros (commerce interentreprises) de bois et de matériaux de construction (46.73A)	GRENOBLE 38100	1 499 117 000 €
+412	AUCHAN CARBURANT	Commerce de détail de carburants en magasin spécialisé (47.30Z)	CROIX 59170	1 498 028 912 €
+413	BERNARD PARTICIPATIONS	Activités des sièges sociaux (70.10Z)	BOURG-EN-BRESSE 01000	1 497 803 000 €
+414	SAUR	Captage, traitement et distribution d'eau (36.00Z)	ISSY-LES-MOULINEAUX 92130	1 497 655 000 €
+415	HOLDING D'INFRASTRUCTURES DES METIERS DE L'ENVIRONNEMENT	Activités des sociétés holding (64.20Z)	ISSY-LES-MOULINEAUX 92130	1 497 412 000 €
+416	JOHN DEERE SAS	Fabrication de moteurs et turbines, à l'exception des moteurs d'avions et de véhicules (28.11Z)	FLEURY-LES-AUBRAIS 45400	1 495 694 000 €
+417	SCC FRANCE	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	NANTERRE 92000	1 493 412 649 €
+418	SNEF	Travaux d'installation électrique dans tous locaux (43.21A)	MARSEILLE 15 13015	1 486 199 000 €
+419	NHINDUSTRIES	Intermédiaires du commerce en machines, équipements industriels, navires et avions (46.14Z)	AIX-EN-PROVENCE 13290	1 485 472 902 €
+420	SYSCO FRANCE SAS	Commerce de gros (commerce interentreprises) de produits surgelés (46.39A)	PARIS 12 75012	1 484 736 334 €
+421	COFACE SA	Activités des sociétés holding (64.20Z)	BOIS-COLOMBES 92270	1 481 088 000 €
+422	COFIROUTE	Services auxiliaires des transports terrestres (52.21Z)	NANTERRE 92000	1 479 000 000 €
+423	CNH INDUSTRIAL FRANCE	Commerce de gros (commerce interentreprises) de matériel agricole (46.61Z)	MORIGNY-CHAMPIGNY 91150	1 475 878 503 €
+424	MOET HENNESSY	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	1 473 313 000 €
+425	KAUFMAN & BROAD SA	Activités des sociétés holding (64.20Z)	NEUILLY-SUR-SEINE 92200	1 472 154 000 €
+426	FAMILLE C	Activités des sièges sociaux (70.10Z)	PARIS 17 75017	1 470 532 000 €
+427	CLARINS	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	NEUILLY-SUR-SEINE 92200	1 470 529 000 €
+428	EURIAL LAIT	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	NANTES 44300	1 460 884 240 €
+429	M6 METROPOLE TELEVISION	Édition de chaînes généralistes (60.20A)	NEUILLY-SUR-SEINE 92200	1 456 100 000 €
+430	SOCAMAINE	Centrales d'achat alimentaires (46.17A)	CHAMPAGNE 72470	1 448 018 154 €
+431	SCAPEST SOCIETE COOPERATIVE D'APPROVISIONNEMENT PARIS-EST	Centrales d'achat alimentaires (46.17A)	SAINT-MARTIN-SUR-LE-PRE 51520	1 447 996 917 €
+432	LECASUD LECLERC APPROVIONNEMENT SUD	Centrales d'achat alimentaires (46.17A)	LE LUC 83340	1 446 084 834 €
+433	TEMSYS	Location de longue durée de voitures et de véhicules automobiles légers (77.11B)	CLICHY 92110	1 441 899 458 €
+434	VILMORIN & CIE	Commerce de détail de fleurs, plantes, graines, engrais, animaux de compagnie et aliments pour ces animaux en magasin spécialisé (47.76Z)	PARIS 1 75001	1 435 200 000 €
+435	SNCF GARES & CONNEXIONS	Services auxiliaires des transports terrestres (52.21Z)	PARIS 13 75013	1 435 000 000 €
+436	FM HOLDING CORPORATE	Activités des sociétés holding (64.20Z)	PHALSBOURG 57370	1 430 399 000 €
+437	WFS ACQUISITION SAS	Activités des sièges sociaux (70.10Z)	PARIS 1 75001	1 426 506 000 €
+438	SCAPALSACE	Centrales d'achat alimentaires (46.17A)	COLMAR 68000	1 423 293 456 €
+439	PEUGEOT CITROEN PIECES DE RECHANGE	Fabrication d'autres équipements automobiles (29.32Z)	VELIZY-VILLACOUBLAY 78140	1 421 137 232 €
+440	EIFFAGE GENIE CIVIL	Construction et entretien de tunnels (42.13B)	VELIZY-VILLACOUBLAY 78140	1 412 950 887 €
+441	NOVARTEX	Fonds de placement et entités financières similaires (64.30Z)	PARIS 19 75019	1 412 303 000 €
+442	INTERSPORT FRANCE	Centrales d'achat non alimentaires (46.19A)	LONGJUMEAU 91160	1 410 044 524 €
+443	HUAWEI TECHNOLOGIES FRANCE	Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication (46.52Z)	BOULOGNE-BILLANCOURT 92100	1 408 122 518 €
+444	MARTIN-BROWER FRANCE SAS	Transports routiers de fret interurbains (49.41A)	LISSES 91090	1 406 313 348 €
+445	SANOFI CHIMIE	Fabrication de produits pharmaceutiques de base (21.10Z)	GENTILLY 94250	1 405 000 000 €
+446	SCHENKER FRANCE	Messagerie, fret express (52.29A)	MONTAIGU-VENDEE 85600	1 400 473 837 €
+447	JACOBS DOUWE EGBERTS FR SAS	Commerce de gros (commerce interentreprises) de café, thé, cacao et épices (46.37Z)	PARIS 10 75010	1 395 088 764 €
+448	INETUM	Conseil en systèmes et logiciels informatiques (62.02A)	SAINT-OUEN-SUR-SEINE 93400	1 394 548 000 €
+449	GPG GROUPE PHILIPPE GINESTET	Activités des sièges sociaux (70.10Z)	VILLENEUVE-SUR-LOT 47300	1 393 396 000 €
+450	SOCARA SOCIETE COOPERATIVE D'APPROVISIONNEMENT RHONE ALPES	Centrales d'achat alimentaires (46.17A)	VILLETTE D'ANTHON 38280	1 392 354 487 €
+451	V. MANE FILS	Fabrication d'huiles essentielles (20.53Z)	LE BAR-SUR-LOUP 06620	1 386 594 000 €
+452	MANE INVESTISSEMENTS	Activités des sociétés holding (64.20Z)	LE BAR-SUR-LOUP 06620	1 386 594 000 €
+453	SAFRAN ELECTRONICS & DEFENSE	Fabrication d'équipements d'aide à la navigation (26.51A)	PARIS 15 75015	1 385 622 000 €
+454	WOREX SNC	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	LE PECQ 78230	1 383 447 639 €
+455	SOUFFLET AGRICULTURE	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	NOGENT-SUR-SEINE 10400	1 382 289 539 €
+456	ALPIQ ENERGIE FRANCE SAS	Commerce d'électricité (35.14Z)	NEUILLY-SUR-SEINE 92200	1 376 314 925 €
+457	HOLDING FCP	Activités des sièges sociaux (70.10Z)	CASTELNAU-LE-LEZ 34170	1 376 158 631 €
+458	EG RETAIL (FRANCE) SAS	Commerce de détail de carburants en magasin spécialisé (47.30Z)	CERGY 95800	1 371 448 785 €
+459	MILLIPORE	Fabrication d'autres machines d'usage général (28.29B)	MOLSHEIM 67120	1 370 467 217 €
+460	SOCIETE COOPERATIVE AGRICOLE UNEAL	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	SAINT-LAURENT-BLANGY 62223	1 366 304 000 €
+461	EURO INFORMATION EURO-INFORMATION EUROPEENNE DE TRAITEMENT DE L'INFORMATION	Gestion d'installations informatiques (62.03Z)	STRASBOURG 67000	1 359 404 812 €
+462	SICA SAS AXEREAL	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	OLIVET 45160	1 357 930 810 €
+463	BENETEAU	Activités des sièges sociaux (70.10Z)	SAINT-GILLES-CROIX-DE-VIE 85800	1 344 476 000 €
+464	FSD FINANCIERE SNOP-DUNOIS	Activités des sièges sociaux (70.10Z)	BRIOUDE 43100	1 341 912 000 €
+465	CRIT	Activités des agences de travail temporaire (78.20Z)	PARIS 17 75017	1 338 941 571 €
+466	BERI 21	Ingénierie, études techniques (71.12B)	PARIS 7 75007	1 336 221 000 €
+467	ZARA FRANCE	Commerce de détail d'habillement en magasin spécialisé (47.71Z)	PARIS 12 75012	1 330 548 881 €
+468	BASF FRANCE SAS	Commerce de gros (commerce interentreprises) de produits chimiques (46.75Z)	LEVALLOIS-PERRET 92300	1 324 244 451 €
+469	FM LOGISTIC CORPORATE	Activités des sièges sociaux (70.10Z)	PHALSBOURG 57370	1 317 605 000 €
+470	BAYER SAS	Fabrication de pesticides et d'autres produits agrochimiques (20.20Z)	LYON 9EME 69009	1 311 193 770 €
+471	PFIZER	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	PARIS 14 75014	1 310 421 167 €
+472	FERRERO FRANCE COMMERCIALE	Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie (46.36Z)	MONT-SAINT-AIGNAN 76130	1 305 578 224 €
+473	D.P.F.F. DANONE PRODUITS FRAIS FRANCE	Fabrication de lait liquide et de produits frais (10.51A)	RUEIL-MALMAISON 92500	1 305 266 237 €
+474	NWMD NESTLE WATERS MARKETING & DISTRIBUTION	Commerce de gros (commerce interentreprises) de boissons (46.34Z)	ISSY-LES-MOULINEAUX 92130	1 293 682 214 €
+475	ANCIENS ETS G.SCHIEVER ET FILS	Activités des sièges sociaux (70.10Z)	AVALLON 89200	1 293 163 875 €
+476	ANTARGAZ	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	COURBEVOIE 92400	1 285 476 200 €
+477	SONAPRO	Commerce de gros (commerce interentreprises) de matériel électrique (46.69A)	BOULOGNE-BILLANCOURT 92100	1 282 834 372 €
+478	SCA CAP SEINE SOCIETE COOPERATIVE AGRICOLE NATUP	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	MONT-SAINT-AIGNAN 76130	1 278 418 000 €
+479	JTEKT EUROPE	Commerce de gros d'équipements automobiles (45.31Z)	IRIGNY 69540	1 276 749 000 €
+480	FRANCAISE DE MECANIQUE	Construction de véhicules automobiles (29.10Z)	DOUVRIN 62138	1 272 435 120 €
+481	NOVARES GROUP	Activités des sièges sociaux (70.10Z)	CLAMART 92140	1 267 300 000 €
+482	SAFRAN HELICOPTER ENGINES	Réparation et maintenance d'aéronefs et d'engins spatiaux (33.16Z)	BORDES 64510	1 265 160 000 €
+483	MAISONS DU MONDE	Conseil pour les affaires et autres conseils de gestion (70.22Z)	VERTOU 44120	1 263 697 000 €
+484	COOPERATIVE D'APPROVISIONNEMENT NORMANDE	Centrales d'achat alimentaires (46.17A)	LISIEUX 14100	1 262 623 000 €
+485	ITM LOGISTIQUE ALIMENTAIRE INTERNATIONAL	Transports routiers de fret de proximité (49.41B)	PARIS 15 75015	1 261 649 873 €
+486	SOMFY SA	Activités des sièges sociaux (70.10Z)	CLUSES 74300	1 257 128 000 €
+487	GAZELENERGIE SOLUTIONS	Commerce d'électricité (35.14Z)	COLOMBES 92700	1 249 630 247 €
+488	BECTON DICKINSON FRANCE	Fabrication de matériel médico-chirurgical et dentaire (32.50A)	LE PONT-DE-CLAIX 38800	1 246 719 937 €
+489	PEPSICO FRANCE	Commerce de gros (commerce interentreprises) de boissons (46.34Z)	COLOMBES 92700	1 244 542 715 €
+490	ORANO CHIMIE-ENRICHISSEMENT	Élaboration et transformation de matières nucléaires (24.46Z)	CHATILLON 92320	1 238 213 000 €
+491	SOC DE PARTICIPATION DEAUVILLAISE	Activités des sociétés holding (64.20Z)	PARIS 16 75016	1 235 888 000 €
+492	BOUYGUES TRAVAUX PUBLICS	Construction d'ouvrages d'art (42.13A)	GUYANCOURT 78280	1 235 257 575 €
+493	SOC COOPERATIVE SOCAMIL	Centrales d'achat alimentaires (46.17A)	TOURNEFEUILLE 31170	1 234 807 300 €
+494	TRANSGOURMET OPERATIONS	Commerce de gros (commerce interentreprises) alimentaire non spécialisé (46.39B)	VALENTON 94460	1 231 313 186 €
+495	FIMAS	Activités des sociétés holding (64.20Z)	PAU 64000	1 224 420 041 €
+496	SNET GAZELENERGIE GENERATION	Commerce d'électricité (35.14Z)	COLOMBES 92700	1 224 391 860 €
+497	LE GRAND REY	Supports juridiques de gestion de patrimoine mobilier (66.19A)	LYON 7EME 69007	1 218 395 000 €
+498	FINANCIERE MENDEL	Activités des sociétés holding (64.20Z)	PARIS 8 75008	1 216 570 000 €
+499	FINANCIERE DARWIN I	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	PARIS 8 75008	1 216 570 000 €
+500	AMUNDI AM AMUNDI ASSET MANAGEMENT	Gestion de fonds (66.30Z)	PARIS 15 75015	1 213 040 000 €
+501	OPEL FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	POISSY 78300	1 201 223 124 €
+502	GRENKE LOCATION	Location et location-bail de machines de bureau et de matériel informatique (77.33Z)	SCHILTIGHEIM 67300	1 198 530 516 €
+503	BRISTOL MYERS SQUIBB	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	RUEIL-MALMAISON 92500	1 196 319 752 €
+504	KPMG ASSOCIES	Activités comptables (69.20Z)	COURBEVOIE 92400	1 190 930 000 €
+505	CONSTELLIUM NEUF BRISACH	Métallurgie de l'aluminium (24.42Z)	BIESHEIM 68600	1 187 333 416 €
+506	YVES SAINT LAURENT	Commerce de gros (commerce interentreprises) d'autres biens domestiques (46.49Z)	PARIS 7 75007	1 186 645 059 €
+507	SIEMENS S.A.S	Fabrication d'équipements de communication (26.30Z)	SAINT-DENIS 93210	1 186 031 431 €
+508	CGI FRANCE	Conseil en systèmes et logiciels informatiques (62.02A)	COURBEVOIE 92400	1 185 927 805 €
+509	SAIPEM SA	Construction d'ouvrages maritimes et fluviaux (42.91Z)	MONTIGNY-LE-BRETONNEUX 78180	1 181 605 324 €
+510	NESTLE PURINA PETCARE FRANCE	Fabrication d'aliments pour animaux de compagnie (10.92Z)	ISSY-LES-MOULINEAUX 92130	1 180 644 993 €
+511	BASELL POLYOLEFINES FRANCE	Fabrication de matières plastiques de base (20.16Z)	BERRE L'ETANG 13130	1 180 167 447 €
+512	ARVAL SERVICE LEASE	Location de longue durée de voitures et de véhicules automobiles légers (77.11B)	PARIS 9 75009	1 178 869 795 €
+513	SOCIETE COOPERATIVE D'APPROVISIONNEMENT DE LA REGION DE L'ARTOIS SCAPARTOIS	Centrales d'achat alimentaires (46.17A)	TILLOY-LES-MOFFLAINES 62217	1 176 240 142 €
+514	JANSSEN CILAG	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	ISSY-LES-MOULINEAUX 92130	1 175 229 849 €
+515	GL EVENTS	Activités des sièges sociaux (70.10Z)	LYON 2EME 69002	1 172 875 000 €
+516	GCF LES GRANDS CHAIS DE FRANCE	Vinification (11.02B)	PETERSBACH 67290	1 172 715 000 €
+517	C.SAS CANDIA	Fabrication de lait liquide et de produits frais (10.51A)	PARIS 14 75014	1 172 142 043 €
+518	KIABI EUROPE	Commerce de détail d'habillement en magasin spécialisé (47.71Z)	HEM 59510	1 162 282 929 €
+519	ITM ALIMENTAIRE EST	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	1 158 434 274 €
+520	SAMLION INVEST	Gestion de fonds (66.30Z)	LAVAL 53000	1 157 033 000 €
+521	HACHETTE LIVRE	Édition de livres (58.11Z)	VANVES 92170	1 156 304 768 €
+522	IFP ENERGIES NOUVELLES	Recherche-développement en autres sciences physiques et naturelles (72.19Z)	RUEIL-MALMAISON 92500	1 152 300 000 €
+523	POMPAC DEVELOPPEMENT	Gestion de fonds (66.30Z)	STRASBOURG 67100	1 151 872 000 €
+524	BAYER HEALTHCARE SAS	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	LOOS 59120	1 150 643 507 €
+525	QUADIENT S.A.	Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright (77.40Z)	BAGNEUX 92220	1 142 700 000 €
+526	CLUB-TRANSPORT STELA SOCIETE PRODUITS PETROLIERS STELA	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	ALBI 81000	1 139 915 233 €
+527	CRISTALCO	Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie (46.36Z)	PARIS 16 75116	1 139 909 049 €
+528	COMPASS GROUP FRANCE	Restauration collective sous contrat (56.29A)	CHATILLON 92320	1 138 658 702 €
+529	GE ENERGY PRODUCTS FRANCE SNC	Fabrication de moteurs et turbines, à l'exception des moteurs d'avions et de véhicules (28.11Z)	BELFORT 90000	1 137 018 290 €
+530	ADISSEO FRANCE S.A.S.	Fabrication d'autres produits chimiques organiques de base (20.14Z)	ANTONY 92160	1 133 857 501 €
+531	ORANO MINING	Commerce de gros (commerce interentreprises) de minerais et métaux (46.72Z)	CHATILLON 92320	1 133 486 000 €
+532	SAP FRANCE	Tierce maintenance de systèmes et d'applications informatiques (62.02B)	LEVALLOIS-PERRET 92300	1 131 277 689 €
+533	KUWAIT PETROLEUM AVIATION FRANCE SAS	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	PARIS 17 75017	1 131 203 450 €
+534	EGIS	Activités des sièges sociaux (70.10Z)	GUYANCOURT 78280	1 129 908 000 €
+535	SFR FIBRE SAS	Télécommunications filaires (61.10Z)	CHAMPS-SUR-MARNE 77420	1 127 272 521 €
+536	REMY COINTREAU	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	COGNAC 16100	1 125 900 000 €
+537	KPMG	Activités comptables (69.20Z)	COURBEVOIE 92400	1 121 580 000 €
+538	DELOITTE	Activités comptables (69.20Z)	PUTEAUX 92800	1 118 062 000 €
+539	SNETOR	Commerce de gros (commerce interentreprises) de fournitures et équipements industriels divers (46.69B)	COURBEVOIE 92400	1 112 735 896 €
+540	RIVA ACIER	Fabrication de tubes, tuyaux, profilés creux et accessoires correspondants en acier (24.20Z)	PORCHEVILLE 78440	1 109 722 110 €
+541	PROMOTHERMIS	Activités des sociétés holding (64.20Z)	PARIS 8 75008	1 106 601 000 €
+542	COUTIER DEVELOPPEMENT	Activités des sièges sociaux (70.10Z)	CHAMPFROMIER 01410	1 101 597 000 €
+543	E.A. SAS ENTREMONT ALLIANCE	Fabrication de fromage (10.51C)	ANNECY 74000	1 095 853 900 €
+544	S C A D I F SOCIETE COOPERATIVE D'APPROVISIONNEMENT DE L'ILE DE FRANCE	Centrales d'achat alimentaires (46.17A)	SAVIGNY-LE-TEMPLE 77176	1 094 652 358 €
+545	GETLINK S.E.	Activités des sièges sociaux (70.10Z)	PARIS 8 75008	1 085 277 000 €
+546	CSKZ INVESTISSEMENTS	Activités des sociétés holding (64.20Z)	SAINT-DENIS 93210	1 082 936 000 €
+547	AXIMA CONCEPT	Travaux d'installation d'équipements thermiques et de climatisation (43.22B)	COURBEVOIE 92400	1 074 900 633 €
+548	SUPERMARCHES MATCH	Supermarchés (47.11D)	LA MADELEINE 59110	1 073 607 180 €
+549	ESSITY FRANCE	Commerce de gros (commerce interentreprises) de parfumerie et de produits de beauté (46.45Z)	SAINT-OUEN-SUR-SEINE 93400	1 066 285 188 €
+550	ROCHE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	BOULOGNE-BILLANCOURT 92100	1 061 370 185 €
+551	MCDONALD'S FRANCE	Location de terrains et d'autres biens immobiliers (68.20B)	GUYANCOURT 78280	1 060 264 057 €
+552	H GCC	Activités des sièges sociaux (70.10Z)	LES MUREAUX 78130	1 055 958 000 €
+553	GAMA	Activités des sièges sociaux (70.10Z)	LEVALLOIS-PERRET 92300	1 055 238 000 €
+554	ESTHER	Activités des sociétés holding (64.20Z)	LEVALLOIS-PERRET 92300	1 055 113 000 €
+555	DIAC LOCATION	Location de longue durée de voitures et de véhicules automobiles légers (77.11B)	NOISY-LE-GRAND 93160	1 054 981 000 €
+556	APERAM STAINLESS FRANCE	Sidérurgie (24.10Z)	SAINT-DENIS 93210	1 050 673 178 €
+557	ROYAL CANIN SAS	Fabrication d'aliments pour animaux de compagnie (10.92Z)	AIMARGUES 30470	1 049 749 619 €
+558	BNP PARIBAS ASSET MANAGEMENT FRANCE	Gestion de fonds (66.30Z)	PARIS 9 75009	1 045 925 589 €
+559	AIR LIQUIDE FRANCE INDUSTRIE	Fabrication de gaz industriels (20.11Z)	PARIS 7 75007	1 045 691 000 €
+560	SCA FRUITS LEGUMES FLEURS	Centrales d'achat alimentaires (46.17A)	PARIS 15 75015	1 044 000 000 €
+561	CLUB MED	Hébergement touristique et autre hébergement de courte durée (55.20Z)	PARIS 19 75019	1 043 000 000 €
+562	SELESFI SAS	Activités des sièges sociaux (70.10Z)	SELESTAT 67600	1 040 461 321 €
+563	FINANCIERE SENIOR CINQUS	Gestion de fonds (66.30Z)	PARIS 8 75008	1 040 288 000 €
+564	AXENS	Fabrication d'autres produits chimiques n.c.a. (20.59Z)	RUEIL-MALMAISON 92500	1 034 353 000 €
+565	CAVAC COOP AGRICOL VENDEE APPROV VENTE CEREALE	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	LA ROCHE-SUR-YON 85000	1 029 204 000 €
+566	LUBRIZOL FRANCE	Fabrication d'autres produits chimiques n.c.a. (20.59Z)	ROUEN 76100	1 025 945 101 €
+567	LACTALIS INGREDIENTS	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	BOURGBARRE 35230	1 021 732 514 €
+568	TOTALENERGIES EP KAZAKHSTAN	Extraction de pétrole brut (06.10Z)	COURBEVOIE 92400	1 019 429 474 €
+569	CREDIT AGRICOLE-GROUP INFRASTRUCTURE PLATFORM	Autres activités informatiques (62.09Z)	PARIS 15 75015	1 017 971 580 €
+570	SOCIETE COOPERATIVE AGRICOLE ARTERRIS	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	CASTELNAUDARY 11400	1 013 447 000 €
+571	LAGARDERE TRAVEL RETAIL FRANCE	Commerce de détail de journaux et papeterie en magasin spécialisé (47.62Z)	LEVALLOIS-PERRET 92300	1 013 149 585 €
+572	BOUYGUES ENERGIES & SERVICES	Travaux d'installation électrique dans tous locaux (43.21A)	GUYANCOURT 78280	1 012 081 207 €
+573	SCANIA FRANCE	Commerce d'autres véhicules automobiles (45.19Z)	ANGERS 49100	1 011 464 589 €
+574	CRISTAL UNION	Fabrication de sucre (10.81Z)	VILLETTE-SUR-AUBE 10700	1 008 413 904 €
+575	EURO DISNEY VACANCES SAS	Activités des voyagistes (79.12Z)	CHESSY 77700	1 006 354 271 €
+576	LF LACTALIS FROMAGES	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	CHANGE 53810	1 004 418 654 €
+577	SPIE INDUSTRIE & TERTIAIRE	Travaux d'installation électrique dans tous locaux (43.21A)	FEYZIN 69320	1 000 042 483 €
+578	ARIANESPACE PARTICIPATION	Activités des sociétés holding (64.20Z)	EVRY-COURCOURONNES 91000	999 683 368 €
+579	MAN TRUCK & BUS FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	EVRY-COURCOURONNES 91080	998 524 602 €
+580	ARIANESPACE	Transports spatiaux (51.22Z)	EVRY-COURCOURONNES 91000	998 513 275 €
+581	SYNGENTA FRANCE SAS	Recherche-développement en biotechnologie (72.11Z)	SAINT-SAUVEUR 31790	996 738 872 €
+582	AMADEUS	Programmation informatique (62.01Z)	BIOT 06410	992 798 000 €
+583	SOCIETE DES MAGASINS LOUIS VUITTON - FRANCE	Commerce de détail de maroquinerie et d'articles de voyage (47.72B)	PARIS 1 75001	992 000 000 €
+584	MAISON JOHANES BOUBEE	Commerce de gros (commerce interentreprises) de boissons (46.34Z)	BORDEAUX 33300	991 793 760 €
+585	MAGELLAN	Activités des sociétés holding (64.20Z)	PARIS 7 75007	989 045 000 €
+586	BUNGE FRANCE	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	SAINT-NAZAIRE 44600	989 033 948 €
+587	ESSILOR INTERNATIONAL	Fabrication de lunettes (32.50B)	CHARENTON-LE-PONT 94220	989 000 000 €
+588	ELECTRO DEPOT FRANCE	Commerce de détail d'appareils électroménagers en magasin spécialisé (47.54Z)	FACHES-THUMESNIL 59155	988 525 430 €
+589	GSF GROUPE SERVICES FRANCE	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	PARIS 9 75009	987 523 000 €
+590	FAURECIA SIEGES D'AUTOMOBILE	Fabrication d'autres équipements automobiles (29.32Z)	NANTERRE 92000	986 803 549 €
+591	SCARMOR SOC CENTRALE APPROVISIONNEMENT ARMORIQUE	Centrales d'achat alimentaires (46.17A)	LANDERNEAU 29800	986 258 435 €
+592	BASSAC	Autres activités des services financiers, hors assurance et caisses de retraite, n.c.a. (64.99Z)	BOULOGNE-BILLANCOURT 92100	986 077 000 €
+593	ORANO RECYCLAGE	Élaboration et transformation de matières nucléaires (24.46Z)	CHATILLON 92320	984 527 000 €
+594	SCOFEL AUCHAN RETAIL AGRO	Commerce de gros (commerce interentreprises) de fruits et légumes (46.31Z)	VILLENEUVE D'ASCQ 59650	981 672 126 €
+595	ORTEC EXPANSION	Activités des sociétés holding (64.20Z)	AIX-EN-PROVENCE 13290	979 953 000 €
+596	SADE - COMPAGNIE GENERALE DE TRAVAUX HYDRAULIQUES	Construction de réseaux pour fluides (42.21Z)	PARIS 14 75014	976 741 300 €
+597	KERMENE	Transformation et conservation de la viande de boucherie (10.11Z)	LE MENE 22330	973 946 534 €
+598	MAISONS DU MONDE FRANCE	Commerce de détail d'autres équipements du foyer (47.59B)	VERTOU 44120	970 960 940 €
+599	FNAC DIRECT	Vente à distance sur catalogue général (47.91A)	IVRY-SUR-SEINE 94200	970 443 598 €
+600	CERP COOPERATIVE D'EXPLOITATION ET DE REPARTITION PHARMACEUTIQUE DE BRETAGNE ATLANTIQUE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	SAINT-BRIEUC 22000	968 255 756 €
+601	OIA ORGANISATION INTRA-GROUPE DES ACHATS	Centrales d'achat non alimentaires (46.19A)	CROIX 59170	968 014 402 €
+602	GIFI MAG	Autres commerces de détail en magasin non spécialisé (47.19B)	VILLENEUVE-SUR-LOT 47300	966 610 777 €
+603	DAHER AEROSPACE	Fabrication de pièces techniques à base de matières plastiques (22.29A)	SAINT-JULIEN-DE-CHEDON 41400	965 019 000 €
+604	RELAIS FNAC	Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé (47.41Z)	IVRY-SUR-SEINE 94200	959 145 237 €
+605	BK + K KRONENBOURG	Commerce de gros (commerce interentreprises) de boissons (46.34Z)	OBERNAI 67210	957 788 688 €
+606	GMD GROUPE MECANIQUE DECOUPAGE	Activités des sièges sociaux (70.10Z)	SURESNES 92150	957 136 000 €
+607	BPI BEAUTE PRESTIGE INTERNATIONAL	Commerce de gros (commerce interentreprises) de parfumerie et de produits de beauté (46.45Z)	PARIS 8 75008	955 890 285 €
+608	AGCO DISTRIBUTION S.A.S.	Commerce de gros (commerce interentreprises) de matériel agricole (46.61Z)	BEAUVAIS 60000	955 318 337 €
+609	PIERRE FABRE MEDICAMENT	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	BOULOGNE-BILLANCOURT 92100	955 021 184 €
+610	LECUREUR	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	PARIS 1 75001	954 840 164 €
+611	MERSEN	Activités des sociétés holding (64.20Z)	PUTEAUX 92800	950 200 000 €
+612	PIERRE FABRE DERMO-COSMETIQUE	Fabrication de parfums et de produits pour la toilette (20.42Z)	BOULOGNE-BILLANCOURT 92100	949 364 175 €
+613	FINANCIERE MINH-CAM	Fonds de placement et entités financières similaires (64.30Z)	PARIS 15 75015	948 436 000 €
+614	BOUYGUES BATIMENT INTERNATIONAL	Construction d'autres bâtiments (41.20B)	GUYANCOURT 78280	944 147 790 €
+615	T-PNE TOTALENERGIES PROXI NORD EST	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	MAXEVILLE 54320	943 704 316 €
+616	ORACLE FRANCE	Édition de logiciels applicatifs (58.29C)	COLOMBES 92700	941 379 286 €
+617	ALTICE FRANCE	Activités des sociétés holding (64.20Z)	PARIS 15 75015	939 497 000 €
+618	SOCIETE COOPERATIVE AGRICOLE AXEREAL	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	OLIVET 45160	937 391 644 €
+619	AKWEL SA	Fabrication d'autres équipements automobiles (29.32Z)	CHAMPFROMIER 01410	937 178 000 €
+620	ARCELORMITTAL CENTRES DE SERVICES	Commerce de gros (commerce interentreprises) de minerais et métaux (46.72Z)	REIMS 51100	936 653 869 €
+621	VINCI CONSTRUCTION GRANDS PROJETS	Construction d'autres ouvrages de génie civil n.c.a. (42.99Z)	RUEIL-MALMAISON 92500	935 094 000 €
+622	CHAUSSON MATERIAUX	Commerce de gros (commerce interentreprises) de bois et de matériaux de construction (46.73A)	SAINT-ALBAN 31140	934 608 000 €
+623	VIRBAC	Fabrication de préparations pharmaceutiques (21.20Z)	CARROS 06510	934 198 000 €
+624	BIOCOOP	Centrales d'achat alimentaires (46.17A)	PARIS 16 75116	933 108 050 €
+625	MERCEDES-BENZ TRUCKS FRANCE S.A.S.U	Commerce d'autres véhicules automobiles (45.19Z)	MONTIGNY-LE-BRETONNEUX 78180	932 610 563 €
+626	COLAS IDFN COLAS ILE DE FRANCE NORMANDIE	Construction de routes et autoroutes (42.11Z)	MAGNY-LES-HAMEAUX 78114	927 948 844 €
+627	BALENCIAGA S A	Commerce de détail d'habillement en magasin spécialisé (47.71Z)	PARIS 7 75007	927 277 371 €
+628	VIATRIS SANTE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	SAINT-PRIEST 69800	925 922 510 €
+629	COLAS NORD-EST	Construction de routes et autoroutes (42.11Z)	NANCY 54000	924 908 354 €
+630	KEM ONE	Fabrication de matières plastiques de base (20.16Z)	LYON 8EME 69008	924 853 766 €
+631	VEOLIA CENTRAL & EASTERN EUROPE	Fonds de placement et entités financières similaires (64.30Z)	PARIS 8 75008	923 100 000 €
+632	LYONDELL CHIMIE FRANCE	Fabrication d'autres produits chimiques organiques de base (20.14Z)	FOS-SUR-MER 13270	922 439 345 €
+633	CPO COMPAGNIE PETROLIERE DE L'OUEST	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	NANTES 44100	922 271 965 €
+634	TUI FRANCE	Activités des voyagistes (79.12Z)	LEVALLOIS-PERRET 92300	917 150 480 €
+635	CONTINENTAL FRANCE	Fabrication et rechapage de pneumatiques (22.11Z)	SARREGUEMINES 57200	912 251 616 €
+636	NTN-SNR ROULEMENTS	Fabrication d'engrenages et d'organes mécaniques de transmission (28.15Z)	ANNECY 74000	911 459 364 €
+637	SNETOR CHIMIE	Commerce de gros (commerce interentreprises) d'autres produits intermédiaires (46.76Z)	COURBEVOIE 92400	910 332 397 €
+638	ETAM DEVELOPPEMENT	Activités des sociétés holding (64.20Z)	PARIS 4 75004	910 151 000 €
+639	O.S.F. ORANGINA SCHWEPPES FRANCE	Production de boissons rafraîchissantes (11.07B)	NEUILLY-SUR-SEINE 92200	908 152 511 €
+640	GDE GUY DAUPHIN ENVIRONNEMENT	Récupération de déchets triés (38.32Z)	CASTINE-EN-PLAINE 14540	907 248 868 €
+641	AXXES	Services auxiliaires des transports terrestres (52.21Z)	LYON 3EME 69003	905 254 442 €
+642	CREDIT AGRICOLE TECHNOLOGIES ET SERVICES	Tierce maintenance de systèmes et d'applications informatiques (62.02B)	PARIS 12 75012	902 655 661 €
+643	BULL SAS	Conseil en systèmes et logiciels informatiques (62.02A)	LES CLAYES-SOUS-BOIS 78340	902 094 260 €
+644	ELIVIA	Transformation et conservation de la viande de boucherie (10.11Z)	ANCENIS-SAINT-GEREON 44150	901 165 250 €
+645	CIRCET	Télécommunications filaires (61.10Z)	SOLLIES-PONT 83210	894 676 663 €
+646	SA DE LA RAFFINERIE DES ANTILLES	Raffinage du pétrole (19.20Z)	LE LAMENTIN 97232	894 143 000 €
+647	VIEL ET COMPAGNIE	Activités des sociétés holding (64.20Z)	PARIS 1 75001	888 122 000 €
+648	VIEL ET COMPAGNIE-FINANCE	Activités des sociétés holding (64.20Z)	PARIS 1 75001	888 122 000 €
+649	PROSOL	Commerce de gros (commerce interentreprises) de fruits et légumes (46.31Z)	CHAPONNAY 69970	886 016 021 €
+650	BIOGARAN	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	COLOMBES 92700	884 027 490 €
+651	VOLVO CAR FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	NANTERRE 92000	883 133 195 €
+652	AUTOMOBILES DEFENSE	Location de terrains et d'autres biens immobiliers (68.20B)	PUTEAUX 92800	882 309 000 €
+653	MFC PROU-INVESTISSEMENT	Activités des sociétés holding (64.20Z)	ALENCON 61000	881 793 000 €
+654	FENWICK-LINDE	Commerce de gros (commerce interentreprises) de fournitures et équipements industriels divers (46.69B)	ELANCOURT 78990	878 417 923 €
+655	AUTODISTRIBUTION	Commerce de gros d'équipements automobiles (45.31Z)	ARCUEIL 94110	875 291 411 €
+656	SIDEL BLOWING & SERVICES	Fabrication de machines pour le travail du caoutchouc ou des plastiques (28.96Z)	OCTEVILLE-SUR-MER 76930	873 901 832 €
+657	IDEMIA FRANCE	Fabrication de cartes électroniques assemblées (26.12Z)	COURBEVOIE 92400	869 825 000 €
+658	LAMIRAULT SCHUMACHER DISTRIBUTION	Activités des sociétés holding (64.20Z)	NOGENT-LE-PHAYE 28630	869 374 000 €
+659	VARO ENERGY FRANCE SAS	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	BRUGES 33520	869 056 324 €
+660	SOCO 1	Conseil pour les affaires et autres conseils de gestion (70.22Z)	GUYANCOURT 78280	868 784 000 €
+661	LENOVO FRANCE SAS	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	RUEIL-MALMAISON 92500	868 475 438 €
+662	FINANCIERE COLISEE	Activités des sociétés holding (64.20Z)	PARIS 8 75008	866 095 000 €
+663	FINANCIERE AFG	Activités des sièges sociaux (70.10Z)	NEUILLY-PLAISANCE 93360	865 677 000 €
+664	LEGRAND FRANCE	Fabrication de matériel d'installation électrique (27.33Z)	LIMOGES 87000	862 000 000 €
+665	CHANEL PARFUMS BEAUTE	Fabrication de parfums et de produits pour la toilette (20.42Z)	NEUILLY-SUR-SEINE 92200	860 103 351 €
+666	ESOMET	Intermédiaires du commerce en matières premières agricoles, animaux vivants, matières premières textiles et produits semi-finis (46.11Z)	PARIS 1 75001	859 662 045 €
+667	LA HALLE	Commerce de détail d'habillement en magasin spécialisé (47.71Z)	PARIS 19 75019	859 316 321 €
+668	ECOTONE HOLDCO I	Activités des sociétés holding (64.20Z)	SAINT-GENIS-LAVAL 69230	859 300 000 €
+669	AGCO S.A.S.	Fabrication de machines agricoles et forestières (28.30Z)	BEAUVAIS 60000	856 995 666 €
+670	SOCIETE DE DISTRIBUTION AEROPORTUAIRE	Autres commerces de détail en magasin non spécialisé (47.19B)	COURBEVOIE 92400	856 446 960 €
+671	KIA FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	RUEIL-MALMAISON 92500	854 797 992 €
+672	CDA COMPAGNIE DES ALPES	Activités des sièges sociaux (70.10Z)	PARIS 9 75009	854 011 000 €
+673	VALEO EQUIPEMENTS ELECTRIQUES MOTEUR	Fabrication d'équipements électriques et électroniques automobiles (29.31Z)	CRETEIL 94000	853 933 515 €
+674	SEB SA	Activités des sociétés holding (64.20Z)	ECULLY 69130	853 324 600 €
+675	GROUPE SEB FRANCE	Commerce de gros (commerce interentreprises) d'autres biens domestiques (46.49Z)	ECULLY 69130	853 324 554 €
+676	CARREFOUR IMPORT	Commerce de gros (commerce interentreprises) d'autres biens domestiques (46.49Z)	MASSY 91300	851 775 602 €
+677	ARROW ECS	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	COURBEVOIE 92400	849 449 052 €
+678	SCASO SOC CENTRALE APPROVISION SUD OUEST	Centrales d'achat alimentaires (46.17A)	CESTAS 33610	844 175 660 €
+679	RAZEL-BEC	Construction d'autres ouvrages de génie civil n.c.a. (42.99Z)	SACLAY 91400	843 875 000 €
+680	GROUPE SEB EXPORT	Commerce de gros (commerce interentreprises) d'appareils électroménagers (46.43Z)	ECULLY 69130	843 279 146 €
+681	ARC HOLDINGS	Activités des sièges sociaux (70.10Z)	ARQUES 62510	841 048 000 €
+682	EDF PEI EDF PRODUCTION ELECTRIQUE INSULAIRE SAS	Production d'électricité (35.11Z)	PUTEAUX 92800	839 000 000 €
+683	O.S.H. ORANGINA SCHWEPPES HOLDING FRANCE	Activités des sociétés holding (64.20Z)	NEUILLY-SUR-SEINE 92200	838 429 052 €
+684	JAGUAR LAND ROVER FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	COLOMBES 92700	837 896 773 €
+685	SPBI	Construction de bateaux de plaisance (30.12Z)	DOMPIERRE-SUR-YON 85170	837 500 000 €
+686	LILLY FRANCE	Fabrication de préparations pharmaceutiques (21.20Z)	NEUILLY-SUR-SEINE 92200	837 314 025 €
+687	BUTAGAZ	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	LEVALLOIS-PERRET 92300	834 037 000 €
+688	SOGEA SATOM	Construction de routes et autoroutes (42.11Z)	RUEIL-MALMAISON 92500	833 806 000 €
+689	LES CINEMAS PATHE GAUMONT	Location de terrains et d'autres biens immobiliers (68.20B)	PARIS 8 75008	830 515 000 €
+690	UBIPHARM	Activités des sociétés holding (64.20Z)	LE GRAND-QUEVILLY 76120	829 291 000 €
+691	CITEO	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	PARIS 9 75009	828 028 103 €
+692	TECHNICOLOR DELIVERY TECHNOLOGIES	Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication (46.52Z)	PARIS 4 75004	826 920 556 €
+693	EGLG ENTREPRISE GENERALE LEON GROSSE	Construction d'autres bâtiments (41.20B)	AIX-LES-BAINS 73100	826 168 000 €
+694	UPS UNITED PARCEL SERVICE FRANCE SAS	Messagerie, fret express (52.29A)	PARIS 12 75012	825 887 290 €
+695	SCA LANDES CENTRALE D'APPROVISIONNEMENT DES LANDES	Centrales d'achat alimentaires (46.17A)	MONT-DE-MARSAN 40000	825 509 168 €
+696	ORANGE BUSINESS SERVICES	Conseil en systèmes et logiciels informatiques (62.02A)	SAINT-DENIS 93210	825 002 000 €
+697	ALSTOM CRESPIN SAS	Construction de locomotives et d'autre matériel ferroviaire roulant (30.20Z)	CRESPIN 59154	822 862 001 €
+698	KUEHNE+NAGEL	Entreposage et stockage non frigorifique (52.10B)	FERRIERES-EN-BRIE 77164	822 550 774 €
+699	K1 GROUP SAS	Activités des sociétés holding (64.20Z)	PARIS 8 75008	820 308 000 €
+700	SMURFIT KAPPA FRANCE	Fabrication de carton ondulé (17.21A)	SAINT-MANDE 94160	819 970 137 €
+701	S.N.F. SA	Fabrication de matières plastiques de base (20.16Z)	ANDREZIEUX-BOUTHEON 42160	817 846 394 €
+702	SOLVAY ENERGY SERVICES	Commerce de combustibles gazeux par conduites (35.23Z)	AUBERVILLIERS 93300	816 402 556 €
+703	EVOBUS FRANCE SASU	Construction de véhicules automobiles (29.10Z)	SARCELLES 95200	815 579 582 €
+704	ES ENERGIES STRASBOURG	Commerce d'électricité (35.14Z)	STRASBOURG 67000	814 785 275 €
+705	ADVITAM PARTICIPATIONS	Activités des sociétés holding (64.20Z)	SAINT-LAURENT-BLANGY 62223	813 360 000 €
+706	SCAPNOR SOC COOP APPROVISIONNEMENT PARIS NORD	Centrales d'achat alimentaires (46.17A)	BRUYERES-SUR-OISE 95820	812 317 582 €
+707	APPLE RETAIL FRANCE EURL	Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé (47.41Z)	PARIS 9 75009	811 892 174 €
+708	TOTALENERGIES EP THAILAND	Extraction de pétrole brut (06.10Z)	COURBEVOIE 92400	811 337 974 €
+709	STMICROELECTRONICS SA	Fabrication de composants électroniques (26.11Z)	MONTROUGE 92120	811 133 156 €
+710	ERAMET COMILOG MANGANESE	Autres intermédiaires du commerce en combustibles, métaux, minéraux et produits chimiques (46.12B)	PARIS 15 75015	809 638 292 €
+711	SPMSD MSD VACCINS	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	LYON 7EME 69007	808 192 323 €
+712	NOCIBE FRANCE DISTRIBUTION	Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé (47.75Z)	VILLENEUVE D'ASCQ 59650	807 839 677 €
+713	FLOREAL	Commerce de détail de carburants en magasin spécialisé (47.30Z)	SAINT-ETIENNE 42000	807 572 000 €
+714	SAS EM SAS EQUIPEMENT DE LA MAISON	Centrales d'achat non alimentaires (46.19A)	PARIS 15 75015	802 070 511 €
+715	TDF T D F	Télécommunications sans fil (61.20Z)	MONTROUGE 92120	796 618 000 €
+716	UBISOFT EMEA	Édition et distribution vidéo (59.13B)	SAINT-MANDE 94160	795 482 956 €
+717	INFINEUM FRANCE	Fabrication d'autres produits chimiques n.c.a. (20.59Z)	BERRE L'ETANG 13130	791 934 214 €
+718	HENKEL FRANCE	Commerce de gros (commerce interentreprises) de vaisselle, verrerie et produits d'entretien (46.44Z)	BOULOGNE-BILLANCOURT 92100	791 761 330 €
+719	HYUNDAI MOTOR FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	LA GARENNE-COLOMBES 92250	790 586 103 €
+720	AXA INVESTMENT MANAGERS PARIS	Gestion de fonds (66.30Z)	PUTEAUX 92800	789 815 164 €
+721	NESTLE PURINA PETCARE COMMERCIAL OPERATIONS FRANCE OU NPPCOF	Autres commerces de détail alimentaires en magasin spécialisé (47.29Z)	ISSY-LES-MOULINEAUX 92130	789 328 069 €
+722	SOCIETE VALMY DEFENSE 17 - SDV 17	Commerce de combustibles gazeux par conduites (35.23Z)	SAINT-ANDRE-LEZ-LILLE 59350	789 030 477 €
+723	ELRES	Autres services de restauration n.c.a. (56.29B)	COURBEVOIE 92400	788 869 684 €
+724	TRANSAVIA FRANCE	Transports aériens de passagers (51.10Z)	ORLY 94310	788 764 122 €
+725	PERNOD RICARD FRANCE	Production de boissons alcooliques distillées (11.01Z)	MARSEILLE 2 13002	788 419 435 €
+726	SEDIFRAIS	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	GONESSE 95500	787 984 134 €
+727	CHARVET LA MURE BIANCO	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	LYON 2EME 69002	787 274 125 €
+728	SKF FRANCE	Fabrication d'engrenages et d'organes mécaniques de transmission (28.15Z)	MONTIGNY-LE-BRETONNEUX 78180	785 554 703 €
+729	KUBOTA EUROPE	Commerce de gros (commerce interentreprises) de machines pour l'extraction, la construction et le génie civil (46.63Z)	ARGENTEUIL 95100	785 117 000 €
+730	ESCOTA AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP	Services auxiliaires des transports terrestres (52.21Z)	MANDELIEU-LA-NAPOULE 06210	785 000 000 €
+731	PLANET PAYMENT FRANCE SAS	Autres intermédiaires du commerce en produits divers (46.19B)	PUTEAUX 92800	784 193 163 €
+732	MARS PF FRANCE	Fabrication d'aliments pour animaux de compagnie (10.92Z)	SAINT DENIS DE L'HOTEL 45550	783 434 968 €
+733	BM BERGERAT MONNOYEUR	Commerce de gros (commerce interentreprises) de machines pour l'extraction, la construction et le génie civil (46.63Z)	SAINT-DENIS 93200	782 596 848 €
+734	OCEALIA	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	COGNAC 16100	780 551 650 €
+735	MANUTAN INTERNATIONAL	Activités des sièges sociaux (70.10Z)	GONESSE 95500	779 705 000 €
+736	GROUPE BUTAGAZ	Activités des sociétés holding (64.20Z)	LEVALLOIS-PERRET 92300	778 813 000 €
+737	MARS WRIGLEY CONFECTIONERY FRANCE	Fabrication de cacao, chocolat et de produits de confiserie (10.82Z)	HAGUENAU 67500	778 780 074 €
+738	EXEL	Activités des sociétés holding (64.20Z)	EPERNAY 51200	778 440 000 €
+739	DFP DISTRIBUTION FRANPRIX	Centrales d'achat alimentaires (46.17A)	CHENNEVIERES-SUR-MARNE 94430	777 745 869 €
+740	EXEL INDUSTRIES	Activités des sièges sociaux (70.10Z)	EPERNAY 51200	776 687 000 €
+741	ALTAVIA	Activités des agences de publicité (73.11Z)	PARIS 8 75008	776 467 000 €
+742	MEDTRONIC FRANCE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	PARIS 14 75014	775 026 046 €
+743	LAFARGEHOLCIM BETONS	Fabrication de béton prêt à l'emploi (23.63Z)	CLAMART 92140	772 499 840 €
+744	CLINEA	Activités hospitalières (86.10Z)	PUTEAUX 92800	769 560 313 €
+745	ELECTRICITE DE STRASBOURG	Activités des sièges sociaux (70.10Z)	STRASBOURG 67000	766 737 000 €
+746	MARTIN BELAYSOUD EXPANSION	Activités des sièges sociaux (70.10Z)	BOURG-EN-BRESSE 01000	766 087 000 €
+747	FII FAURECIA INTERIEUR INDUSTRIE	Fabrication d'autres équipements automobiles (29.32Z)	NANTERRE 92000	765 775 782 €
+748	AMAZON FRANCE LOGISTIQUE SAS	Entreposage et stockage non frigorifique (52.10B)	CLICHY 92110	764 481 859 €
+749	STAUBLI FAVERGES	Fabrication d'autres machines spécialisées (28.99B)	FAVERGES-SEYTHENEX 74210	764 374 000 €
+750	ADIDAS FRANCE	Commerce de gros (commerce interentreprises) d'habillement et de chaussures (46.42Z)	STRASBOURG 67000	762 958 045 €
+751	KUEHNE + NAGEL ROAD	Transports routiers de fret interurbains (49.41A)	VILLEFRANCHE-SUR-SAONE 69400	762 480 315 €
+752	DEVOTEAM	Traitement de données, hébergement et activités connexes (63.11Z)	LEVALLOIS-PERRET 92300	761 870 000 €
+753	FLASH HOLDING	Activités des sièges sociaux (70.10Z)	ISSY-LES-MOULINEAUX 92130	760 767 000 €
+754	JCDECAUX FRANCE	Régie publicitaire de médias (73.12Z)	NEUILLY-SUR-SEINE 92200	759 525 898 €
+755	SPIE CITYNETWORKS	Construction de réseaux électriques et de télécommunications (42.22Z)	SAINT-DENIS 93200	759 476 937 €
+756	NEXTER SYSTEMS	Construction de véhicules militaires de combat (30.40Z)	VERSAILLES 78000	758 837 000 €
+757	HOLDING FRANCOIS MARY	Activités des sièges sociaux (70.10Z)	GLOS 14100	757 767 355 €
+758	FINANCIERE FLASH	Courtage de valeurs mobilières et de marchandises (66.12Z)	ISSY-LES-MOULINEAUX 92130	756 342 000 €
+759	CLAAS TRACTOR SAS	Fabrication de machines agricoles et forestières (28.30Z)	VELIZY-VILLACOUBLAY 78140	755 293 000 €
+760	GROUPE LEGENDRE	Activités des sociétés holding (64.20Z)	SAINT-JACQUES-DE-LA-LANDE 35136	754 578 119 €
+761	SOCIETE VALMY DEFENSE 38 EN ABREGE SVD 38	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	SAINT-ANDRE-LEZ-LILLE 59350	751 999 828 €
+762	FINALTRA FINANCIERE ALSACIENNE DE TRANSPORT	Services administratifs combinés de bureau (82.11Z)	NOISY-LE-SEC 93130	751 346 584 €
+763	SAFRANS	Fonds de placement et entités financières similaires (64.30Z)	STRASBOURG 67100	751 345 000 €
+764	STMICROELECTRONICS ROUSSET SAS	Fabrication de composants électroniques (26.11Z)	ROUSSET 13790	749 664 373 €
+765	PEUGEOT CITROEN MECANIQUE DU NORD OUEST SNC	Fabrication d'autres équipements automobiles (29.32Z)	CORMELLES-LE-ROYAL 14123	749 009 900 €
+766	ALSO FRANCE	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	GENNEVILLIERS 92230	748 509 537 €
+767	SVA SOCIETE VITREENNE D'ABATTAGE	Transformation et conservation de la viande de boucherie (10.11Z)	VITRE 35500	748 316 133 €
+768	FACEBOOK FRANCE	Régie publicitaire de médias (73.12Z)	PARIS 2 75002	746 660 472 €
+769	THALES DIS FRANCE SA	Fabrication de composants électroniques (26.11Z)	MEUDON 92190	744 988 000 €
+770	GCA INVESTISSEMENTS	Activités des sociétés holding (64.20Z)	CHOLET 49300	744 271 265 €
+771	CONTINENTAL AUTOMOTIVE FRANCE	Fabrication d'instrumentation scientifique et technique (26.51B)	TOULOUSE 31100	743 807 671 €
+772	TOTALENERGIES GLNG AUSTRALIA	Activités de soutien à l'extraction d'hydrocarbures (09.10Z)	COURBEVOIE 92400	743 268 988 €
+773	CARREFOUR PROXIMITE FRANCE	Supermarchés (47.11D)	MONDEVILLE 14120	740 157 704 €
+774	KUHN SAS	Fabrication de machines agricoles et forestières (28.30Z)	SAVERNE 67700	739 312 337 €
+775	RCBT RESEAU CLUBS BOUYGUES TELECOM	Autres activités de télécommunication (61.90Z)	MEUDON 92360	736 705 000 €
+776	ATOS FRANCE	Conseil en systèmes et logiciels informatiques (62.02A)	BEZONS 95870	735 583 143 €
+777	INVIVO TRADING	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	PARIS 16 75116	734 512 894 €
+778	MYRTIL	Activités des sièges sociaux (70.10Z)	PUTEAUX 92800	732 466 000 €
+779	LABORATOIRE GLAXOSMITHKLINE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	RUEIL-MALMAISON 92500	732 259 120 €
+780	NORIAP	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	BOVES 80440	732 215 051 €
+781	BELL BONDUELLE EUROPE LONG LIFE	Autre transformation et conservation de légumes (10.39A)	RENESCURE 59173	728 047 534 €
+782	PAROT AUTOMOTIVE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	MORANGIS 91420	723 506 000 €
+783	ESSO RAFFINAGE	Raffinage du pétrole (19.20Z)	NANTERRE 92000	722 931 214 €
+784	SODEXO ENTREPRISES	Restauration collective sous contrat (56.29A)	GUYANCOURT 78280	722 325 972 €
+785	TOFANE GLOBAL	Activités des sociétés holding (64.20Z)	PARIS 16 75116	720 234 000 €
+786	J.P.J.D. SCA	Activités des sociétés holding (64.20Z)	ROUBAIX 59100	720 003 000 €
+787	FRANFINANCE LOCATION	Location et location-bail de machines de bureau et de matériel informatique (77.33Z)	NANTERRE 92000	719 278 000 €
+788	EURO BENGALE ORGANISATION	Commerce de gros (commerce interentreprises) d'autres biens domestiques (46.49Z)	SAUVILLE 08390	718 853 506 €
+789	HOLDING MIDI AUTO	Activités des sociétés holding (64.20Z)	BRIVE-LA-GAILLARDE 19100	718 157 083 €
+790	SGE VERALLIA FRANCE	Fabrication de verre creux (23.13Z)	COURBEVOIE 92400	716 665 906 €
+791	INVIVO RETAIL PRODUCTION MARCHANDISES	Centrales d'achat non alimentaires (46.19A)	PARIS 16 75116	715 172 920 €
+792	COLAS FRANCE	Construction de routes et autoroutes (42.11Z)	PARIS 15 75015	715 019 712 €
+793	GUERBET	Fabrication de préparations pharmaceutiques (21.20Z)	VILLEPINTE 93420	712 295 000 €
+794	AB INBEV FRANCE	Commerce de gros (commerce interentreprises) de boissons (46.34Z)	LA MADELEINE 59110	709 582 398 €
+795	ONET SERVICES	Nettoyage courant des bâtiments (81.21Z)	MARSEILLE 9 13009	709 525 276 €
+796	INFRA FOCH TOPCO	Activités des sociétés holding (64.20Z)	PUTEAUX 92800	709 400 000 €
+797	INDIGO GROUP	Activités des sociétés holding (64.20Z)	PUTEAUX 92800	709 400 000 €
+798	ALVEA	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	MONTPOUILLAN 47200	705 295 671 €
+799	GROUPE SECHE	Activités des sièges sociaux (70.10Z)	CHANGE 53810	705 109 466 €
+800	CPH ARCADE - VYV	Location de logements (68.20A)	VINCENNES 94300	704 954 000 €
+801	TOTALENERGIES MARKETING SERVICES	Activités des sièges sociaux (70.10Z)	PUTEAUX 92800	704 792 000 €
+802	EXACOMPTA CLAIREFONTAINE	Activités des sièges sociaux (70.10Z)	ETIVAL-CLAIREFONTAINE 88480	703 436 000 €
+803	PASQUIER	Activités des sièges sociaux (70.10Z)	LES CERQUEUX 49360	703 390 000 €
+804	LHD LAFARGEHOLCIM DISTRIBUTION	Commerce de gros (commerce interentreprises) de bois et de matériaux de construction (46.73A)	CLAMART 92140	702 951 707 €
+805	HERTA	Préparation industrielle de produits à base de viande (10.13A)	NOISY-LE-GRAND 93160	702 220 717 €
+806	MARTELL & CO	Production de boissons alcooliques distillées (11.01Z)	COGNAC 16100	701 603 271 €
+807	O-I FRANCE SAS	Fabrication de verre creux (23.13Z)	VAULX-EN-VELIN 69120	701 059 597 €
+808	IMA INTER MUTUELLES ASSISTANCE SA	Activités des sociétés holding (64.20Z)	NIORT 79000	700 597 956 €
+809	ONF OFFICE NATIONAL DES FORETS	Services de soutien à l'exploitation forestière (02.40Z)	PARIS 12 75012	700 297 000 €
+810	ONET SERVICES INDUSTRIE	Nettoyage courant des bâtiments (81.21Z)	MARSEILLE 9 13009	699 076 668 €
+811	U-LOGISTIQUE	Entreposage et stockage frigorifique (52.10A)	CARQUEFOU 44470	698 110 000 €
+812	MAJ	Location et location-bail d'autres biens personnels et domestiques (77.29Z)	PANTIN 93500	697 749 655 €
+813	INTERFORUM	Commerce de gros (commerce interentreprises) d'autres biens domestiques (46.49Z)	PARIS 13 75013	697 345 400 €
+814	DUTY FREE ASSOCIATES	Centrales d'achat non alimentaires (46.19A)	LEVALLOIS-PERRET 92300	696 359 172 €
+815	STMICROELECTRONICS (CROLLES 2) SAS	Fabrication de composants électroniques (26.11Z)	CROLLES 38920	695 158 589 €
+816	ID VALEURS	Fonds de placement et entités financières similaires (64.30Z)	ROUBAIX 59100	695 094 000 €
+817	EVEL'UP	Commerce de gros (commerce interentreprises) d'animaux vivants (46.23Z)	LANDIVISIAU 29400	695 072 422 €
+818	PRIMARK FRANCE SAS	Commerce de détail d'habillement en magasin spécialisé (47.71Z)	PARIS 9 75009	693 621 988 €
+819	ALCATEL SUBMARINE NETWORKS	Installation d'équipements électriques, de matériels électroniques et optiques ou d'autres matériels (33.20D)	NOZAY 91620	692 355 905 €
+820	YOPLAIT FRANCE	Fabrication de lait liquide et de produits frais (10.51A)	BOULOGNE-BILLANCOURT 92100	691 040 697 €
+821	TOTALENERGIES EP LIBYE	Extraction de pétrole brut (06.10Z)	COURBEVOIE 92400	690 975 339 €
+822	AMGEN SAS	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	BOULOGNE-BILLANCOURT 92100	690 162 153 €
+823	LDC SABLE	Transformation et conservation de la viande de volaille (10.12Z)	SABLE-SUR-SARTHE 72300	689 024 260 €
+824	ALVEST HOLDING	Activités des sièges sociaux (70.10Z)	PARIS 14 75014	686 951 000 €
+825	BSA BLEDINA	Fabrication de lait liquide et de produits frais (10.51A)	LIMONEST 69760	686 167 136 €
+826	F.M.T. FLEURY MICHON LS	Préparation industrielle de produits à base de viande (10.13A)	POUZAUGES 85700	685 045 517 €
+827	ARMORINE	Commerce de gros (commerce interentreprises) de combustibles et de produits annexes (46.71Z)	CAUDAN 56850	684 936 746 €
+828	SMRC AUTOMOTIVE MODULES FRANCE SAS	Fabrication d'autres équipements automobiles (29.32Z)	HARNES 62440	683 034 413 €
+829	ARCELORMITTAL DISTRIBUTION SOLUTIONS FRANCE	Commerce de gros (commerce interentreprises) de minerais et métaux (46.72Z)	SAINT-BRICE-COURCELLES 51370	682 926 657 €
+830	GARUDA INDONESIA HOLIDAY FRANCE	Location et location-bail de matériels de transport aérien (77.35Z)	PARIS 1 75001	682 140 317 €
+831	COMPUTACENTER FRANCE	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	ROISSY-EN-FRANCE 95700	679 817 689 €
+832	TOTALENERGIES EP ANGOLA BLOCK 32	Activités de soutien à l'extraction d'hydrocarbures (09.10Z)	COURBEVOIE 92400	679 603 783 €
+833	SFCE SOC FRANCAISE DE COMMERCE EUROPEEN	Commerce de gros d'équipements automobiles (45.31Z)	SEVRES 92310	679 578 583 €
+834	CASTEL FRERES	Commerce de gros (commerce interentreprises) de boissons (46.34Z)	BLANQUEFORT 33290	679 113 666 €
+835	LEONI WIRING SYSTEMS FRANCE	Commerce de gros d'équipements automobiles (45.31Z)	MONTIGNY-LE-BRETONNEUX 78180	678 687 065 €
+836	DELPHARM INDUSTRIE	Activités des sociétés holding (64.20Z)	BOULOGNE-BILLANCOURT 92100	678 161 000 €
+837	START PEOPLE	Activités des agences de travail temporaire (78.20Z)	SAINT-JULIEN-LES-METZ 57070	676 712 557 €
+838	SII SOCIETE POUR L'INFORMATIQUE INDUSTRIELLE	Conseil en systèmes et logiciels informatiques (62.02A)	PARIS 12 75012	676 334 000 €
+839	GIFI DIFFUSION	Commerce de gros (commerce interentreprises) non spécialisé (46.90Z)	VILLENEUVE-SUR-LOT 47300	676 299 205 €
+840	CF ET R COMPAGNIE DES FROMAGES ET RICHESMONTS	Fabrication de fromage (10.51C)	PUTEAUX 92800	675 893 102 €
+841	TDF INFRASTRUCTURE	Activités des sièges sociaux (70.10Z)	MONTROUGE 92120	674 720 000 €
+842	HOP!	Transports aériens de passagers (51.10Z)	BOUGUENAIS 44340	674 581 654 €
+843	TIVANA FRANCE HOLDINGS	Activités des sociétés holding (64.20Z)	MONTROUGE 92120	674 530 000 €
+844	GRID SOLUTIONS	Fabrication de matériel de distribution et de commande électrique (27.12Z)	BOULOGNE-BILLANCOURT 92100	674 526 796 €
+845	SOCIETE NATIONALE DE RADIODIFFUSION RADIO FRANCE	Édition et diffusion de programmes radio (60.10Z)	PARIS 16 75016	673 881 000 €
+846	SOGETREL	Construction de réseaux électriques et de télécommunications (42.22Z)	ISSY-LES-MOULINEAUX 92130	673 552 278 €
+847	SECHE ENVIRONNEMENT	Activités des sièges sociaux (70.10Z)	CHANGE 53810	673 076 000 €
+848	LIEBHERR-AEROSPACE TOULOUSE SAS	Construction aéronautique et spatiale (30.30Z)	TOULOUSE 31200	672 132 608 €
+849	YARA FRANCE	Fabrication de produits azotés et d'engrais (20.15Z)	PUTEAUX 92800	669 246 384 €
+850	CLS REMY COINTREAU	Commerce de gros (commerce interentreprises) de boissons (46.34Z)	PARIS 9 75009	667 849 023 €
+851	LA PLATEFORME	Commerce de gros (commerce interentreprises) de bois et de matériaux de construction (46.73A)	PARIS 19 75019	667 183 487 €
+852	SAFRAN ELECTRICAL & POWER	Fabrication d'autres matériels électriques (27.90Z)	BLAGNAC 31700	667 096 000 €
+853	TS LNG	Installation de structures métalliques, chaudronnées et de tuyauterie (33.20A)	LOON-PLAGE 59279	666 718 117 €
+854	DEMATHIEU BARD CONSTRUCTION	Construction d'autres bâtiments (41.20B)	MONTIGNY-LES-METZ 57950	666 567 909 €
+855	STORENGY FRANCE	Entreposage et stockage non frigorifique (52.10B)	BOIS-COLOMBES 92270	666 499 573 €
+856	CIMENTS CALCIA	Fabrication de ciment (23.51Z)	GUERVILLE 78930	663 528 880 €
+857	CEVA SANTE ANIMALE	Fabrication de préparations pharmaceutiques (21.20Z)	LIBOURNE 33500	663 173 000 €
+858	BODEMER	Activités des sociétés holding (64.20Z)	SAINT-BRIEUC 22000	662 668 000 €
+859	EURIAL ULTRA FRAIS	Fabrication de lait liquide et de produits frais (10.51A)	JOUY 89150	661 964 887 €
+860	AMAZON FRANCE TRANSPORT SAS	Affrètement et organisation des transports (52.29B)	CLICHY 92110	661 789 157 €
+861	RENAULT CLEON	Construction de véhicules automobiles (29.10Z)	BOULOGNE-BILLANCOURT 92100	661 789 076 €
+862	AREA	Services auxiliaires des transports terrestres (52.21Z)	BRON 69500	659 000 000 €
+863	COLRUYT RETAIL FRANCE	Supermarchés (47.11D)	ROCHEFORT-SUR-NENON 39700	658 886 345 €
+864	VETIR	Commerce de détail d'habillement en magasin spécialisé (47.71Z)	MONTREVAULT-SUR-EVRE 49110	656 101 614 €
+865	ZAMENHOF	Activités des sièges sociaux (70.10Z)	BOURG-DE-PEAGE 26300	656 030 000 €
+866	DACHSER FRANCE	Messagerie, fret express (52.29A)	CHANVERRIE 85130	655 684 260 €
+867	SOGEPROM SOC GENERALE PROMOTION FINANCEMENT IMMOB	Activités des sièges sociaux (70.10Z)	COURBEVOIE 92400	655 134 000 €
+868	SYSTRA	Ingénierie, études techniques (71.12B)	PARIS 15 75015	654 798 000 €
+869	AUTO CHASSIS INTERNATIONAL	Fabrication d'autres équipements automobiles (29.32Z)	BOULOGNE-BILLANCOURT 92100	653 362 257 €
+870	M-ENERGY	Activités des sièges sociaux (70.10Z)	BAUME-LES-DAMES 25110	651 936 026 €
+871	ICADE PROMOTION	Promotion immobilière de logements (41.10A)	ISSY-LES-MOULINEAUX 92130	651 897 531 €
+872	GILEAD SCIENCES	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	BOULOGNE-BILLANCOURT 92100	651 046 345 €
+873	SUPPLAY	Activités des agences de travail temporaire (78.20Z)	REIMS 51100	650 355 036 €
+874	ZAMENHOF EXPLOITATION	Activités des sièges sociaux (70.10Z)	SAINT DONAT SUR L'HERBASSE 26260	649 906 000 €
+875	CANAL + INTERNATIONAL	Édition de chaînes thématiques (60.20B)	BOULOGNE-BILLANCOURT 92100	646 300 000 €
+876	L.N.U.F. MARQUES LACTALIS NESTLE ULTRA-FRAIS MARQUES	Fabrication de lait liquide et de produits frais (10.51A)	LAVAL 53000	645 927 523 €
+877	COLAS SUD OUEST	Construction de routes et autoroutes (42.11Z)	MERIGNAC 33700	645 567 846 €
+878	CGE DISTRIBUTION	Commerce de gros (commerce interentreprises) de matériel électrique (46.69A)	MONTROUGE 92120	643 244 720 €
+879	ALCYON	Activités des sociétés holding (64.20Z)	PARIS 13 75013	642 241 075 €
+880	SAS VESTAS FRANCE	Commerce de gros (commerce interentreprises) de matériel électrique (46.69A)	PEROLS 34470	641 383 218 €
+881	SCHIEVER DISTRIBUTION	Centrales d'achat alimentaires (46.17A)	AVALLON 89200	641 110 988 €
+882	TSG HOLDING	Activités des sociétés holding (64.20Z)	LE PLESSIS-ROBINSON 92350	638 478 000 €
+883	TEREOS STARCH & SWEETENERS EUROPE	Fabrication de produits amylacés (10.62Z)	MARCKOLSHEIM 67390	638 230 715 €
+884	FAURECIA SYSTEMES D'ECHAPPEMENT	Activités des sièges sociaux (70.10Z)	NANTERRE 92000	638 224 738 €
+885	FINANCIERE SUN	Activités des sociétés holding (64.20Z)	MONTROUGE 92120	638 112 000 €
+886	API RESTAURATION	Autres services de restauration n.c.a. (56.29B)	MONS-EN-BAROEUL 59370	637 714 116 €
+887	COSAS CHEVRON ORONITE SAS	Fabrication d'autres produits chimiques n.c.a. (20.59Z)	RUEIL-MALMAISON 92500	636 141 115 €
+888	ERANOVE	Conseil pour les affaires et autres conseils de gestion (70.22Z)	PUTEAUX 92800	636 063 000 €
+889	OBOL FRANCE 1	Activités des sociétés holding (64.20Z)	PARIS 19 75019	636 019 000 €
+890	BARILLA FRANCE	Fabrication industrielle de pain et de pâtisserie fraîche (10.71A)	BOULOGNE-BILLANCOURT 92100	633 643 699 €
+891	DIPA	Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie (46.36Z)	PERPIGNAN 66000	633 483 473 €
+892	BOIS & MATERIAUX	Commerce de gros (commerce interentreprises) de bois et de matériaux de construction (46.73A)	PACE 35740	632 897 945 €
+893	K E SAS	Activités des sociétés holding (64.20Z)	SAINT-DENIS 93210	631 685 000 €
+894	BASF AGRI PRODUCTION SAS	Fabrication de pesticides et d'autres produits agrochimiques (20.20Z)	ECULLY 69130	630 221 102 €
+895	CERESIA	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	REIMS 51100	629 878 000 €
+896	GLOBAL BLUE FRANCE	Autres activités de soutien aux entreprises n.c.a. (82.99Z)	LEVALLOIS-PERRET 92300	629 770 688 €
+897	FINANCIERE IDAT	Activités des sociétés holding (64.20Z)	PARIS 9 75009	629 542 000 €
+898	PVL PLASTIQUES DU VAL DE LOIRE	Fabrication d'autres équipements automobiles (29.32Z)	LANGEAIS 37130	629 240 000 €
+899	VINDEMIA DISTRIBUTION	Hypermarchés (47.11F)	SAINTE-MARIE 97438	629 213 853 €
+900	INGENICO TERMINALS	Fabrication d'ordinateurs et d'équipements périphériques (26.20Z)	PARIS 15 75015	629 145 139 €
+901	SHOWROOMPRIVE.COM	Vente à distance sur catalogue général (47.91A)	SAINT-DENIS 93210	628 348 375 €
+902	FINANCIERE PICHET	Activités des sociétés holding (64.20Z)	PARIS 8 75008	627 357 000 €
+903	LIEBHERR-FRANCE	Fabrication de machines pour l'extraction ou la construction (28.92Z)	COLMAR 68000	626 233 519 €
+904	ELIOR ENTREPRISES	Restauration collective sous contrat (56.29A)	COURBEVOIE 92400	626 173 001 €
+905	NAOS LIGHTHOUSE	Activités des sièges sociaux (70.10Z)	AIX-EN-PROVENCE 13290	625 528 257 €
+906	THALES GLOBAL SERVICES SAS	Gestion d'installations informatiques (62.03Z)	VELIZY-VILLACOUBLAY 78140	624 795 000 €
+907	FREEBOX	Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication (46.52Z)	PARIS 8 75008	624 756 373 €
+908	ASTRAZENECA	Fabrication de préparations pharmaceutiques (21.20Z)	COURBEVOIE 92400	623 973 872 €
+909	OGF	Services funéraires (96.03Z)	PARIS 19 75019	623 524 638 €
+910	AD AUBERT & DUVAL	Forge, estampage, matriçage ; métallurgie des poudres (25.50A)	PARIS 15 75015	622 582 000 €
+911	PARIS SAINT GERMAIN FOOTBALL	Activités de clubs de sports (93.12Z)	PARIS 16 75016	622 211 000 €
+912	SCHAEFFLER FRANCE	Fabrication d'autres équipements automobiles (29.32Z)	HAGUENAU 67500	622 207 513 €
+913	HERIGE	Activités des sièges sociaux (70.10Z)	L'HERBERGEMENT 85260	622 081 000 €
+914	CLAAS FRANCE	Commerce de gros (commerce interentreprises) de matériel agricole (46.61Z)	YMERAY 28320	620 993 142 €
+915	EY & ASSOCIES	Activités comptables (69.20Z)	COURBEVOIE 92400	620 713 643 €
+916	GALLIANCE VOLAILLE FRAICHE	Transformation et conservation de la viande de volaille (10.12Z)	ANCENIS-SAINT-GEREON 44150	617 974 719 €
+917	OREXAD BRAMMER	Commerce de gros (commerce interentreprises) de fournitures et équipements industriels divers (46.69B)	LYON 7EME 69007	617 338 064 €
+918	VERSALIS FRANCE S.A.S.	Fabrication d'autres produits chimiques organiques de base (20.14Z)	DUNKERQUE 59279	615 578 021 €
+919	SRP GROUPE	Activités des sociétés holding (64.20Z)	SAINT-DENIS 93210	615 562 000 €
+920	ECONOCOM PRODUCTS & SOLUTIONS	Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels (46.51Z)	PUTEAUX 92800	615 358 931 €
+921	DPD FRANCE	Autres activités de poste et de courrier (53.20Z)	ISSY-LES-MOULINEAUX 92130	614 949 888 €
+922	APTAR FRANCE SAS	Fabrication d'emballages en matières plastiques (22.22Z)	LE NEUBOURG 27110	614 071 929 €
+923	NATIXIS INVESTMENT MANAGERS INTERNATIONAL	Gestion de fonds (66.30Z)	PARIS 13 75013	613 859 932 €
+924	COLGATE-PALMOLIVE	Commerce de gros (commerce interentreprises) de parfumerie et de produits de beauté (46.45Z)	COLOMBES 92700	612 984 901 €
+925	CELINE	Commerce de gros (commerce interentreprises) d'autres biens domestiques (46.49Z)	PARIS 2 75002	611 074 912 €
+926	CARMIGNAC GESTION	Gestion de fonds (66.30Z)	PARIS 1 75001	610 070 000 €
+927	HAULOTTE GROUP	Fabrication de matériel de levage et de manutention (28.22Z)	LORETTE 42420	609 828 000 €
+928	SOCIETE COOPERATIVE AGRICOLE LE GOUESSANT	Fabrication d'aliments pour animaux de ferme (10.91Z)	LAMBALLE-ARMOR 22400	609 157 498 €
+929	S C P R SOC CAVES PRODUCTEURS REUNIS ROQUEFORT	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	ROQUEFORT-SUR-SOULZON 12250	608 944 235 €
+930	D C E M ITM EQUIPEMENT DE LA MAISON - ITM EM	Centrales d'achat non alimentaires (46.19A)	PARIS 15 75015	608 839 438 €
+931	COLAS RAIL	Construction de voies ferrées de surface et souterraines (42.12Z)	COURBEVOIE 92400	608 114 538 €
+932	MICROMANIA	Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé (47.41Z)	VALBONNE 06560	607 775 265 €
+933	SIPA SOC INVESTISSEMENT PARTICIPAT AQUITAINE	Activités des sièges sociaux (70.10Z)	LE BOUSCAT 33110	607 745 000 €
+934	GROUPE LDLC	Vente à distance sur catalogue spécialisé (47.91B)	LIMONEST 69760	607 494 000 €
+935	TOTAL AUSTRAL	Extraction de pétrole brut (06.10Z)	COURBEVOIE 92400	606 801 581 €
+936	VALEO VISION	Fabrication d'appareils d'éclairage électrique (27.40Z)	BOBIGNY 93000	605 898 002 €
+937	EES - CLEMESSY EIFFAGE ENERGIE SYSTEMES - CLEMESSY	Travaux d'installation électrique dans tous locaux (43.21A)	MULHOUSE 68200	605 631 523 €
+938	VIVALTO SANTE HOLDING	Activités des sociétés holding (64.20Z)	PARIS 16 75116	605 200 000 €
+939	JOLIETTE MATERIEL	Activités des sociétés holding (64.20Z)	MARSEILLE 2 13002	603 697 822 €
+940	EDVANCE	Ingénierie, études techniques (71.12B)	PARIS 8 75008	603 393 307 €
+941	VIVALTO SANTE INVESTISSEMENT	Activités des sociétés holding (64.20Z)	PARIS 16 75116	602 600 000 €
+942	THEA HOLDING	Activités des sociétés holding (64.20Z)	CLERMONT-FERRAND 63100	602 274 000 €
+943	SELECT T.T.	Activités des agences de travail temporaire (78.20Z)	SAINT-DENIS 93200	601 662 337 €
+944	ECONOCOM FRANCE	Location et location-bail de machines de bureau et de matériel informatique (77.33Z)	PUTEAUX 92800	600 249 664 €
+945	GUERLAIN	Fabrication de parfums et de produits pour la toilette (20.42Z)	PARIS 8 75008	598 990 000 €
+946	FBPF FROMAGERIES BEL PRODUCTION FRANCE	Fabrication de fromage (10.51C)	SURESNES 92150	598 121 230 €
+947	RIVP REGIE IMMOBILIERE DE LA VILLE DE PARIS	Location de logements (68.20A)	PARIS 13 75013	596 591 402 €
+948	ENTREPRISE GAGNERAUD PERE ET FILS	Activités des sociétés holding (64.20Z)	PARIS 16 75016	596 566 016 €
+949	BSH ELECTROMENAGER	Commerce de gros (commerce interentreprises) d'appareils électroménagers (46.43Z)	SAINT-OUEN-SUR-SEINE 93400	595 749 192 €
+950	SOCOMEC HOLDING	Activités des sièges sociaux (70.10Z)	BENFELD 67230	595 209 529 €
+951	PHILIP MORRIS FRANCE	Commerce de gros (commerce interentreprises) de produits à base de tabac (46.35Z)	PUTEAUX 92800	594 275 502 €
+952	LACOSTE OPERATIONS	Fabrication de vêtements de dessus (14.13Z)	PARIS 16 75016	593 492 039 €
+953	PHILIPS FRANCE COMMERCIAL	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	SURESNES 92150	589 968 419 €
+954	GROUPE EUROPE HOLDING FRANCE	Activités des sociétés holding (64.20Z)	PARIS 4 75004	589 314 000 €
+955	BORDEAUX METROPOLE ENERGIES	Activités des sièges sociaux (70.10Z)	BORDEAUX 33300	588 711 139 €
+956	LB&C LACTALIS BEURRES & CREMES	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	BOURGBARRE 35230	588 522 272 €
+957	CNIM GROUPE	Fabrication de fours et brûleurs (28.21Z)	LEVALLOIS-PERRET 92300	588 388 000 €
+958	SMAC	Travaux d'étanchéification (43.99A)	ISSY-LES-MOULINEAUX 92130	587 881 000 €
+959	ABBVIE	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	RUNGIS 94150	587 542 240 €
+960	KILOUTOU	Location et location-bail d'autres biens personnels et domestiques (77.29Z)	VILLENEUVE D'ASCQ 59650	585 625 995 €
+961	MEDICA FRANCE	Hébergement médicalisé pour personnes âgées (87.10A)	PARIS 8 75008	584 794 151 €
+962	HEPPNER SOCIETE DE TRANSPORTS	Affrètement et organisation des transports (52.29B)	STRASBOURG 67100	584 001 296 €
+963	POMONA EPISAVEURS	Commerce de gros (commerce interentreprises) alimentaire non spécialisé (46.39B)	ANTONY 92160	582 579 122 €
+964	SPHERE	Activités des sièges sociaux (70.10Z)	PARIS 16 75116	582 429 000 €
+965	COLAS RHONE-ALPES AUVERGNE	Construction de routes et autoroutes (42.11Z)	LYON 7EME 69007	581 627 847 €
+966	EMC2	Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail (46.21Z)	BRAS-SUR-MEUSE 55100	581 165 000 €
+967	DAIKIN AIRCONDITIONING FRANCE	Commerce de gros (commerce interentreprises) de fournitures et équipements industriels divers (46.69B)	NANTERRE 92000	579 902 858 €
+968	LEADER GROUP	Activités des sièges sociaux (70.10Z)	EAUBONNE 95600	579 694 000 €
+969	MARIONNAUD LAFAYETTE	Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé (47.75Z)	PARIS 2 75002	579 417 665 €
+970	LESIEUR	Fabrication d'huiles et graisses raffinées (10.41B)	ASNIERES-SUR-SEINE 92600	578 905 769 €
+971	PANZANI	Fabrication de pâtes alimentaires (10.73Z)	LYON 8EME 69008	578 857 000 €
+972	VITESCO TECHNOLOGIES FRANCE	Autres commerces de détail spécialisés divers (47.78C)	TOULOUSE 31100	578 762 528 €
+973	VINCI CONSTRUCTION DOM-TOM	Travaux de terrassement courants et travaux préparatoires (43.12A)	RUEIL-MALMAISON 92500	578 567 000 €
+974	RICHARDSON	Commerce de gros (commerce interentreprises) de fournitures pour la plomberie et le chauffage (46.74B)	MARSEILLE 2 13002	578 328 650 €
+975	3M FRANCE	Fabrication de produits de consommation courante en matières plastiques (22.29B)	CERGY 95000	578 274 423 €
+976	S N V	Transformation et conservation de la viande de volaille (10.12Z)	RIVES D'ANDAINE 61140	578 170 759 €
+977	GDB GAZ DE BORDEAUX	Commerce de combustibles gazeux par conduites (35.23Z)	BORDEAUX 33300	578 114 582 €
+978	ALUMINIUM DUNKERQUE	Métallurgie de l'aluminium (24.42Z)	LOON-PLAGE 59279	578 095 555 €
+979	UGITECH	Sidérurgie (24.10Z)	UGINE 73400	577 615 136 €
+980	SOITEC	Fabrication de composants électroniques (26.11Z)	BERNIN 38190	577 355 000 €
+981	SCA TERRES DU SUD	Commerce de gros (commerce interentreprises) d'animaux vivants (46.23Z)	CLAIRAC 47320	576 305 440 €
+982	PORSCHE FRANCE	Commerce de voitures et de véhicules automobiles légers (45.11Z)	ASNIERES-SUR-SEINE 92600	576 064 356 €
+983	LVMH FRAGRANCE BRANDS	Fabrication de parfums et de produits pour la toilette (20.42Z)	LEVALLOIS-PERRET 92300	575 343 321 €
+984	AUCHAN RETAIL LOGISTIQUE	Entreposage et stockage non frigorifique (52.10B)	VILLENEUVE D'ASCQ 59650	574 492 513 €
+985	LNA SANTE	Hébergement social pour personnes âgées (87.30A)	VERTOU 44120	573 893 000 €
+986	FRANS BONHOMME	Commerce de gros (commerce interentreprises) de bois et de matériaux de construction (46.73A)	JOUE-LES-TOURS 37300	572 527 346 €
+987	BOEHRINGER INGELHEIM ANIMAL HEALTH FRANCE	Fabrication de préparations pharmaceutiques (21.20Z)	LYON 7EME 69007	571 948 003 €
+988	SAINT-GOBAIN PAM HOLDING	Activités des sièges sociaux (70.10Z)	PONT-À-MOUSSON 54700	571 470 214 €
+989	ALUMINIUM DUNKERQUE SERVICE	Métallurgie de l'aluminium (24.42Z)	LOON-PLAGE 59279	571 445 935 €
+990	CARRIER	Fabrication d'équipements aérauliques et frigorifiques industriels (28.25Z)	MONTLUEL 01120	570 621 567 €
+991	PLACOPLATRE	Fabrication d'éléments en plâtre pour la construction (23.62Z)	COURBEVOIE 92400	569 836 419 €
+992	RICOH FRANCE	Réparation d'ordinateurs et d'équipements périphériques (95.11Z)	RUNGIS 94150	569 809 931 €
+993	SOMFY ACTIVITES SA	Fabrication de moteurs, génératrices et transformateurs électriques (27.11Z)	CLUSES 74300	569 285 755 €
+994	FOCH ORMESSON	Conseil pour les affaires et autres conseils de gestion (70.22Z)	PARIS 16 75116	567 698 000 €
+995	PLANETPHARMA	Commerce de gros (commerce interentreprises) de produits pharmaceutiques (46.46Z)	LE GRAND-QUEVILLY 76120	567 478 096 €
+996	GIRAUD PRODUCTIONS	Fabrication de portes et fenêtres en métal (25.12Z)	COURS 69240	567 334 241 €
+997	LAPEYRE	Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m² et plus) (47.52B)	PARIS 1 75001	567 334 241 €
+998	SOCIETE BRETONNE DE VOLAILLE	Commerce de gros (commerce interentreprises) de volailles et gibier (46.32C)	SAINT-JEAN-BREVELAY 56660	566 930 160 €
+999	PLASTIC OMNIUM AUTO EXTERIEUR	Fabrication d'autres équipements automobiles (29.32Z)	LYON 7EME 69007	566 893 952 €
+1000	LACTEL	Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles (46.33Z)	CHANGE 53810	566 835 483 €
