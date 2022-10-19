@@ -11,12 +11,15 @@ import os
 from function_camembert_model import *
 import ipdb
 
+from managing_data.function_camembert_model import predict
+
 
 general_path = os.path.dirname(os.getcwd())
 name_file = "labelled articles cleaned.csv"
 path_data = os.path.join(os.getcwd(),"data","external", name_file)
 path_mapping = os.path.join(os.getcwd(),"data","raw", "naf_mapping.csv")
-EPOCHS = 10
+path_predictions = os.path.join(os.getcwd(),"data","raw","test.csv")
+EPOCHS = 1
 LR = 1e-5
 
 if __name__ == "__main__":
@@ -28,7 +31,7 @@ if __name__ == "__main__":
     
     else:
         df_merged = df.copy()
-    idxes = np.random.choice(np.arange(len(df_merged)), 50_000)
+    idxes = np.random.choice(np.arange(len(df_merged)), 10_000)
     df_merged = df_merged.iloc[idxes, :]
     model = "camembert-base"
     tokenizer = AutoTokenizer.from_pretrained(model)
@@ -49,5 +52,9 @@ if __name__ == "__main__":
     train_data = Dataset(df_train, tokenizer, labels=labels)
     
     train(model, df_train, df_val, LR, EPOCHS, tokenizer, labels)
-    acc_test, predictions = evaluate(model, df_test)
+    acc_test, predictions = evaluate(model, df_test,tokenizer, labels=labels)
+    df_test_final = pd.read_csv(path_predictions)
+    df_test_final["naf"] = df_train["naf"].iloc[0]
+
+    predictions = predict(model,df_test_final, tokenizer, labels)
     ipdb.set_trace()
