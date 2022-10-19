@@ -283,7 +283,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, lab
             output = model(input_id, mask)
 
             acc = (output.argmax(dim=1) == test_label).sum().item()
-            predictions.append(output.detach().numpy())
+            predictions.append(output.detach().cpu().numpy())
             total_acc_test += acc
 
     print(f"Test Accuracy: {total_acc_test / len(test_data): .3f}")
@@ -320,6 +320,6 @@ def predict(model: CamemBertClassifier, test_data: pd.DataFrame,tokenizer, label
             input_id = test_input["input_ids"].squeeze(1).to(device)
 
             output = model(input_id, mask)
-            predictions.append(output.detach().numpy())
+            predictions.append(output.detach().cpu().numpy())
 
     return predictions
