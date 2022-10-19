@@ -4,3 +4,5 @@ save = True
 increase_data=False
 batch_size=4
 text_column="text"
+test_column="text"
+size_training=400

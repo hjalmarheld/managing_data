@@ -14,7 +14,14 @@ from config import *
 
 
 class Dataset(torch.utils.data.Dataset):
-    def __init__(self, df: pd.DataFrame, tokenizer, labels: dict,colonne_labels:str="naf"):
+    def __init__(
+        self,
+        df: pd.DataFrame,
+        tokenizer,
+        labels: dict,
+        colonne_labels: str = "naf",
+        text_column=text_column,
+    ):
         """
         Creation of a dataset loader with batches compatible with Pytorch.
         args:
@@ -34,7 +41,7 @@ class Dataset(torch.utils.data.Dataset):
                 truncation=True,
                 return_tensors="pt",
             )
-            for text in df["text"]
+            for text in df[text_column]
         ]
 
     def classes(self):
@@ -68,16 +75,17 @@ class Dataset(torch.utils.data.Dataset):
         batch_y = self.get_batch_labels(idx)
 
         return batch_texts, batch_y
-    
+
     def classes_imbalance_sampler(self):
         targets = self.labels
         class_sample_count = np.array(
-        [len(np.where(targets == t)[0]) for t in np.arange(0,max(targets)+1)])
-        weight = 1. / (class_sample_count + 0.1)
+            [len(np.where(targets == t)[0]) for t in np.arange(0, max(targets) + 1)]
+        )
+        weight = 1.0 / (class_sample_count + 0.1)
         # ipdb.set_trace()
         weights = list()
         for t in targets:
-            try : 
+            try:
                 weights.append(weight[t])
             except:
                 ipdb.set_trace()
@@ -86,7 +94,8 @@ class Dataset(torch.utils.data.Dataset):
         samples_weight = samples_weight.double()
         sampler = WeightedRandomSampler(samples_weight, len(samples_weight))
         return sampler
-    
+
+
 class CamemBertClassifierShort(nn.Module):
     def __init__(
         self,
@@ -108,7 +117,6 @@ class CamemBertClassifierShort(nn.Module):
         self.linear_short = nn.Linear(768, number_labels)
         self.relu = nn.ReLU()
         self.dropout_second = nn.Dropout(dropout)
-        
 
         # self.softmax_final_layer = nn.Softmax(dim=1)
 
@@ -185,7 +193,7 @@ class CamemBertClassifier(nn.Module):
         # final_layer = self.softmax_final_layer(final_layer)
 
         return final_layer
-    
+
     def train(
         self,
         train_data: Dataset,
@@ -194,13 +202,13 @@ class CamemBertClassifier(nn.Module):
         epochs: int,
         tokenizer,
         labels: dict,
-        use_samplers:bool = False
+        use_samplers: bool = False,
     ):
         pass
-    
+
     def predict(self):
         pass
-    
+
     def evaluate(self):
         pass
 
@@ -213,8 +221,9 @@ def train(
     epochs: int,
     tokenizer,
     labels: dict,
-    use_samplers:bool = False,
-    batch_size:int = 32
+    use_samplers: bool = False,
+    batch_size: int = 32,
+    text_column: str = text_column
 ):
     """
     Training of model defined with CamemBertClassifier class.
@@ -226,18 +235,26 @@ def train(
         - tokenizer : HuggingFace tokenizer used in Dataset class
         - labels : dictionnary containing the mapping for each class
     """
-    train, val = Dataset(train_data, tokenizer, labels), Dataset(
-        val_data, tokenizer, labels
+    train, val = Dataset(train_data, tokenizer, labels,text_column), Dataset(
+        val_data, tokenizer, labels,text_column
     )
 
     if use_samplers:
         train_sampler = train.classes_imbalance_sampler()
         val_sampler = val.classes_imbalance_sampler()
-        train_dataloader = torch.utils.data.DataLoader(train, batch_size=batch_size,sampler=train_sampler)
-        val_dataloader = torch.utils.data.DataLoader(val, batch_size=batch_size, sampler=val_sampler)
+        train_dataloader = torch.utils.data.DataLoader(
+            train, batch_size=batch_size, sampler=train_sampler
+        )
+        val_dataloader = torch.utils.data.DataLoader(
+            val, batch_size=batch_size, sampler=val_sampler
+        )
     else:
-        train_dataloader = torch.utils.data.DataLoader(train, batch_size=batch_size,shuffle=True)
-        val_dataloader = torch.utils.data.DataLoader(val, batch_size=batch_size, shuffle=True)
+        train_dataloader = torch.utils.data.DataLoader(
+            train, batch_size=batch_size, shuffle=True
+        )
+        val_dataloader = torch.utils.data.DataLoader(
+            val, batch_size=batch_size, shuffle=True
+        )
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
 
@@ -294,7 +311,7 @@ def train(
         )
 
 
-def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, labels):
+def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, labels,text_column=text_column):
     """
     Evaluates performance of CamembertClassifier trained with train function
 
@@ -306,7 +323,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, lab
         - total_acc_test : float, accuracy of the model on the test set
 
     """
-    test = Dataset(test_data,tokenizer, labels)
+    test = Dataset(test_data, tokenizer, labels,text_column)
 
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
@@ -330,13 +347,23 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, lab
             output = model(input_id, mask)
 
             acc = (output.argmax(dim=1) == test_label).sum().item()
-            predictions.append(nn.functional.softmax(output,dim=1).detach().cpu().numpy())
+            predictions.append(
+                nn.functional.softmax(output, dim=1).detach().cpu().numpy()
+            )
             total_acc_test += acc
 
     print(f"Test Accuracy: {total_acc_test / len(test_data): .3f}")
     return total_acc_test, predictions
 
-def predict(model: CamemBertClassifier, test_data: pd.DataFrame,tokenizer, labels,batch_size=32):
+
+def predict(
+    model: CamemBertClassifier,
+    test_data: pd.DataFrame,
+    tokenizer,
+    labels,
+    batch_size=32,
+    test_column=test_column,
+):
     """
     Evaluates performance of CamembertClassifier trained with train function
 
@@ -348,7 +375,7 @@ def predict(model: CamemBertClassifier, test_data: pd.DataFrame,tokenizer, label
         - total_acc_test : float, accuracy of the model on the test set
 
     """
-    test = Dataset(test_data,tokenizer,labels)
+    test = Dataset(test_data, tokenizer, labels)
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=batch_size)
 
     use_cuda = torch.cuda.is_available()
