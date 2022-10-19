@@ -1,4 +1,4 @@
-EPOCHS = 5
+EPOCHS = 1
 LR = 1e-5
 save = True
 increase_data=False
@@ -6,3 +6,4 @@ batch_size=4
 text_column="text"
 test_column="text"
 size_training=400
+column_labels="naf"

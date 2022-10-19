@@ -19,7 +19,7 @@ class Dataset(torch.utils.data.Dataset):
         df: pd.DataFrame,
         tokenizer,
         labels: dict,
-        colonne_labels: str = "naf",
+        colonne_labels: str = column_labels,
         text_column=text_column,
     ):
         """
@@ -194,25 +194,6 @@ class CamemBertClassifier(nn.Module):
 
         return final_layer
 
-    def train(
-        self,
-        train_data: Dataset,
-        val_data: Dataset,
-        learning_rate: float,
-        epochs: int,
-        tokenizer,
-        labels: dict,
-        use_samplers: bool = False,
-    ):
-        pass
-
-    def predict(self):
-        pass
-
-    def evaluate(self):
-        pass
-
-
 def train(
     model: CamemBertClassifier,
     train_data: Dataset,
@@ -235,8 +216,8 @@ def train(
         - tokenizer : HuggingFace tokenizer used in Dataset class
         - labels : dictionnary containing the mapping for each class
     """
-    train, val = Dataset(train_data, tokenizer, labels,text_column), Dataset(
-        val_data, tokenizer, labels,text_column
+    train, val = Dataset(train_data, tokenizer, labels,column_labels,text_column), Dataset(
+        val_data, tokenizer, labels,column_labels,text_column
     )
 
     if use_samplers:
@@ -311,7 +292,7 @@ def train(
         )
 
 
-def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, labels,text_column=text_column):
+def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, labels,column_labels=column_labels, text_column=text_column):
     """
     Evaluates performance of CamembertClassifier trained with train function
 
@@ -323,7 +304,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, lab
         - total_acc_test : float, accuracy of the model on the test set
 
     """
-    test = Dataset(test_data, tokenizer, labels,text_column)
+    test = Dataset(test_data, tokenizer, labels,column_labels,text_column)
 
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
@@ -362,6 +343,7 @@ def predict(
     tokenizer,
     labels,
     batch_size=32,
+    column_labels=column_labels,
     test_column=test_column,
 ):
     """
@@ -375,7 +357,7 @@ def predict(
         - total_acc_test : float, accuracy of the model on the test set
 
     """
-    test = Dataset(test_data, tokenizer, labels)
+    test = Dataset(test_data, tokenizer, labels,column_labels, test_column)
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=batch_size)
 
     use_cuda = torch.cuda.is_available()

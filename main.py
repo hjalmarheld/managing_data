@@ -69,7 +69,7 @@ if __name__ == "__main__":
     df_test_final["naf"] = df_train["naf"].iloc[0]
 
     predictions = predict(
-        model, df_test_final, tokenizer, labels, batch_size, test_column
+        model, df_test_final, tokenizer, labels, batch_size,test_column = test_column
     )
     values = []
     for i in range(len(predictions)):
