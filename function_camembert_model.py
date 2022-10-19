@@ -234,8 +234,8 @@ def train(
     if use_samplers:
         train_sampler = train.classes_imbalance_sampler()
         val_sampler = val.classes_imbalance_sampler()
-        train_dataloader = torch.utils.data.DataLoader(train, batch_size=64,sampler=train_sampler)
-        val_dataloader = torch.utils.data.DataLoader(val, batch_size=64, sampler=val_sampler)
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=32,sampler=train_sampler)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=32, sampler=val_sampler)
     else:
         train_dataloader = torch.utils.data.DataLoader(train, batch_size=32,shuffle=True)
         val_dataloader = torch.utils.data.DataLoader(val, batch_size=32, shuffle=True)
