@@ -114,6 +114,7 @@ class CamemBertClassifier(nn.Module):
         self.dropout_second = nn.Dropout(dropout)
         self.second_linear = nn.Linear(250, number_labels)
         self.relu_2 = nn.ReLU()
+        self.softmax_layer = nn.Softmax(dim=1)
 
         # self.softmax_final_layer = nn.Softmax(dim=1)
 
@@ -135,7 +136,8 @@ class CamemBertClassifier(nn.Module):
         relu_layer = self.relu(linear_output)
         second_dropout = self.dropout_second(relu_layer)
         second_linear_output = self.second_linear(relu_layer)
-        final_layer = self.relu_2(second_linear_output)
+        final_layer = self.softmax_layer(second_linear_output)
+
         # final_layer = self.softmax_final_layer(final_layer)
 
         return final_layer
