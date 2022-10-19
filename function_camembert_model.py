@@ -2,10 +2,7 @@ import pandas as pd
 from sklearn.utils import shuffle
 import torch
 import numpy as np
-from traitlets import Bool
 from transformers import BertTokenizer, BertModel, CamembertModel
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from transformers import Trainer, TrainingArguments
 from torch import nn
 from torch.optim import Adam
 from torch.utils.data.sampler import WeightedRandomSampler
@@ -13,6 +10,7 @@ from tqdm import tqdm
 import os
 import ipdb
 import sys
+from config import *
 
 
 class Dataset(torch.utils.data.Dataset):
@@ -196,7 +194,7 @@ class CamemBertClassifier(nn.Module):
         epochs: int,
         tokenizer,
         labels: dict,
-        use_samplers:Bool = False
+        use_samplers:bool = False
     ):
         pass
     
@@ -215,7 +213,8 @@ def train(
     epochs: int,
     tokenizer,
     labels: dict,
-    use_samplers:Bool = False
+    use_samplers:bool = False,
+    batch_size:int = 32
 ):
     """
     Training of model defined with CamemBertClassifier class.
@@ -234,11 +233,11 @@ def train(
     if use_samplers:
         train_sampler = train.classes_imbalance_sampler()
         val_sampler = val.classes_imbalance_sampler()
-        train_dataloader = torch.utils.data.DataLoader(train, batch_size=32,sampler=train_sampler)
-        val_dataloader = torch.utils.data.DataLoader(val, batch_size=32, sampler=val_sampler)
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=batch_size,sampler=train_sampler)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=batch_size, sampler=val_sampler)
     else:
-        train_dataloader = torch.utils.data.DataLoader(train, batch_size=32,shuffle=True)
-        val_dataloader = torch.utils.data.DataLoader(val, batch_size=32, shuffle=True)
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=batch_size,shuffle=True)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=batch_size, shuffle=True)
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
 
@@ -337,7 +336,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, lab
     print(f"Test Accuracy: {total_acc_test / len(test_data): .3f}")
     return total_acc_test, predictions
 
-def predict(model: CamemBertClassifier, test_data: pd.DataFrame,tokenizer, labels):
+def predict(model: CamemBertClassifier, test_data: pd.DataFrame,tokenizer, labels,batch_size=32):
     """
     Evaluates performance of CamembertClassifier trained with train function
 
@@ -350,7 +349,7 @@ def predict(model: CamemBertClassifier, test_data: pd.DataFrame,tokenizer, label
 
     """
     test = Dataset(test_data,tokenizer,labels)
-    test_dataloader = torch.utils.data.DataLoader(test, batch_size=32)
+    test_dataloader = torch.utils.data.DataLoader(test, batch_size=batch_size)
 
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
