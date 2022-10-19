@@ -11,9 +11,6 @@ import os
 from function_camembert_model import *
 import ipdb
 
-from managing_data.function_camembert_model import predict
-
-
 general_path = os.path.dirname(os.getcwd())
 name_file = "labelled articles cleaned.csv"
 path_data = os.path.join(os.getcwd(),"data","external", name_file)
