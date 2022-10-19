@@ -17,8 +17,9 @@ name_file = "labelled articles cleaned.csv"
 path_data = os.path.join(os.getcwd(),"data","external", name_file)
 path_mapping = os.path.join(os.getcwd(),"data","raw", "naf_mapping.csv")
 path_predictions = os.path.join(os.getcwd(),"data","raw","test.csv")
-EPOCHS = 3
+EPOCHS = 10
 LR = 1e-5
+save = True
 
 if __name__ == "__main__":
     df = pd.read_csv(path_data, delimiter=",").dropna().drop(columns=["Unnamed: 0"])
@@ -49,10 +50,12 @@ if __name__ == "__main__":
     model = CamemBertClassifierShort(number_labels=len(labels_list))
     train_data = Dataset(df_train, tokenizer, labels=labels)
     
-    train(model, df_train, df_val, LR, EPOCHS, tokenizer, labels)
+    train(model, df_train, df_val, LR, EPOCHS, tokenizer, labels,use_samplers=True)
     acc_test, predictions = evaluate(model, df_test,tokenizer, labels=labels)
     df_test_final = pd.read_csv(path_predictions)
     df_test_final["naf"] = df_train["naf"].iloc[0]
 
     predictions = predict(model,df_test_final, tokenizer, labels)
+    if save:
+        np.savetxt('predictions.csv', np.array(predictions), delimiter=',')
     ipdb.set_trace()
