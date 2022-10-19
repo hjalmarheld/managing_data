@@ -17,8 +17,8 @@ name_file = "labelled articles cleaned.csv"
 path_data = os.path.join(os.getcwd(),"data","external", name_file)
 path_mapping = os.path.join(os.getcwd(),"data","raw", "naf_mapping.csv")
 path_predictions = os.path.join(os.getcwd(),"data","raw","test.csv")
-EPOCHS = 1
-LR = 1e-5
+EPOCHS = 4
+LR = 1e-3
 
 if __name__ == "__main__":
     df = pd.read_csv(path_data, delimiter=",").dropna().drop(columns=["Unnamed: 0"])
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     
     else:
         df_merged = df.copy()
-    idxes = np.random.choice(np.arange(len(df_merged)), 4_000)
+    idxes = np.random.choice(np.arange(len(df_merged)), 50_000)
     df_merged = df_merged.iloc[idxes, :]
     model = "camembert-base"
     tokenizer = AutoTokenizer.from_pretrained(model)

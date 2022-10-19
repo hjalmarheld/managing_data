@@ -83,7 +83,6 @@ class Dataset(torch.utils.data.Dataset):
                 weights.append(weight[t])
             except:
                 ipdb.set_trace()
-        ipdb.set_trace()
         samples_weight = np.array(weights)
         samples_weight = torch.from_numpy(samples_weight)
         samples_weight = samples_weight.double()
@@ -114,6 +113,7 @@ class CamemBertClassifier(nn.Module):
         self.dropout_second = nn.Dropout(dropout)
         self.second_linear = nn.Linear(250, number_labels)
         self.relu_2 = nn.ReLU()
+        self.softmax_layer = nn.Softmax(dim=1)
 
         # self.softmax_final_layer = nn.Softmax(dim=1)
 
@@ -133,9 +133,10 @@ class CamemBertClassifier(nn.Module):
         dropout_output = self.dropout(pooled_output)
         linear_output = self.linear(dropout_output)
         relu_layer = self.relu(linear_output)
-        second_dropout = self.dropout_second(relu_layer)
+        # second_dropout = self.dropout_second(relu_layer)
         second_linear_output = self.second_linear(relu_layer)
         final_layer = self.relu_2(second_linear_output)
+
         # final_layer = self.softmax_final_layer(final_layer)
 
         return final_layer
@@ -283,7 +284,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, lab
             output = model(input_id, mask)
 
             acc = (output.argmax(dim=1) == test_label).sum().item()
-            predictions.append(output.detach().cpu().numpy())
+            predictions.append(nn.functional.softmax(output,dim=1).detach().cpu().numpy())
             total_acc_test += acc
 
     print(f"Test Accuracy: {total_acc_test / len(test_data): .3f}")
@@ -302,7 +303,7 @@ def predict(model: CamemBertClassifier, test_data: pd.DataFrame,tokenizer, label
 
     """
     test = Dataset(test_data,tokenizer,labels)
-    test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
+    test_dataloader = torch.utils.data.DataLoader(test, batch_size=32)
 
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
@@ -320,6 +321,7 @@ def predict(model: CamemBertClassifier, test_data: pd.DataFrame,tokenizer, label
             input_id = test_input["input_ids"].squeeze(1).to(device)
 
             output = model(input_id, mask)
+            output = nn.functional.softmax(output, dim=1)
             predictions.append(output.detach().cpu().numpy())
 
     return predictions
