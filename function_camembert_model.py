@@ -107,7 +107,7 @@ class CamemBertClassifierShort(nn.Module):
 
         self.bert = CamembertModel.from_pretrained(model)
         self.dropout = nn.Dropout(dropout)
-        self.linear_short == nn.Linear(768, number_labels)
+        self.linear_short = nn.Linear(768, number_labels)
         self.relu = nn.ReLU()
         self.dropout_second = nn.Dropout(dropout)
         
