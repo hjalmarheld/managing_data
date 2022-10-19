@@ -16,16 +16,17 @@ import sys
 
 
 class Dataset(torch.utils.data.Dataset):
-    def __init__(self, df: pd.DataFrame, tokenizer, labels: dict):
+    def __init__(self, df: pd.DataFrame, tokenizer, labels: dict,colonne_labels:str="naf"):
         """
         Creation of a dataset loader with batches compatible with Pytorch.
         args:
             - df : dataframe containing texts and labels
             - tokenizer : huggingface tokenizer
             - labels : dict containing for each label a numerical encoding (similar to OrdinalEncoding)
+            - colonne_labels : name of columns containing the labels
         """
 
-        self.labels = [labels[label] for label in df["naf2_label"].values]
+        self.labels = [labels[label] for label in df[colonne_labels].values]
         self.labels_dict = labels
         self.texts = [
             tokenizer(
@@ -35,7 +36,7 @@ class Dataset(torch.utils.data.Dataset):
                 truncation=True,
                 return_tensors="pt",
             )
-            for text in df["ACTIVITE"]
+            for text in df["text"]
         ]
 
     def classes(self):
@@ -110,6 +111,7 @@ class CamemBertClassifier(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.linear = nn.Linear(768, 250)
         self.relu = nn.ReLU()
+        self.dropout_second = nn.Dropout(dropout)
         self.second_linear = nn.Linear(250, number_labels)
         self.relu_2 = nn.ReLU()
 
@@ -131,11 +133,30 @@ class CamemBertClassifier(nn.Module):
         dropout_output = self.dropout(pooled_output)
         linear_output = self.linear(dropout_output)
         relu_layer = self.relu(linear_output)
-        second_linear_output = self.linear(relu_layer)
+        second_dropout = self.dropout_second(relu_layer)
+        second_linear_output = self.second_linear(relu_layer)
         final_layer = self.relu_2(second_linear_output)
         # final_layer = self.softmax_final_layer(final_layer)
 
         return final_layer
+    
+    def train(
+        self,
+        train_data: Dataset,
+        val_data: Dataset,
+        learning_rate: float,
+        epochs: int,
+        tokenizer,
+        labels: dict,
+        use_samplers:Bool = False
+    ):
+        pass
+    
+    def predict(self):
+        pass
+    
+    def evaluate(self):
+        pass
 
 
 def train(
@@ -161,14 +182,15 @@ def train(
     train, val = Dataset(train_data, tokenizer, labels), Dataset(
         val_data, tokenizer, labels
     )
-    train_sampler = train.classes_imbalance_sampler()
-    val_sampler = val.classes_imbalance_sampler()
+
     if use_samplers:
-        train_dataloader = torch.utils.data.DataLoader(train, batch_size=4,sampler=train_sampler)
-        val_dataloader = torch.utils.data.DataLoader(val, batch_size=8, sampler=val_sampler)
+        train_sampler = train.classes_imbalance_sampler()
+        val_sampler = val.classes_imbalance_sampler()
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=64,sampler=train_sampler)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=64, sampler=val_sampler)
     else:
-        train_dataloader = torch.utils.data.DataLoader(train, batch_size=4,shuffle=True)
-        val_dataloader = torch.utils.data.DataLoader(val, batch_size=8, shuffle=True)
+        train_dataloader = torch.utils.data.DataLoader(train, batch_size=32,shuffle=True)
+        val_dataloader = torch.utils.data.DataLoader(val, batch_size=32, shuffle=True)
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
 
@@ -184,27 +206,22 @@ def train(
 
         total_acc_train = 0
         total_loss_train = 0
-        try:
-            for train_input, train_label in tqdm(train_dataloader):
-                train_label = train_label.to(device)
-                mask = train_input["attention_mask"].to(device)
-                input_id = train_input["input_ids"].squeeze(1).to(device)
-                # ipdb.set_trace()
-                output = model(input_id, mask)
-                # print(output)
-                batch_loss = criterion(output, train_label.long())
-                total_loss_train += batch_loss.item()
-
-                acc = (output.argmax(dim=1) == train_label).sum().item()
-                total_acc_train += acc
-
-                model.zero_grad()
-                batch_loss.backward()
-                optimizer.step()
-        except:
-            print("error")
+        for train_input, train_label in tqdm(train_dataloader):
+            train_label = train_label.to(device)
+            mask = train_input["attention_mask"].to(device)
+            input_id = train_input["input_ids"].squeeze(1).to(device)
             # ipdb.set_trace()
-            sys.exit()
+            output = model(input_id, mask)
+            # print(output)
+            batch_loss = criterion(output, train_label.long())
+            total_loss_train += batch_loss.item()
+
+            acc = (output.argmax(dim=1) == train_label).sum().item()
+            total_acc_train += acc
+
+            model.zero_grad()
+            batch_loss.backward()
+            optimizer.step()
 
         total_acc_val = 0
         total_loss_val = 0
@@ -254,6 +271,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame):
         model = model.cuda()
 
     total_acc_test = 0
+    predictions = []
     with torch.no_grad():
 
         for test_input, test_label in test_dataloader:
@@ -265,11 +283,47 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame):
             output = model(input_id, mask)
 
             acc = (output.argmax(dim=1) == test_label).sum().item()
-
+            predictions.append(output.detach().to_numpy())
             total_acc_test += acc
 
     print(f"Test Accuracy: {total_acc_test / len(test_data): .3f}")
-    return total_acc_test
+    return total_acc_test, predictions
+
+def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame):
+    """
+    Evaluates performance of CamembertClassifier trained with train function
+
+    args:
+        - model : DL model trained previously
+        - test_data : dataframe containing test data
+
+    returns:
+        - total_acc_test : float, accuracy of the model on the test set
+
+    """
+    test = Dataset(test_data)
+    test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
+
+    use_cuda = torch.cuda.is_available()
+    device = torch.device("cuda" if use_cuda else "cpu")
+
+    if use_cuda:
+        model = model.cuda()
+
+    predictions = []
+    with torch.no_grad():
+
+        for test_input, test_label in test_dataloader:
+
+            test_label = test_label.to(device)
+            mask = test_input["attention_mask"].to(device)
+            input_id = test_input["input_ids"].squeeze(1).to(device)
+
+            output = model(input_id, mask)
+            predictions.append(output.detach().to_numpy())
+
+    return predictions
+
 
 
 if __name__ == "__main":
