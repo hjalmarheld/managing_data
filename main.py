@@ -20,6 +20,7 @@ path_predictions = os.path.join(os.getcwd(),"data","test.csv")
 EPOCHS = 6
 LR = 1e-5
 save = True
+increase_data = False
 
 if __name__ == "__main__":
     df = pd.read_csv(path_data, delimiter=",").dropna().drop(columns=["Unnamed: 0"])
@@ -30,6 +31,11 @@ if __name__ == "__main__":
     
     else:
         df_merged = df.copy()
+    if increase_data:
+        df_merged_bis = df_merged.copy()
+        df_merged_bis.columns = ["company","text","title","naf"]
+        df_merged = pd.concat([df_merged, df_merged_bis[df_merged.columns]])
+        
     idxes = np.random.choice(np.arange(len(df_merged)), 50_000)
     df_merged = df_merged.iloc[idxes, :]
     model = "camembert-base"
