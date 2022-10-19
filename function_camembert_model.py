@@ -160,7 +160,7 @@ class CamemBertClassifier(nn.Module):
         self.second_linear = nn.Linear(250, number_labels)
         self.relu_2 = nn.ReLU()
         self.softmax_layer = nn.Softmax(dim=1)
-        self.linear_short == nn.Linear(768, number_labels)
+        # self.linear_short = nn.Linear(768, number_labels)
 
         # self.softmax_final_layer = nn.Softmax(dim=1)
 
