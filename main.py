@@ -11,8 +11,6 @@ import os
 from function_camembert_model import *
 import ipdb
 
-from managing_data.function_camembert_model import predict
-
 
 general_path = os.path.dirname(os.getcwd())
 name_file = "labelled articles cleaned.csv"
@@ -31,7 +29,7 @@ if __name__ == "__main__":
     
     else:
         df_merged = df.copy()
-    idxes = np.random.choice(np.arange(len(df_merged)), 10_000)
+    idxes = np.random.choice(np.arange(len(df_merged)), 4_000)
     df_merged = df_merged.iloc[idxes, :]
     model = "camembert-base"
     tokenizer = AutoTokenizer.from_pretrained(model)
