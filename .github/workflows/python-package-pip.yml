@@ -1,0 +1,12 @@
+name: Python Package using pip
+
+on: [push]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    container: python:3.10
+    steps:
+     - run: pip install pytest
+     - run: pip install -r requirements.txt
+     - run: python -m pytest
