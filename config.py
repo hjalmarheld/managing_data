@@ -7,3 +7,4 @@ text_column="text"
 test_column="text"
 size_training=400
 column_labels="naf"
+max_length = 512
