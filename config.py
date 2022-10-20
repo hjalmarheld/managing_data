@@ -6,5 +6,8 @@ increase_data=False
 batch_size=32
 text_column="combined"
 test_column="text"
+<<<<<<< HEAD
 size_training=200_000
 column_labels="naf"
+max_length = 512
+
