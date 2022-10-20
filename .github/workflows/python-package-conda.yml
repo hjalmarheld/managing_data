@@ -1,4 +1,4 @@
-name: Python Package using Pip
+name: Python Package using Conda
 
 on: [push]
 
@@ -16,6 +16,6 @@ jobs:
         python-version: 3.10
     - name: Test with pytest
       run: |
-        pip install -r requirements.txt
-        pip install pytest
+        conda install -r requirements.txt
+        conda install pytest
         pytest
