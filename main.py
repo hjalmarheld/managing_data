@@ -15,7 +15,7 @@ import ipdb
 from config import *
 
 general_path = os.path.dirname(os.getcwd())
-name_file = "labelled articles cleaned.csv"
+name_file = "labelled articles cleaned v2.csv"
 path_data = os.path.join(os.getcwd(), "data", "external", name_file)
 path_mapping = os.path.join(os.getcwd(), "data", "raw", "naf_mapping.csv")
 path_predictions = os.path.join(os.getcwd(), "data", "test.csv")
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
     if save:
         try:
-            df_predictions.to_csv("predictions.csv", index=False)
+            df_predictions.to_csv(name_saving, index=False)
         except:
             ipdb.set_trace()
     ipdb.set_trace()
