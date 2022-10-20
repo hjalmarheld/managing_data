@@ -162,3 +162,4 @@ cython_debug/
 data/dump
 config.py
 data/raw/naf_activite.csv
+notebooks
