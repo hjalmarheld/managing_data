@@ -16,14 +16,13 @@ import ipdb
 import sys
 from function_camembert_model import *
 
+
 class classifier:
-    
-    def __init__(self,model,tokenizer,labels) -> None:
-        
-        self.model =model
+    def __init__(self, model, tokenizer, labels) -> None:
+
+        self.model = model
         self.tokenizer = tokenizer
         self.labels = labels
-
 
     def train(
         self,
@@ -31,21 +30,29 @@ class classifier:
         val_data: Dataset,
         learning_rate: float,
         epochs: int,
-        use_samplers:Bool = False,
-        batch_size:int = 32
+        use_samplers: Bool = False,
+        batch_size: int = 32,
     ):
         train, val = Dataset(train_data, self.tokenizer, self.labels), Dataset(
-                val_data, self.tokenizer, self.labels
-            )
+            val_data, self.tokenizer, self.labels
+        )
 
         if use_samplers:
             train_sampler = train.classes_imbalance_sampler()
             val_sampler = val.classes_imbalance_sampler()
-            train_dataloader = torch.utils.data.DataLoader(train, batch_size=batch_size,sampler=train_sampler)
-            val_dataloader = torch.utils.data.DataLoader(val, batch_size=batch_size, sampler=val_sampler)
+            train_dataloader = torch.utils.data.DataLoader(
+                train, batch_size=batch_size, sampler=train_sampler
+            )
+            val_dataloader = torch.utils.data.DataLoader(
+                val, batch_size=batch_size, sampler=val_sampler
+            )
         else:
-            train_dataloader = torch.utils.data.DataLoader(train, batch_size=batch_size,shuffle=True)
-            val_dataloader = torch.utils.data.DataLoader(val, batch_size=batch_size, shuffle=True)
+            train_dataloader = torch.utils.data.DataLoader(
+                train, batch_size=batch_size, shuffle=True
+            )
+            val_dataloader = torch.utils.data.DataLoader(
+                val, batch_size=batch_size, shuffle=True
+            )
         use_cuda = torch.cuda.is_available()
         device = torch.device("cuda" if use_cuda else "cpu")
 
@@ -102,9 +109,8 @@ class classifier:
                 f"Epochs: {epoch_num + 1} | Train Loss: {total_loss_train / len(train_data): .3f} | Train Accuracy: {total_acc_train / len(train_data): .3f} | Val Loss: {total_loss_val / len(val_data): .3f} | Val Accuracy: {total_acc_val / len(val_data): .3f}"
             )
 
-    
-    def predict_proba(self,test_data):
-        test = Dataset(test_data,self.tokenizer,self.labels)
+    def predict_proba(self, test_data):
+        test = Dataset(test_data, self.tokenizer, self.labels)
         test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
         use_cuda = torch.cuda.is_available()
@@ -126,9 +132,9 @@ class classifier:
                 predictions.append(output.detach().cpu().numpy())
 
         return predictions
-    
-    def predict(self,test_data):
-        test = Dataset(test_data,self.tokenizer,self.labels)
+
+    def predict(self, test_data):
+        test = Dataset(test_data, self.tokenizer, self.labels)
         test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
         use_cuda = torch.cuda.is_available()
@@ -150,6 +156,6 @@ class classifier:
                 predictions.append(output.argmax(dim=1).detach().cpu().numpy())
 
         return predictions
-    
+
     def evaluate(self):
         pass
