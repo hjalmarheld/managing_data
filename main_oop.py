@@ -12,11 +12,13 @@ from tqdm import tqdm
 import os
 from function_camembert_model import *
 import ipdb
-from config import *
+
+# from config import *
+import config
+from model_creator import final_classifier
 
 general_path = os.path.dirname(os.getcwd())
-name_file = "labelled articles cleaned v2.csv"
-path_data = os.path.join(os.getcwd(), "data", "external", name_file)
+path_data = os.path.join(os.getcwd(), "data", "external", config.name_file)
 path_mapping = os.path.join(os.getcwd(), "data", "raw", "naf_mapping.csv")
 path_predictions = os.path.join(os.getcwd(), "data", "test.csv")
 
@@ -26,9 +28,9 @@ if __name__ == "__main__":
         df_mapping = pd.read_csv(path_mapping, delimiter=";", encoding="latin-1")
         df_mapping.rename(columns={"naf5": "NAF_CODE"}, inplace=True)
         df_merged = df.merge(df_mapping, on="NAF_CODE", how="inner")
-
     else:
         df_merged = df.copy()
+
     if increase_data:
         df_merged_bis = df_merged.copy()
         df_merged_bis.columns = ["company", "text", "title", "naf"]
@@ -50,26 +52,29 @@ if __name__ == "__main__":
         [int(0.8 * len(df_merged)), int(0.9 * len(df_merged))],
     )
     del df_merged
-    model = CamemBertClassifierShort(number_labels=len(labels_list))
-    train_data = Dataset(df_train, tokenizer, labels=labels)
+    dl_model = CamemBertClassifierShort(number_labels=len(labels_list))
+    model = final_classifier(dl_model, tokenizer, labels)
 
-    train(
-        model,
+    model.train(
         df_train,
         df_val,
         LR,
         EPOCHS,
-        tokenizer,
-        labels,
-        use_samplers=True,
-        batch_size=batch_size,
+        use_samplers=config.use_samplers,
+        batch_size=config.batch_size,
+        text_column=config.text_column,
     )
-    acc_test, predictions = evaluate(model, df_test, tokenizer, labels=labels)
+    acc_test, predictions = model.evaluate(
+        df_test,
+        batch_size=config.batch_size,
+        column_labels=config.column_labels,
+        text_column=config.text_column,
+    )
     df_test_final = pd.read_csv(path_predictions)
     df_test_final["naf"] = df_train["naf"].iloc[0]
 
-    predictions = predict(
-        model, df_test_final, tokenizer, labels, batch_size,test_column = test_column
+    predictions = model.predict_proba(
+        df_test_final, config.batch_size, test_column=config.test_column
     )
     values = []
     for i in range(len(predictions)):
