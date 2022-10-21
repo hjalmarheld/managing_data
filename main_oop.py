@@ -1,20 +1,10 @@
-from cProfile import label
-from matplotlib.backend_bases import key_press_handler
-import pandas as pd
-import torch
-import numpy as np
-from transformers import BertTokenizer, BertModel, CamembertModel
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from transformers import Trainer, TrainingArguments
-from torch import nn
-from torch.optim import Adam
-from tqdm import tqdm
 import os
-from model_building.function_camembert_model import *
 import ipdb
-
-# from config import *
 import config
+import pandas as pd
+import numpy as np
+from transformers import AutoTokenizer
+from model_building.function_camembert_model import *
 from model_building.model_creator import final_classifier
 
 general_path = os.path.dirname(os.getcwd())

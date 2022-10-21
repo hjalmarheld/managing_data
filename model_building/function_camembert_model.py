@@ -1,17 +1,13 @@
-import pandas as pd
-from sklearn.utils import shuffle
+import ipdb
 import torch
+import pandas as pd
 import numpy as np
-from transformers import BertTokenizer, BertModel, CamembertModel
+from config import *
+from tqdm import tqdm
+from transformers import CamembertModel
 from torch import nn
 from torch.optim import Adam
 from torch.utils.data.sampler import WeightedRandomSampler
-from tqdm import tqdm
-import os
-import ipdb
-import sys
-from config import *
-
 
 class Dataset(torch.utils.data.Dataset):
     def __init__(

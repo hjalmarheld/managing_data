@@ -1,19 +1,11 @@
-import pandas as pd
+import sys
+import config
 import torch
-import numpy as np
-from transformers import BertTokenizer, BertModel, CamembertModel
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from transformers import Trainer, TrainingArguments
+import pandas as pd
+from tqdm import tqdm
 from torch import nn
 from torch.optim import Adam
-from torch.utils.data.sampler import WeightedRandomSampler
-from tqdm import tqdm
-import os
-import ipdb
-import sys
 from model_building.function_camembert_model import *
-from model_building.function_camembert_model import CamemBertClassifierShort, CamemBertClassifier
-import config
 
 
 class final_classifier:
