@@ -17,6 +17,7 @@ import sys
 from function_camembert_model import *
 import config
 
+
 class classifier:
     
     def __init__(self,model:CamembertCLassifier,tokenizer,labels:dict) -> None:
@@ -30,7 +31,6 @@ class classifier:
         self.tokenizer = tokenizer
         self.labels = labels
         self.is_model_trained = False
-
 
     def train(
         self,
@@ -52,11 +52,19 @@ class classifier:
         if use_samplers:
             train_sampler = train.classes_imbalance_sampler()
             val_sampler = val.classes_imbalance_sampler()
-            train_dataloader = torch.utils.data.DataLoader(train, batch_size=batch_size,sampler=train_sampler)
-            val_dataloader = torch.utils.data.DataLoader(val, batch_size=batch_size, sampler=val_sampler)
+            train_dataloader = torch.utils.data.DataLoader(
+                train, batch_size=batch_size, sampler=train_sampler
+            )
+            val_dataloader = torch.utils.data.DataLoader(
+                val, batch_size=batch_size, sampler=val_sampler
+            )
         else:
-            train_dataloader = torch.utils.data.DataLoader(train, batch_size=batch_size,shuffle=True)
-            val_dataloader = torch.utils.data.DataLoader(val, batch_size=batch_size, shuffle=True)
+            train_dataloader = torch.utils.data.DataLoader(
+                train, batch_size=batch_size, shuffle=True
+            )
+            val_dataloader = torch.utils.data.DataLoader(
+                val, batch_size=batch_size, shuffle=True
+            )
         use_cuda = torch.cuda.is_available()
         device = torch.device("cuda" if use_cuda else "cpu")
 
@@ -156,9 +164,9 @@ class classifier:
                 predictions.append(output.detach().cpu().numpy())
 
         return predictions
-    
-    def predict(self,test_data):
-        test = Dataset(test_data,self.tokenizer,self.labels)
+
+    def predict(self, test_data):
+        test = Dataset(test_data, self.tokenizer, self.labels)
         test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
         use_cuda = torch.cuda.is_available()
