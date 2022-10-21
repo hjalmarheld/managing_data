@@ -1,9 +1,13 @@
-EPOCHS = 1
+EPOCHS = 4
 LR = 1e-5
 save = True
+name_saving = "final_predictions.csv"
 increase_data=False
-batch_size=4
-text_column="text"
+batch_size=32
+text_column="combined"
 test_column="text"
-size_training=400
+<<<<<<< HEAD
+size_training=200_000
 column_labels="naf"
+max_length = 512
+

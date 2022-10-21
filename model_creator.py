@@ -15,14 +15,22 @@ import os
 import ipdb
 import sys
 from function_camembert_model import *
+import config
 
 
 class classifier:
-    def __init__(self, model, tokenizer, labels) -> None:
-
+    
+    def __init__(self,model:CamembertCLassifier,tokenizer,labels:dict) -> None:
+        """Instance of classifier class. Instead of relying on functions, we created this class. the class is used to train the model and make predictions for a given dataset once on the model has been trained
+        args:
+            - model : Pytorch model built upon Camembert tokenizer
+            - tokenizer : Camember tokenizer from HuggingFace
+            - labels : dict containing the mapping for the labels
+        """
         self.model = model
         self.tokenizer = tokenizer
         self.labels = labels
+        self.is_model_trained = False
 
     def train(
         self,
@@ -30,12 +38,16 @@ class classifier:
         val_data: Dataset,
         learning_rate: float,
         epochs: int,
-        use_samplers: Bool = False,
-        batch_size: int = 32,
+        use_samplers:Bool = False,
+        batch_size:int = config.batch_size,
+        text_column:str = config.text_column
     ):
-        train, val = Dataset(train_data, self.tokenizer, self.labels), Dataset(
-            val_data, self.tokenizer, self.labels
-        )
+        """
+        method to launch training of the model
+        """
+        train, val = Dataset(train_data, self.tokenizer, self.labels, config.columns_labels,config.text_column), Dataset(
+                val_data, self.tokenizer, self.labels, config.columns_labels,config.text_column
+            )
 
         if use_samplers:
             train_sampler = train.classes_imbalance_sampler()
@@ -108,9 +120,29 @@ class classifier:
             print(
                 f"Epochs: {epoch_num + 1} | Train Loss: {total_loss_train / len(train_data): .3f} | Train Accuracy: {total_acc_train / len(train_data): .3f} | Val Loss: {total_loss_val / len(val_data): .3f} | Val Accuracy: {total_acc_val / len(val_data): .3f}"
             )
+            self.is_model_trained=True
 
-    def predict_proba(self, test_data):
-        test = Dataset(test_data, self.tokenizer, self.labels)
+    
+    def predict_proba(self,test_data:pd.DataFrame,batch_size:int=config.batch_size,
+                     column_labels:str=config.column_labels,
+                     test_column:str=confif.test_column):
+        """
+        for a given dataset, returns the probabilities of belonging to the different classes
+        
+        args :
+            - test_data : dataframe containing test data
+            - batch_size: int > 0, batch_size for inputs forward in the model
+            - column_labels: string, colonne of dataframe with labels, if the dataframe has no label, randomly create one (they will not be used for the predictions)
+            - test_column: string
+            
+        returns : 
+            - predictions : list containing for the probabilities for each input
+        """
+        if self.is_model_trained==False:
+            raise AttributeError("the model has not yet been trained, train it first before predictions")
+            sys.exit()
+            
+        test = Dataset(test_data,self.tokenizer,self.labels,column_labels, test_column)
         test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
         use_cuda = torch.cuda.is_available()
@@ -156,6 +188,36 @@ class classifier:
                 predictions.append(output.argmax(dim=1).detach().cpu().numpy())
 
         return predictions
+    
+    def evaluate(self,test_data, column_labels,text_column):
+        test = Dataset(test_data, self.tokenizer, self.labels,column_labels,text_column)
 
-    def evaluate(self):
-        pass
+        test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
+
+        use_cuda = torch.cuda.is_available()
+        device = torch.device("cuda" if use_cuda else "cpu")
+
+        if use_cuda:
+
+            model = model.cuda()
+
+        total_acc_test = 0
+        predictions = []
+        with torch.no_grad():
+
+            for test_input, test_label in test_dataloader:
+
+                test_label = test_label.to(device)
+                mask = test_input["attention_mask"].to(device)
+                input_id = test_input["input_ids"].squeeze(1).to(device)
+
+                output = model(input_id, mask)
+
+                acc = (output.argmax(dim=1) == test_label).sum().item()
+                predictions.append(
+                    nn.functional.softmax(output, dim=1).detach().cpu().numpy()
+                )
+                total_acc_test += acc
+
+        print(f"Test Accuracy: {total_acc_test / len(test_data): .3f}")
+        return total_acc_test, predictions
