@@ -10,12 +10,12 @@ from torch import nn
 from torch.optim import Adam
 from tqdm import tqdm
 import os
-from function_camembert_model import *
+from model_building.function_camembert_model import *
 import ipdb
 
 # from config import *
 import config
-from model_creator import final_classifier
+from model_building.model_creator import final_classifier
 
 general_path = os.path.dirname(os.getcwd())
 path_data = os.path.join(os.getcwd(), "data", "external", config.name_file)

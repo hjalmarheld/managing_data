@@ -10,7 +10,7 @@ from torch import nn
 from torch.optim import Adam
 from tqdm import tqdm
 import os
-from function_camembert_model import *
+from model_building.function_camembert_model import *
 import ipdb
 from config import *
 
