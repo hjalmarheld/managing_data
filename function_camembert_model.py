@@ -194,6 +194,7 @@ class CamemBertClassifier(nn.Module):
 
         return final_layer
 
+
 def train(
     model: CamemBertClassifier,
     train_data: Dataset,
@@ -204,7 +205,7 @@ def train(
     labels: dict,
     use_samplers: bool = False,
     batch_size: int = 32,
-    text_column: str = text_column
+    text_column: str = text_column,
 ):
     """
     Training of model defined with CamemBertClassifier class.
@@ -216,9 +217,9 @@ def train(
         - tokenizer : HuggingFace tokenizer used in Dataset class
         - labels : dictionnary containing the mapping for each class
     """
-    train, val = Dataset(train_data, tokenizer, labels,column_labels,text_column), Dataset(
-        val_data, tokenizer, labels,column_labels,text_column
-    )
+    train, val = Dataset(
+        train_data, tokenizer, labels, column_labels, text_column
+    ), Dataset(val_data, tokenizer, labels, column_labels, text_column)
 
     if use_samplers:
         train_sampler = train.classes_imbalance_sampler()
@@ -292,7 +293,14 @@ def train(
         )
 
 
-def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, labels,column_labels=column_labels, text_column=text_column):
+def evaluate(
+    model: CamemBertClassifier,
+    test_data: pd.DataFrame,
+    tokenizer,
+    labels,
+    column_labels=column_labels,
+    text_column=text_column,
+):
     """
     Evaluates performance of CamembertClassifier trained with train function
 
@@ -304,7 +312,7 @@ def evaluate(model: CamemBertClassifier, test_data: pd.DataFrame, tokenizer, lab
         - total_acc_test : float, accuracy of the model on the test set
 
     """
-    test = Dataset(test_data, tokenizer, labels,column_labels,text_column)
+    test = Dataset(test_data, tokenizer, labels, column_labels, text_column)
 
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
@@ -357,7 +365,7 @@ def predict(
         - total_acc_test : float, accuracy of the model on the test set
 
     """
-    test = Dataset(test_data, tokenizer, labels,column_labels, test_column)
+    test = Dataset(test_data, tokenizer, labels, column_labels, test_column)
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=batch_size)
 
     use_cuda = torch.cuda.is_available()

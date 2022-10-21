@@ -12,6 +12,7 @@ from tqdm import tqdm
 import os
 from function_camembert_model import *
 import ipdb
+
 # from config import *
 import config
 from model_creator import final_classifier
@@ -61,14 +62,19 @@ if __name__ == "__main__":
         EPOCHS,
         use_samplers=config.use_samplers,
         batch_size=config.batch_size,
-        text_column=config.text_column
+        text_column=config.text_column,
     )
-    acc_test, predictions = model.evaluate(df_test,batch_size=config.batch_size,column_labels=config.column_labels, text_column=config.text_column)
+    acc_test, predictions = model.evaluate(
+        df_test,
+        batch_size=config.batch_size,
+        column_labels=config.column_labels,
+        text_column=config.text_column,
+    )
     df_test_final = pd.read_csv(path_predictions)
     df_test_final["naf"] = df_train["naf"].iloc[0]
 
     predictions = model.predict_proba(
-        df_test_final, config.batch_size,test_column = config.test_column
+        df_test_final, config.batch_size, test_column=config.test_column
     )
     values = []
     for i in range(len(predictions)):
