@@ -43,6 +43,12 @@ pip install -r /path/to/requirements.txt
 - Functions to perform data augmentation such as synonym replacement or back-translation
 - Functions to plot the results
 
+# Repo organization:
+- General space with :  main_oop.py (python code to run for model predictions), config.py (python file to specify desired values), prioris.ipynb (jupyter notebook to combine results of NLP transformer model with "bayesian" prior probabilities)
+- Model_building folder : python scripts in which the python classes used to create the model are defined
+- notebooks : folder containing the different notebooks used for data collection, data augmentation and data analysis
+- scripts : folder containg python scripts used for data scrapping, utils file and old version of main.py file
+
 # Examples
 A Jupyter Notebook that showcases the use of the different classes and functions has been created. It can be found in the "notebooks"  folder
 
