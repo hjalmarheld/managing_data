@@ -1,9 +1,6 @@
-from lib2to3.pgen2 import token
 import pandas as pd
-from sklearn.utils import shuffle
 import torch
 import numpy as np
-from traitlets import Bool
 from transformers import BertTokenizer, BertModel, CamembertModel
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from transformers import Trainer, TrainingArguments
@@ -15,6 +12,7 @@ import os
 import ipdb
 import sys
 from function_camembert_model import *
+from function_camembert_model import CamemBertClassifierShort, CamemBertClassifier
 import config
 
 
@@ -34,19 +32,30 @@ class classifier:
 
     def train(
         self,
-        train_data: Dataset,
-        val_data: Dataset,
-        learning_rate: float,
-        epochs: int,
-        use_samplers:Bool = False,
+        train_data: pd.DataFrame,
+        val_data: pd.DataFrame,
+        learning_rate:float = config.LR,
+        epochs: int = config.EPOCHS,
+        use_samplers:bool = config.use_samplers,
         batch_size:int = config.batch_size,
         text_column:str = config.text_column
     ):
         """
-        method to launch training of the model
+        method to launch training of the model.
+        args:
+            - train_data : pandas dataframe containing training data
+            - val_data : pandas dataframe containing validation dataset
+            - learning_rate : float > 0, learning rate
+            - epochs : int, number of epochs for training
+            - use_samplers : boolean, activate a class imbalance_sampler
+            - batch_size : int, number of elements per batch
+            - text_column : str, columns of dataframing containing the text
+        
+        returns:
+            - nothing, however the is_model_trained attributed is changed to true
         """
-        train, val = Dataset(train_data, self.tokenizer, self.labels, config.columns_labels,config.text_column), Dataset(
-                val_data, self.tokenizer, self.labels, config.columns_labels,config.text_column
+        train, val = Dataset(train_data, self.tokenizer, self.labels, config.columns_labels,text_column), Dataset(
+                val_data, self.tokenizer, self.labels, config.columns_labels,text_column
             )
 
         if use_samplers:
@@ -125,9 +134,10 @@ class classifier:
     
     def predict_proba(self,test_data:pd.DataFrame,batch_size:int=config.batch_size,
                      column_labels:str=config.column_labels,
-                     test_column:str=confif.test_column):
+                     test_column:str=config.test_column):
         """
-        for a given dataset, returns the probabilities of belonging to the different classes
+        for a given dataset, returns the probabilities of belonging to the different classes. 
+        Warning : if this method is used prior to the train one, the model will fai
         
         args :
             - test_data : dataframe containing test data
@@ -136,14 +146,14 @@ class classifier:
             - test_column: string
             
         returns : 
-            - predictions : list containing for the probabilities for each input
+            - predictions : list containing the probabilities for each input
         """
         if self.is_model_trained==False:
             raise AttributeError("the model has not yet been trained, train it first before predictions")
             sys.exit()
             
         test = Dataset(test_data,self.tokenizer,self.labels,column_labels, test_column)
-        test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
+        test_dataloader = torch.utils.data.DataLoader(test, batch_size=batch_size)
 
         use_cuda = torch.cuda.is_available()
         device = torch.device("cuda" if use_cuda else "cpu")
@@ -165,9 +175,28 @@ class classifier:
 
         return predictions
 
-    def predict(self, test_data):
-        test = Dataset(test_data, self.tokenizer, self.labels)
-        test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
+    def predict(self,test_data:pd.DataFrame,batch_size:int=config.batch_size,
+                     column_labels:str=config.column_labels,
+                     test_column:str=config.test_column):
+        """
+        for a given dataset, returns the predict class for each input. 
+        Warning : if this method is used prior to the train one, the model will fai
+        
+        args :
+            - test_data : dataframe containing test data
+            - batch_size: int > 0, batch_size for inputs forward in the model
+            - column_labels: string, colonne of dataframe with labels, if the dataframe has no label, randomly create one (they will not be used for the predictions)
+            - test_column: string
+            
+        returns : 
+            - predictions : list containing  the predicted class for each input
+        """
+        if self.is_model_trained==False:
+            raise AttributeError("the model has not yet been trained, train it first before predictions")
+            sys.exit()
+            
+        test = Dataset(test_data,self.tokenizer,self.labels,column_labels, test_column)
+        test_dataloader = torch.utils.data.DataLoader(test, batch_size=batch_size)
 
         use_cuda = torch.cuda.is_available()
         device = torch.device("cuda" if use_cuda else "cpu")
@@ -188,6 +217,7 @@ class classifier:
                 predictions.append(output.argmax(dim=1).detach().cpu().numpy())
 
         return predictions
+
     
     def evaluate(self,test_data, column_labels,text_column):
         test = Dataset(test_data, self.tokenizer, self.labels,column_labels,text_column)
