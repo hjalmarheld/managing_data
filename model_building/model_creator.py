@@ -11,8 +11,8 @@ from tqdm import tqdm
 import os
 import ipdb
 import sys
-from function_camembert_model import *
-from function_camembert_model import CamemBertClassifierShort, CamemBertClassifier
+from model_building.function_camembert_model import *
+from model_building.function_camembert_model import CamemBertClassifierShort, CamemBertClassifier
 import config
 
 
