@@ -1,5 +1,12 @@
 import pandas as pd
 import numpy as np
+from nltk.corpus import stopwords
+import Stemmer
+import requests
+import bs4 as bs
+from tqdm import tqdm
+from flair.data import Sentence
+from flair.models import SequenceTagger
 
 import selenium.common.exceptions
 from selenium import webdriver
@@ -8,12 +15,39 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-import os
+
+def stem(x: str) -> str:
+    """This function turns all words in the provided parameter x to their stem form."""
+    x = x.lower()
+    x = x.replace("l'", '').replace("d'", '')
+    string = ' '.join(
+        Stemmer.Stemmer('french').stemWords(
+            [x for x in x.split(' ') if x not in stopwords.words('french')])
+        )
+    string = string.replace(',', '')
+    return string
+
+
+def search(search_term: str) -> pd.DataFrame:
+    """This function has to be used in combination with the right global parameters, and then searches bing for news on
+    the search_term value."""
+    params["q"] = search_term
+    response = requests.get(search_url, headers=headers, params=params)
+    response.raise_for_status()
+    df = pd.json_normalize(response.json())
+    df = pd.DataFrame(df['value'][0])
+    return df
+
+
+def clean_html(x: str) -> str:
+    """This function extracts the text from an HTML string."""
+    soup = bs.BeautifulSoup(x, 'html.parser')
+    return soup.get_text()
 
 
 def scrape_insee(gecko_path: str = './geckodriver') \
         -> pd.DataFrame:
-    """This function scrapes the 'insee' website"""
+    """This function scrapes the 'insee' website for the NAF code descriptions."""
     # DataFrame that will be filled with the scraped information
     text = pd.DataFrame(columns=['section_title', 'section_text',
                                  'division_title', 'division_text',
@@ -23,7 +57,7 @@ def scrape_insee(gecko_path: str = './geckodriver') \
 
     # You need to provide your own path to your geckodriver here. If you do not have one installed yet, download it :)
     # We open a new Firefox instance
-    driver = webdriver.Firefox(service=Service(executable_path=gecko_path))
+    driver = webdriver.Firefox(Service(executable_path=gecko_path))
     # Loading the page
     driver.get('https://www.insee.fr/fr/metadonnees/nafr2/section/A?champRecherche=false')
     # We wait until the element we are looking for has been loaded
@@ -97,29 +131,19 @@ def scrape_insee(gecko_path: str = './geckodriver') \
                                            np.nan]
                                 text.loc[len(text)] = s_list + d_list + g_list + c_list + sc_list
                     WebDriverWait(classe, 5).until(EC.presence_of_element_located((By.XPATH, './a')))
-                    try:
-                        classe.find_element(By.XPATH, './a').click()
-                    except selenium.common.exceptions.ElementClickInterceptedException:
-                        pass
-                # Here we move back up one level, in this case from the sub-class navigation to the class navigation
-                try:
-                    group.find_element(By.XPATH, './a').click()
-                except selenium.common.exceptions.ElementClickInterceptedException:
-                    pass
-            try:
-                division.find_element(By.XPATH, './a').click()
-            except selenium.common.exceptions.ElementClickInterceptedException:
-                pass
-        try:
-            section.find_element(By.XPATH, './a').click()
-        except selenium.common.exceptions.ElementClickInterceptedException:
-            pass
+                    # Here we move back up one level, in this case from the sub-class navigation to the class navigation
+                    # by clicking on the current class
+                    classe.find_element(By.XPATH, './a').click()
+                # Here we move from class to group level
+                group.find_element(By.XPATH, './a').click()
+            division.find_element(By.XPATH, './a').click()
+        section.find_element(By.XPATH, './a').click()
 
     return text
 
 
 def assign_codes(data: pd.DataFrame) -> pd.DataFrame:
-    """Extracting the codes from the titles"""
+    """This function extracts the codes from the titles in the DataFrame containing the scraped NAF descriptions."""
     data = data.copy()
     data['section_code'] = data['section_title'].str.extract('\s(\w)\s')
     data['division_code'] = data['division_title'].str.extract('\s(\w\w)\s')
@@ -129,39 +153,73 @@ def assign_codes(data: pd.DataFrame) -> pd.DataFrame:
     return data
 
 
-file_name = 'insee_info_df.pkl'
-if file_name in os.listdir():
-    text = pd.read_pickle(file_name)
-else:
-    text = scrape_insee()
-    text = assign_codes(text)
-# Since the codes we get from the website are in the new NAF standard and the ones we received from Quinten are in the
-# old standard we have to map them. Luckily there is a mapping available on the website -> we load it here
-mapping = pd.read_excel('table_NAF2-NAF1.xls')[['NAF\nrév. 2', 'NAF\nrév. 1']]
-# Some of the codes in the mapping end in a small "p", we remove it
-mapping['NAF\nrév. 2'] = mapping['NAF\nrév. 2'].str.replace('p', '')
-# The codes in the files we received from Quentin don't contain a dot in the code -> remove it from the old code as well
-mapping['NAF\nrév. 1'] = mapping['NAF\nrév. 1'].str.replace('\.|p', '')
-# Merging the mapping with the scraped data
-df = pd.merge(text, mapping, left_on='sub_class_code', right_on='NAF\nrév. 2', how='outer')
-# Since Quinten data is sometimes using the old and sometimes the new codes, but always without the dot, we remote it
-# here from the new identifiers as well (we did it for the old one above already)
-df['NAF\nrév. 2'] = df['NAF\nrév. 2'].str.replace('\.', '')
+def combineLabels(df: pd.DataFrame) -> pd.DataFrame:
+    """"
+    masking a random word in a string
+    args:
+        - text_line: string
+    """
 
-# Now, we can load the files from Quinten
-naf_m = pd.read_csv('naf_mapping.csv', sep=';', encoding='latin-1')
-naf_a = pd.read_csv('naf_activite.csv', sep='|')
-# Since for now we can only map through the NAF code, we remove all records that do not contain said code. However,
-# some records that do not have a NAF code do have a SIREN identifier, that could possibly mapped through an API or
-# scraping to a NAF code
-naf_a = naf_a[~naf_a['NAF_CODE'].isna()]
-# One records has a NAF code that cannot be mapped -> we retrieve its actual NAF code online and replace its wrong value
-naf_a.loc[naf_a['SIREN'] == 329328645, 'NAF_CODE'] = '4511Z'
-# Since half of the identifiers is in the old NAF code and the other half in the new standard, we have to perform a one-
-# sided merge with one first and then merge on the other.
-df_new = pd.merge(naf_a.loc[naf_a['NAF_CODE'].apply(lambda x: len(x) == 5)], df[~df['NAF\nrév. 2'].duplicated()],
-                  left_on='NAF_CODE', right_on='NAF\nrév. 2', how='left')
-df_old = pd.merge(naf_a.loc[naf_a['NAF_CODE'].apply(lambda x: len(x) == 4)], df,
-                  left_on='NAF_CODE', right_on='NAF\nrév. 1')
-df = pd.concat([df_new, df_old])
-print('Done')
+    df['description'] = df[['naf5_label', 'naf4_label', 'naf3_label', 'naf2_label']].apply(
+        lambda x: ' '.join(x.dropna().astype(str)),
+        axis=1)
+    df['description'] = df['description'].str.lower()
+    return (df)
+
+
+class Augment:
+    def __init__(self):
+        pass
+
+    def maskRandomWord(self, text_line: str) -> str:
+        """
+        masking a random word in a string
+        args:
+            - text_line: string
+        """
+
+        text_array = text_line.split()
+        if len(text_array) == 1:
+            masked_token_index = 0
+        else:
+            masked_token_index = np.random.randint(0, len(text_array) - 1)
+        text_array[masked_token_index] = '<mask>'
+        output_text = ' '.join(text_array)
+        return output_text
+
+    def generateSyntheticTexts(self, model_mask, text: str, number_of_examples: int = 5) -> list:
+        """
+        using a transformer model to replace a masked word
+        args:
+            - text: masked string
+            - number_of_examples: # replacement words to take from model
+            - model_mask: transformer model pipeline to use
+        """
+
+        output = []
+        unmaskedText = model_mask(text)
+        if number_of_examples >= len(unmaskedText):
+            number_of_examples = len(unmaskedText)
+        for i in range(number_of_examples):
+            unmasked = unmaskedText[i]['sequence']
+            output.append(unmasked)
+        return output
+
+    def nerExtract(self, df: pd.DataFrame, tagger: SequenceTagger) -> pd.DataFrame:
+        """"
+        extracting key words from descriptor phrase
+        args:
+            - df: input dataframe
+            - tagger: model tagger. Have to preload in some model that can extract NERs
+        """
+
+        df['NER'] = ''
+        for row in tqdm(df.itertuples(), total=df.shape[0], position=0, leave=True):
+            sentence = Sentence(row.synthText)
+            tagger.predict(sentence)
+            # iterate over entities and output
+            entities = []
+            for entity in sentence.get_spans('ner'):
+                entities.append(entity.text)
+            df.at[row.Index, 'NER'] = ' '.join(entities)
+        return (df)
